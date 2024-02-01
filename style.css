@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.image-item {
+  margin: 20px 0;
+}
+
+.image-item img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.score-buttons {
+  margin-top: 10px;
+}

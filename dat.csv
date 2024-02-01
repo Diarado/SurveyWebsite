@@ -1,0 +1,993 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Q111,Prolific ID,C1,C2,C3,C4,C5,C5_13_TEXT,C6_1,C7_1,C8_1,VE1_1,VE1_2,VE1_4_Id,VE1_4_Name,VE1_4_Size,VE1_4_Type,VE1_5,VE2_1,VE2_2,VE2_4_Id,VE2_4_Name,VE2_4_Size,VE2_4_Type,VE2_5,VE3_1,VE3_2,VE3_4_Id,VE3_4_Name,VE3_4_Size,VE3_4_Type,VE3_5,VE4_1,VE4_2,VE4_4_Id,VE4_4_Name,VE4_4_Size,VE4_4_Type,VE4_5,VE5_1,VE5_2,VE5_4_Id,VE5_4_Name,VE5_4_Size,VE5_4_Type,VE5_5,VE6_1,VE6_2,VE6_4_Id,VE6_4_Name,VE6_4_Size,VE6_4_Type,VE6_5,VE7_1,VE7_2,VE7_4_Id,VE7_4_Name,VE7_4_Size,VE7_4_Type,VE7_5,TXL1_1,TXL2_1,TXL3_1,TXL4_1,TXL5_1,QQ1,QQ2,QQ2_4_TEXT,QQ2_5_TEXT,QQ2_6_TEXT,QQ2_7_TEXT,QQ2_8_TEXT,QQ5,QQ6,QQ6_4_TEXT,QQ6_5_TEXT,QQ6_6_TEXT,QQ7,QQ8,PROLIFIC_PID
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"Informed Consent Form  
+
+ 
+
+Purpose of Study   The goal of this research is to find out how text-based generative language models, such as ChatGPT, and Text-to-Image Generation Models, such as Dall-E, take different roles in visual imagery creativity. Furthermore, we intend to discover the limitations of each method and ways to overcome them.
+
+ 
+
+Procedures Essentially, we will ask participants to complete the following drawing task. It does not require fancy drawing skills.
+
+
+	We will provide seven kinds of different unfinished abstract simple lines (e.g., spiral lines). 
+	Then we will ask participants to ideate many mental images that are related to such shapes. For example, from a spiral shape, you might produce snails, sea shells, dizziness, etc. We will encourage participants to produce as many mental images as possible without using synonyms. 
+	Once you finish ideating mental images, then you will choose one mental image and then use that to finish the drawing in the most creative way.
+
+ 
+
+Participant Requirements To participate in this interview, you should be proficient in English, and aged over 18 years old.
+
+ 
+
+Risks and Benefits With respect to benefits, the interview might help the participants to experience state-of-the-art generative AI models.  This might help them to understand modern AI technologies better. Generative AI models are not perfect, therefore there is a risk of generating unwanted content that might irritate participants. However, this risk is low since our drawing task does not involve any violent content.
+
+ 
+
+Voluntary Participation And Right To Withdraw Participation in this interview is voluntary, and you can decide to withdraw at any time without any penalty. 
+
+ 
+
+Compensation If you willingly participate in the interview, you will earn a $12/hour. There is 70 minutes time limitation. 
+
+ 
+
+Privacy and Confidentiality The only identifying information based on your participation in this interview will be your information provided via Prolific. We note that this could be linked to your offline self, so you might consider this before deciding to participate in the interview. The identifiable information will not be shared with anyone outside the research team and will only be used for research purposes.
+
+ 
+
+Contact Information If you have any questions or concerns regarding your rights as a subject in this interview, you may contact the Institutional Review Board (IRB) for Human Participants at 607-255-5138 or access their website at http://www.irb.cornell.edu. You may also report your concerns or complaints anonymously through Ethicspoint online at www.hotline.cornell.edu or by calling toll free at 1-866-293-3077. Ethicspoint is an independent organization that serves as a liaison between the University and the person bringing the complaint so that anonymity can be ensured. You will be given a copy of this form to keep for your records.
+
+ 
+
+Statement of Consent By saying yes, you indicate that you are 18 years of age or older, that you voluntarily agree to participate in this interview, and that you understand the information in this consent form. You have not waived any legal rights you otherwise would have as a participant in this interview.","What is your Prolific ID?
+
+Please note that this response should auto-fill with the correct ID",Have you used large language model such as ChatGPT?,Have you ever interacted with any kind of AI art generator such as Dall-E or Stable diffusion?,How often do you engage in any kind of drawing activities?,What kind of drawing activity do you engage in? For what purposes and what do you usually draw?,"Do you possess visual art-related university-level degrees, or are you currently pursuing them? (e.g., visual communication design, graphic design, fine art, films, etc.) - Selected Choice","Do you possess visual art-related university-level degrees, or are you currently pursuing them? (e.g., visual communication design, graphic design, fine art, films, etc.) - Other - Text","On a scale of 1 to 7, with 1 being a beginner and 7 being an expert, how would you rate your overall artistic skill level? - Overall artistic skill level","On a scale of 1 to 7, with 1 being a not creative at all and 7 being an extremely creative, how would you rate your overall creativity? - Overall creativity","On a scale of 1 to 7, with 1 being a not confident at all and 7 being an extremely confident, how would you rate your confidence in creating visual art? - Confidence in creating visual art","1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title.,"1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title.,"1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title.,"1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title..,"1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title.,"1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting guideline
+
+
+	Draw your mental image in a frame, but it's allowed to draw outside of the frame. 
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting guideline
+
+
+	Draw your mental image in a frame, but it's allowed to draw outside of the frame. 
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting guideline
+
+
+	Draw your mental image in a frame, but it's allowed to draw outside of the frame. 
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting guideline
+
+
+	Draw your mental image in a frame, but it's allowed to draw outside of the frame. 
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title..,"1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title.,"On a scale from 1 to 7 ( 1: Very Low, 7:  Very High ),
+
+how mentally demanding was the task? 
+
+
+
+Answer your question based on your experience of developing mental images and drawing mental images. - 1","On a scale from 1 to 7 ( 1: Very Low, 7:  Very High ),
+
+how physically demanding was the task?
+
+
+
+Answer your question based on your experience of developing mental images and drawing mental images. - 1","On a scale from 1 to 7 ( 1: Very Low, 7:  Very High ),
+
+how hurried or rushed was the pace of the task?
+
+
+
+Answer your question based on your experience of developing mental images and drawing mental images. - 1","On a scale from 1 to 7 ( 1: Very Low, 7:  Very High ),
+
+how successful were you in accomplishing what you were asked to do?
+
+
+
+Answer your question based on your experience of developing mental images and drawing mental images. - 1","On a scale from 1 to 7 ( 1: Very Low, 7:  Very High ),
+
+how insecure, discouraged, irritated, stressed, and annoyed were you?
+
+
+
+Answer your question based on your experience of developing mental images and drawing mental images. - 1",What was your strategy of trying to be creative?,"What challenges did you experience while completing the drawing task? Also, please explain why you find it challenging in the text box below after you select an option. You can select multiple options. - Selected Choice","What challenges did you experience while completing the drawing task? Also, please explain why you find it challenging in the text box below after you select an option. You can select multiple options. - Had difficulty developing many mental imageries. - Text","What challenges did you experience while completing the drawing task? Also, please explain why you find it challenging in the text box below after you select an option. You can select multiple options. - Had difficulty developing novel mental imageries. - Text","What challenges did you experience while completing the drawing task? Also, please explain why you find it challenging in the text box below after you select an option. You can select multiple options. - Had difficulty vividly visualizing (drawing) my mental imagery. - Text","What challenges did you experience while completing the drawing task? Also, please explain why you find it challenging in the text box below after you select an option. You can select multiple options. - Had difficulty expanding (transforming) my original mental imagery further to make it more creative. - Text","What challenges did you experience while completing the drawing task? Also, please explain why you find it challenging in the text box below after you select an option. You can select multiple options. - Others - Text",What kind of inspiration do you want to receive to generate more creative visual imagery? From which source and what type? Give us specific examples and reasons why you think such an inspirational source would be helpful. It can be anything.,"What kind of inspiration do you want to receive to generate more creative visual imagery? After choosing options, write why you want to receive that kind of inspiration. - Selected Choice","What kind of inspiration do you want to receive to generate more creative visual imagery? After choosing options, write why you want to receive that kind of inspiration. - textual - Text","What kind of inspiration do you want to receive to generate more creative visual imagery? After choosing options, write why you want to receive that kind of inspiration. - pictorial - Text","What kind of inspiration do you want to receive to generate more creative visual imagery? After choosing options, write why you want to receive that kind of inspiration. - others - Text",If you receive support do you wish to have to get help to generate creative mental imagery more easily? and why?,Choose the right answer about making a screenshot of visual element based on the instruction you got from the survey.,PROLIFIC_PID
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID150""}","{""ImportId"":""QID2_TEXT""}","{""ImportId"":""QID127""}","{""ImportId"":""QID128""}","{""ImportId"":""QID130""}","{""ImportId"":""QID136_TEXT""}","{""ImportId"":""QID132""}","{""ImportId"":""QID132_13_TEXT""}","{""ImportId"":""QID129_4""}","{""ImportId"":""QID133_11""}","{""ImportId"":""QID134_11""}","{""ImportId"":""QID151_TEXT""}","{""ImportId"":""QID152_TEXT""}","{""ImportId"":""QID6_FILE_ID""}","{""ImportId"":""QID6_FILE_NAME""}","{""ImportId"":""QID6_FILE_SIZE""}","{""ImportId"":""QID6_FILE_TYPE""}","{""ImportId"":""QID30_TEXT""}","{""ImportId"":""QID95_TEXT""}","{""ImportId"":""QID96_TEXT""}","{""ImportId"":""QID98_FILE_ID""}","{""ImportId"":""QID98_FILE_NAME""}","{""ImportId"":""QID98_FILE_SIZE""}","{""ImportId"":""QID98_FILE_TYPE""}","{""ImportId"":""QID99_TEXT""}","{""ImportId"":""QID100_TEXT""}","{""ImportId"":""QID102_TEXT""}","{""ImportId"":""QID104_FILE_ID""}","{""ImportId"":""QID104_FILE_NAME""}","{""ImportId"":""QID104_FILE_SIZE""}","{""ImportId"":""QID104_FILE_TYPE""}","{""ImportId"":""QID105_TEXT""}","{""ImportId"":""QID106_TEXT""}","{""ImportId"":""QID107_TEXT""}","{""ImportId"":""QID109_FILE_ID""}","{""ImportId"":""QID109_FILE_NAME""}","{""ImportId"":""QID109_FILE_SIZE""}","{""ImportId"":""QID109_FILE_TYPE""}","{""ImportId"":""QID110_TEXT""}","{""ImportId"":""QID111_TEXT""}","{""ImportId"":""QID113_TEXT""}","{""ImportId"":""QID115_FILE_ID""}","{""ImportId"":""QID115_FILE_NAME""}","{""ImportId"":""QID115_FILE_SIZE""}","{""ImportId"":""QID115_FILE_TYPE""}","{""ImportId"":""QID116_TEXT""}","{""ImportId"":""QID117_TEXT""}","{""ImportId"":""QID118_TEXT""}","{""ImportId"":""QID120_FILE_ID""}","{""ImportId"":""QID120_FILE_NAME""}","{""ImportId"":""QID120_FILE_SIZE""}","{""ImportId"":""QID120_FILE_TYPE""}","{""ImportId"":""QID121_TEXT""}","{""ImportId"":""QID122_TEXT""}","{""ImportId"":""QID123_TEXT""}","{""ImportId"":""QID125_FILE_ID""}","{""ImportId"":""QID125_FILE_NAME""}","{""ImportId"":""QID125_FILE_SIZE""}","{""ImportId"":""QID125_FILE_TYPE""}","{""ImportId"":""QID126_TEXT""}","{""ImportId"":""QID53_1""}","{""ImportId"":""QID139_1""}","{""ImportId"":""QID140_1""}","{""ImportId"":""QID141_1""}","{""ImportId"":""QID142_1""}","{""ImportId"":""QID145_TEXT""}","{""ImportId"":""QID146""}","{""ImportId"":""QID146_4_TEXT""}","{""ImportId"":""QID146_5_TEXT""}","{""ImportId"":""QID146_6_TEXT""}","{""ImportId"":""QID146_7_TEXT""}","{""ImportId"":""QID146_8_TEXT""}","{""ImportId"":""QID57_TEXT""}","{""ImportId"":""QID149""}","{""ImportId"":""QID149_4_TEXT""}","{""ImportId"":""QID149_5_TEXT""}","{""ImportId"":""QID149_6_TEXT""}","{""ImportId"":""QID148_TEXT""}","{""ImportId"":""QID60""}","{""ImportId"":""PROLIFIC_PID""}"
+2024-01-28 18:38:53,2024-01-28 19:20:24,IP Address,180.46.170.247,100,2490,True,2024-01-28 19:20:30,R_4HSAV9DsD7kAcSZ,,,,,34.7351,135.3105,anonymous,EN,"Yes, I consent to participate.",5fc452df39c5f23dd403a57e,Yes,Yes,Daily,Architectural design so usually concept sketches and landscape designs,Other,not sure if its considered creative but I do have a masters degree in architectural design,6,6,5,"an elfs hat, a tip of a teepe, castle tower, pine trees in a forest, a daggers blade",an elfs hat,F_2uICYDSUFYvSX01,1.png,24402,image/png,an elf,"a disappointed face peeking out of a corner of a wall,an umbrella",a disappointed face peeking out of a corner of a wall,F_3j7jM4a9Vf2KPHD,2.png,18805,image/png,what are you doing?,"a turtles shell,a dome building from far away,a car",a turtles shell,F_2rj9IXVwAFffGxN,3.png,12749,image/png,a turtle smiling,"railway tracks from above,railings of a fence,a hotdog bun",a hotdog bun,F_1CDQe1eLRqEr0ee,4.png,9877,image/png,a hotdog,"tree swaying in the wind, a volleyball stick figure serving, a tennis player serving",a volleyball stick figure serving,F_2txQ1hpBFEVTM6x,5.png,24087,image/png,a tennis player serving the ball,"a flower vase,stairs spindles,a blowing pin,a bottle",a flower vase,F_3iFooK51IAazQQd,6.png,25120,image/png,flower vase,"an old mans mustache,a motorbike,something that looks like sonic the hedgehog",something that looks like sonic the hedgehog,F_vcr51lPKyCj11zr,7.png,40203,image/png,I know da wae,3,5,2,7,1,just looking at the images and seeing them as part of a bigger picture that's missing then expanding on that by visualizing what it might be,Had difficulty developing novel mental imageries.,,,,,,from other artists ideas and thought process when developing a certain image specifically overcoming any mental blocks,pictorial,,I believe visual guidance is the best,,better guidelines so that I can understand what the boundaries are and what is the scope of the idea,Take a screenshot of the visual element with the rectangular frame around it.,5fc452df39c5f23dd403a57e
+2024-01-29 15:51:42,2024-01-29 16:51:57,IP Address,187.190.205.15,100,3615,True,2024-01-29 16:52:03,R_5rfB0Apukugiypz,,,,,20.6381,-103.348,anonymous,EN,"Yes, I consent to participate.",60de7deffb38fe0ad1684964,No,No,Weekly,"to relax and let my creativity free ","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,4,3,"church,castle,house,mill,mountain,tower",castle,F_1HjdkO3N3FtBBur,3.png,41969,image/png,lone castle in ruins,"wall,rope,glass,building,pine,robot",robot,F_AFpfhQzkAFRoQCd,6.png,24420,image/png,explaration insect tipe robot,"eye,mountain,burger,dome,road,spaceship",spaceship,F_3EEm28RZa6bBIfl,1.png,25566,image/png,landing spaceship,"road,fork,lasers,telephonelines,river,bookshelf",riverD,F_3JgXS1VqXucQblE,2.png,36087,image/png,river in the forest,"face,person dancing,hut,flag,ship,canoe",canoe,F_1DSSiMTtoAS2YuL,5.png,36748,image/png,canoe on the shore,"vase,body,missile,hands,rocket,man praying,buda,fish,mermaid,iron sheet,hose",rocket,F_6rQumjC6JmmAsud,7.png,35056,image/png,roket launch,"body,fish,mermaid,",MERMAID,F_5tnyn2UOiaMPAhH,4.PNG,43102,image/png,mermaid taking the sun,5,2,5,3,1,"first to draw the image and the as a base point chose why i draw next, taking different ideas in mind, and chose the one i like more but taking in account the time limit to avoid taking too much time","Had difficulty developing novel mental imageries.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.",,,,,,"maybe music to relax or to let go more inspiration, read something like a novel light novel or something that is innovative with a fantasy genre to get a lot of ideas ",others,,,music,"maybe only if I'm stuck and i can't get fresh ideas, to get the job don easier if it was an job, to get more free time but this one is just to complete this part only take the previous ones",Take a screenshot of the visual element with the rectangular frame around it.,60de7deffb38fe0ad1684964
+2024-01-29 15:48:22,2024-01-29 16:55:41,IP Address,78.137.210.78,100,4039,True,2024-01-29 16:55:47,R_5cXQqfDuzimz8fp,,,,,38.752,-9.2279,anonymous,EN,"Yes, I consent to participate.",60a68725b2b424dc0d7ce793,Yes,Yes,Monthly,Mostly diagrams and more technical drawings to understand some concepts,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,2,2,"tent,triangle,arrow,compass",compass,F_30xhdgvASPmVG4h,1.png,73238,image/png,Finding your direction,"mosquito,dumbell,ladder,sign",dumbell,F_3gC0wYTWZvoULHX,2.png,46296,image/png,Working out in the morning,"bowl,speed bump,lips",lips,F_2U43iUmIVbElW3E,3.png,43758,image/png,Half Portrait,"piano tiles,crosswalk,ladder,traffic lanes",traffic lanes,F_239JQMsVdqzF5vF,4.png,35726,image/png,crossroads,"fish,flower",flower,F_2RVM96lUwZKUGgU,5.png,47196,image/png,Flower,"eye,person,watermelon,lips,earphones,nails,ghost,glasses",eye,F_33r0K65b7GzeVuC,6.png,46249,image/png,Looking to your soul,"fish,glasses,ear,hair",fish,F_czOw5MjmdWLNO9z,7.png,57009,image/png," school of fish",6,2,5,5,5," I generate a wide range of ideas, without judging them too harshly. This helps me to break free from conventional thinking and to explore new possibilities. Trying to figure if drawing provided looked like something i've seen before.",Had difficulty developing many mental imageries.,I'm not very Creative,,,,,"Nature is a rich source of inspiration for creative imagery. The shapes, colors, and textures of natural objects can be used to create original drawings.",pictorial,,easier to translate that into a drawing,,"
+Yes, I would be happy to receive support to help me generate creative mental imagery more easily. I believe that this would allow me to create more innovative and original ideas. I am currently capable of generating some creative mental imagery, but I am still limited by my own biases and preconceptions. With support, I can learn to break free from these limitations and explore new possibilities.",Take a screenshot of the visual element with the rectangular frame around it.,60a68725b2b424dc0d7ce793
+2024-01-29 15:51:20,2024-01-29 17:16:05,IP Address,188.149.147.52,100,5085,True,2024-01-29 17:16:10,R_2DgJ3i7Zzf04SL7,,,,,59.3241,18.0517,anonymous,EN,"Yes, I consent to participate.",606e09b0a6028df2dab22951,Yes,No,Monthly,"When my daughter asks me to join her while she is drawing sth:) I draw simple versions of a tree, house, flower etc. ","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,4,1,"downward dog yoga pose,pacman,tent,eye,mountain,a ball passing through legs,metronome",eye,F_1LqGrOtPhQtROO4,1.png,24033,image/png,Eyes of mothers&daughters caring for each other through generations,"shoe lace,reflection of a stickman,magic wand,roof,book holder",reflection of a stickman,F_PTk7xvS30n31zBT,2.png,14907,image/png,reflection of a stickman on the lake,"Hamburger,sad face,ticket counter,UFO,eyebrow and eye of an anime,stage of a concert hall",eyebrow and eye of an anime,F_1GvLUD1W2ssWwHY,3.png,14121,image/png,unsatisfied face,"lanes,instrument strings,a section of window blinds,identical to sign,two storey apartment,heel of a shoe",heel of a shoe,F_1mqKQH5hzyqZGjA,4.png,26429,image/png,platfrom heels,"key chain,olimpics,a planet on its orbit,bubbles,a voleyball player-stickman,a kite,dancing girl's dress,iceskater",a voleyball player-stickman,F_1GKcD5KGvTkJRYI,5.png,21752,image/png,flying voleyball player smashes the ball,"upper part of a human body,vulva,eye of a periscope,bent prison bar,contact lens,head of a goddess(medusa maybe)",head of medusa,F_26o7YtNwAnJRwcI,6.png,33894,image/png,"Underdeveloped Medusa ","hair claw clip,decoration object,bowl and bow holder,woman carrying pot over her shoulder,superhero mask,a pokemon-frog",a pokemon-frog,F_PZGOw3qDGUVmaqJ,7.png,22055,image/png,Frogi Pokemon The Tongue Bender,6,6,3,6,5,"I didn't have a strategy to be creative (as you can see, my answers are not so creative) I tried to give enough time for my mind to imagine=)","Had difficulty developing novel mental imageries.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.",,All the images were soo boring and not original. I think being creative was the hardest part of this study.,,It was hard to expand the image further. I gave myself a high grade on being creative sclae at the begining of the survey=),,Works of creative people on the same tasks would be really helpful. I would see the opportunities of a single line from different people's perspectives.,pictorial,,"different pictorial perspectives calls for new images on my mind, texts do not help that much.",,"Yes, because that support might trigger new images, as I mentioned earlier. A new image calls for another on my mind, I guess. Maybe this is why painters are willing to see other artists' works.",Take a screenshot of the visual element with the rectangular frame around it.,606e09b0a6028df2dab22951
+2024-01-30 09:26:48,2024-01-30 10:17:55,IP Address,31.183.142.93,100,3066,True,2024-01-30 10:18:00,R_64wIzqV3gaB8jg5,,,,,51.7709,19.4655,anonymous,EN,"Yes, I consent to participate.",60d9df75eac7479254c87db6,Yes,No,Weekly,"I am interior designer so I often need to sketch something for me or for my customers. Sometimes it's like 3D view, sometimes it is more like a 2D plan.","No I am not, but I have a degree in other creative fields (e.g., music, performance art)",,5,6,5,"three,fox,dog,clock,flower,house,knife,star,wolf",wolf,F_3GuIptGcaQHQLjZ,1.png,17197,image/png,Funny wolf with big teeth in a forest,"snake,magician,acrobat,road,bike,musician,tent",tent,F_b1t1NJqzLSpEUQV,2.png,15357,image/png,Two men camping in the forest on a starry night,"eye,landscape,cake,cupcake,snake,turtle",cupcake,F_1mkL1AIik3KCEsk,1.png,20312,image/png,Delicious cherry cupcake on a floral plate,"oven,leader,road,sweater,t-shirt,belt",t-shirt,F_27xSXY9xgFy742W,4.png,14003,image/png,Tall boy in striped T-shirt playing baseball in a park,"fish,woman,dancingcouple,mother,tree",mother,F_1DAmEHwvQbJWIJ5,5.png,14010,image/png,Mother playing with her newborn in a park,"woman,vase,pumpkin,necklace,finger,kettle,cup,cave,guitar",vase,F_3MKZKl3pg7eHU8T,6.png,10745,image/png,"Vase of flowers standing on a table ","face,mouth,flower,bag,car,stroller,book,dog,cat",face,F_3Ny2JPIdCMLjo3w,7.png,9324,image/png,An old man with mustache wearing glasses,6,1,3,4,3,I quinted as I watched the tasks and imagined what it could be. I thought about what I have seen lately.,Had difficulty vividly visualizing (drawing) my mental imagery.,,,It would be easier for me to draw on a paper.,,,I think in this case any sketches would be an inspiration. Because it is easy to inspire yourself with the same kind of thing that you try to do.,pictorial,,,,I am not sure. It is interesting create yourself without any help. It makes you think deeply. And sometimes it is a pleasure when you need to imagine something yourself.,Take a screenshot of the visual element with the rectangular frame around it.,60d9df75eac7479254c87db6
+2024-01-30 09:27:40,2024-01-30 10:23:41,IP Address,31.0.72.60,100,3361,True,2024-01-30 10:23:48,R_1xYwybmsBKXYG1i,,,,,52.2575,21.0133,anonymous,EN,"Yes, I consent to participate.",6447feb9e3129031e77428b7,Yes,Yes,Weekly,just for fun,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,6,5,,"tortilla chip, tent, cartoonish eye, arrowhead",tortilla chip,F_1d0juvCRWPmrCAP,7.png,122781,image/png,tortilla chip bowl,"walrus,snake,lizard,baton",snake,F_1QL8XNr7G3PqBUs,4.png,98423,image/png,sneaky snake,"hill,lens,eye,ufo",eye,F_O0T3pH5iuUNZm25,1.png,81519,image/png,sleeping woman,"road,zebra,brush,ladder",zebra,F_3HwvnJdzqSCgzNN,2.png,61007,image/png,happy zebra,"tree,ice cream, dancing man, leaves",dancing man,F_1MZfT8QiVAquWnb,3.png,75489,image/png,"joyful dancing man ","egg,candy,fish,bowling keg,bottle of water,muscle,a lizard with a thick tail",goldfish,F_YQtKn4sQtYgt3eV,6.png,97556,image/png,goldfish float,"crying eye,oil spill,flowy river,waterfall",flowy river,F_3gXzvheHOy6Z0bI,7.png,152108,image/png,a river flows in nature,3,2,2,6,1,"i tried to imagine objects that incorporate the shapes. then i thought of the least obvious or most interesting object, and tried to produce that mental image in drawing.","Had difficulty developing many mental imageries.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.",there are not many objects that came to mind that would have had some of the more complcated shapes,,,i mostly just stuck to objects that naturally came to mind,,"i would like to see beautiful drawings, it would show me all the possibilities of creation and invite me to create other things in a similar style. really, a profile on social media could be that source of inspiration.",pictorial,,,,"I do not wish to get help to be more creative, im fine the way i am with my creativity. i also consider skill to be more important in art than creativity.",Take a screenshot of the visual element with the rectangular frame around it.,6447feb9e3129031e77428b7
+2024-01-30 09:25:48,2024-01-30 10:33:28,IP Address,87.209.93.214,100,4059,True,2024-01-30 10:33:35,R_3irmIpNa9UEdUR8,,,,,52.0746,4.6603,anonymous,EN,"Yes, I consent to participate.",60cbdc86484d7ef0643cfec5,Yes,Yes,A few times a year,"When I draw, it's usually just doodling as a self-soothing method or when I'm bored. I have ADHD and doodling helped me focus a lot back in high school.","Yes, I have a degree in visual arts.",,5,7,6,"camping tent,bowling lane,scissors,tongs picking up food,garden gnome",garden gnome,F_2ZBL6c5ua7Be6RZ,1.png,92036,image/png,Garden Gnome,"pokemon,people playing table tennis,magic wand,car's bumper,chameleon's face",magic wand,F_3lY7eDJhaaud6uM,2.png,82151,image/png,A Magician's Trick,"sunset,button,pillow,hill,exorcism,eye",exorcism,F_3KC6qWy1RfS2KKa,3.png,107224,image/png,Exorcised Demon,"jail,twix bars,streets,crop field,bridge,fork,trident,stairs,rainbow",bridge,F_2A13Ag3LBccrFJX,4.png,101345,image/png,Troll Under the Bridge,"person dancing,warped windows logo,hair stuck on tongue,beer belly,snowman",snowman,F_tSNAJs3GKmrZ8MV,5.png,99118,image/png,Snowman Going on a Date,"vase,eye,body,duel,armadillo,arm wrestle,open purse",duel,F_1QtqdJVtti8luuQ,6.png,118301,image/png,Women's Duel,"waves,superhero mask,sleeping pug,maid's collar",sleeping pug,F_3HRMeHJOTxrqd0N,7.png,83176,image/png,Sleepy Pug,6,3,5,6,5,"Covering certain lines to see the bigger picture, taking all angles into consideration, thinking outside the box.","Had difficulty vividly visualizing (drawing) my mental imagery.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.",,,Lack of drawing skills,Lack of drawing skills,,Music or sounds could be helpful to provide a mood or setting for said visual imagery as it encourages creative stimulation.,textual,"It could be interesting to take a vague text and transform it into a mental image. Answers could vary, but also have certain similarities.",,,"Even the most creative people need support sometimes. Mental effort is exhausting, especially to those who do it every day; having some kind of inspiration and support helps kick things into gear a lot faster and easier.",Take a screenshot of the visual element with the rectangular frame around it.,60cbdc86484d7ef0643cfec5
+2024-01-30 09:37:41,2024-01-30 10:41:51,IP Address,109.221.241.55,100,3849,True,2024-01-30 10:41:56,R_2iQEpAvThRh1RuV,,,,,48.9579,2.8794,anonymous,EN,"Yes, I consent to participate.",6548fb51db60a00d76e9270b,No,Yes,Weekly,I mostly draw with my pencil on a paper and it's usually drawing animals for fun and to learn,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,5,6,"campfire,teepee,ship",teepee,F_WlleT9sWhTa4MVj,1.png,34609,image/png,Native american camp with a totem,"road,wand,rope,spring,",wand,F_rop5LXmVbD2lxWp,2.png,22310,image/png,Wizard shooting electricity through his wand.,"bump,pimple,button,bed,bean,eye,foot",bump,F_3iUuS5pNMvk3l6Q,3.png,25108,image/png,Car going over a speed bump,"bacon,fork,book,cake,",book,F_U9DDKlMTfjEpxCN,4.png,21885,image/png,Book on a student's table,"beard,tendril,",tendril,F_2EfXBB2O58yDEEq,5.png,44060,image/png,A chinese dragon with nose tendrils holding a magic ball with his claws,"body,vase,toy,bowlingpin,muscle,pipe,tunnel,straw,cylinder,tanker",bowlingpin,F_eu4WyE265iYXB4d,6.png,35980,image/png,A bowling ball going against bowling pins,"egyptiansymbol,eye,sled",sled,F_3KHELQZvM7dSEag,7.png,53007,image/png,Santa riding his sled led by his reindeers on christmas night,3,2,4,6,3,"I wanted to make it be part of a story or make someone that sees it understand what I thought, in a way that they could see what the original image was but only if they saw what it was before I changed it, I wanted the original image to be completely part of the drawing and then add parts of my creativity to add something fun to it","Had difficulty developing novel mental imageries.,Others",,"When I found an idea it was hard to find more, it's as if my mind was locked on the ideas I had so finding new ones got harder and harder",,,"Knowing the time I had left, if there was a timer on the page it would have been nice because I got scared I would go too far on a drawing and not  have time left for the others","If I want inspiration i'll look for it in nature, find what I find beautiful and make it myself and then modify it, I can find inspiration from funny images as well or videos that I like and recreate it and even add to it.",pictorial,,"Maybe themes? Like a forest so we need to put the image on a forest in a way that would be natural, it would make thinking easier because the subject becomes less broad",,"It depends on what the research asks for, if it's to see what we are able to see from a simple image it's better to have less help so that creativity can be bigger but if it's something else it might be better depending on the research to make us think about something more precise",Take a screenshot of the visual element with the rectangular frame around it.,6548fb51db60a00d76e9270b
+2024-01-30 09:27:20,2024-01-30 10:50:12,IP Address,197.98.201.85,100,4971,True,2024-01-30 10:50:17,R_2X0QOil3OprDtr2,,,,,-26.2309,28.0583,anonymous,EN,"Yes, I consent to participate.",60e9648b4481c99102cb4489,Yes,No,Weekly,I do Autocad and Revit drawings of structures and equipment for work.,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,4,3,3,"Diamond ring, kite, Indian tent, clown face",Clown face,F_3RrcueQzluScSpf,1.png,113477,image/png,Clown face,"Wide eyed robot with straight face, A man floating on a hover craft, Foreign language partial letter",Wide eyed robot with straight face,F_2VOof7Kis9R4XOf,2.png,37814,image/png,Wide eyed robot with straight face popping up with a surprise,"A woman's eye open, sleeping pregnant lady, rugby ball, moth",A woman's eye open,F_3j2vscE5yWEDdcI,3.png,42470,image/png,Mysterious woman,"Cross road, arrows shot by bow, cricket wickets, rearview light",Crossroad,F_3qwXeDldOTzqYcG,4.png,35682,image/png,Zebra crossing,"Ballerina, fish, pattern cloth, candle stand",candle stand,F_2fcI8SpAfIAesQf,5.png,47369,image/png,Light of a candle,"fat man, cup of coffee, tub of mayo, mouse on a pad, ",Mouse,F_O3b3IK7NVWhveQp,6.png,56669,image/png,Mouse on a pad,"Butterfly, fruit bowl on stand, closed eye, reebok logo",Butterfly,F_WD4eBbDMBamC49j,4.png,49865,image/png,Pretty Butterfly,5,2,6,6,5,I tried to imagine something that takes on the general outline of the shape that was provided. I would add as many elements as possible to bring it to life.,"Had difficulty developing many mental imageries.,Had difficulty developing novel mental imageries.,Had difficulty vividly visualizing (drawing) my mental imagery.",I sometimes couldn't visualize an object that would include some of the shapes I saw,I always stem from something I know so it is difficult to imagine something that does not exist,"At first I did but as soon as I started drawing, I was able to piece them together.",,,The built environment. I like things that are symmetric and equivalent in their display. I was drawn more to drawing things that can be cut in half to give two symmetric parts,pictorial,,I can build and expand on something that I can see,,"No. I think helping more than one should can limit the imaginative part of creativity. This can lead to more derivative forms of art and be repetitive and boring. Its great to receive assistance but not too much to drown the work ",Take a screenshot of the visual element with the rectangular frame around it.,60e9648b4481c99102cb4489
+2024-01-30 09:41:25,2024-01-30 10:54:42,IP Address,78.45.201.140,100,4397,True,2024-01-30 10:54:48,R_6dVOLPgMecXcNOw,,,,,49.8491,18.2696,anonymous,EN,"Yes, I consent to participate.",5f01b7e94738d231487f2911,Yes,Yes,Rarely,technical drawing at work,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,4,2,"tent,tree,spaceship,tip of pen",spaceship,F_1pFGzQ6yO5FWS3u,1.png,73691,image/png,At the edge of gravity,"dumbell,face,morse code, traffic lane",traffic lane,F_3D0IpjSQoVFGtW3,2.png,102584,image/png,Raining on highway,"closed eye,mountain,bread",mountain,F_27fJcB0CgqMZKZb,3.png,89790,image/png,Solitude,"fog,bars,bet,noodle,fence",fence,F_3JJ0OBR5Y4koJY8,4.png,72092,image/png,Cowboy life,"dance,figure,gust,noodle,mouth",mouth,F_2v7cve2wfome2CO,5.png,122445,image/png,Food etiquette,"grapes,match bracket,snowman,fruit,coconut,eyelashes,pineapple",pineapple,F_1kOfL2YUuAXI4cN,6.png,119626,image/png,Fruit basket,"noodle,symbol of Ra god, sea",sea,F_2arhqpe1vqWIYSR,7.png,64104,image/png,Sunset over sea full of life,6,1,4,6,1,Looking at image and come up with what could I draw to create funny painting. Closing eyes and see if I can create image in my mind.,Others,,,,,Difficult was to pick the right painting what to draw rahter to come up with ideas.,"Life experience, visiting new places and people of different culture which make you think differently, look at things different way, see new things, experience new thigs.",pictorial,,one picture can be describe by milion words,,"No I dont want to receive support. Painting must come from me, my persona. I think painting is expresing yourself, your feeling, your desire and your creativity. So generating mentail imagery should be on your own to make yourself better in it.",Take a screenshot of the visual element with the rectangular frame around it.,5f01b7e94738d231487f2911
+2024-01-30 09:53:01,2024-01-30 11:01:13,IP Address,84.40.141.45,100,4092,True,2024-01-30 11:01:18,R_1THGUuchPPGvm2S,,,,,52.2296,21.0067,anonymous,EN,"Yes, I consent to participate.",5f70f2daea9a9f7076484982,Yes,No,Monthly,I.m drawing with my children,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,5,6,5,"nose,tipee,dog's butt,umbrella,star,zig-zag",dog's butt,F_8bQRY6QUxFbqoh3,3.png,33396,image/png,a dog on a walk,"robot,bow,rocket,christmas-tree,star,photo-frame,",photo frame,F_1Nh3Fhtc1hLeeiR,7.png,32900,image/png,family table,"eye,ocean,sunset,stetoscope,bow,drink,locomotive",drink,F_3QEmTm4I5OTDxme,2.png,26446,image/png,drink on the beach,"staff,street,sidewalk,cables,crossword,couch,scrabble-board",crossword,F_2EoY2bfQDsYlEwZ,5.png,27377,image/png,day off,"dancer,gimnastic,umbrella,lady-with-big-breasts,lamp",lady-with-big-breasts,F_3QMnJXwiHzqRJEo,6.png,25058,image/png,happy lady,"vase,flower,lady,umbrella,seal,teddybear,hat,tulip,bottle",seal,F_b4xTruGlXQkmEaB,4.png,26236,image/png,a seal in the wild,"eye,waves,sun,bicycle,flower",bicycle,F_1Fy94GAAr0XUzhv,1.png,20421,image/png,bicycle on a field,7,2,5,6,1,"No particular strategy really, I was just trying to make up as many things using imaginery, I was also  looking around the room and finding things I can relate to.  When i found this object i tried to put it into the drawing.",Others,,,,,I'm not good at drawing using a mouse,"I want to have more visual inspirations, like pictures or drawings of other persons, which can positively stimulate my mind to more freely cooperate with my imagination during the drawing process.",pictorial,,I have written above. I feel this is the best stimuli for me.,,I want to receive support only in cases when i have mental hollowness. Other pictures and visual stimuli can help me and i think in the drawing process this is the best support i hope to receive during tasks like this one.,Take a screenshot of the visual element with the rectangular frame around it.,5f70f2daea9a9f7076484982
+2024-01-30 09:50:51,2024-01-30 11:02:41,IP Address,62.165.201.148,100,4309,True,2024-01-30 11:02:46,R_86GSehN47Mhvq5b,,,,,46.2527,20.154,anonymous,EN,"Yes, I consent to participate.",607cabdfb9addc46d23a0f19,Yes,Yes,Rarely,I almost never draw. Sometimes I doodle.,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,1,2,1,"tent,mountain,pencil,fortress",mountain,F_1GWjeWqVODgu3te,1.png,34527,image/png,A mountain range on a sunny day.,"bridge,map,barbell",barbell,F_UDwT1hlwiOWJorv,2.png,32870,image/png,lifting a barbell at the gym,"bridge,car,hill,turtle,",turtle,F_sdsY1jzooeto78B,3.png,27631,image/png,a turle crossing a busy road,"highway,flag,ladder,birthday cake,tire track",birthday cake,F_1OHsdJIm0Ooebep,4.png,29629,image/png,42nd birthday party,"volleyball player,flower,roundabout",volleyball player,F_3dGuCDNZVzDtnwi,5.png,32565,image/png,volleyball player serves a ball,"vase,arms of a person,pineapple,eye,body of a person,",arms of a person,F_2urqKh4lJUfgWOZ,6.png,39546,image/png,A happy bald man throwing a basketball outside.,"pharao,whale,helicopter",helicopter,F_3P6woIOGTH7WRC6,7.png,27662,image/png,helicopter rescue misson in the desert,5,4,3,3,2,I was trying to imagine what things could have that shape in it and what would it look like if I drew it. I tried to imagine something that I could draw with my limited drawing skills.,"Had difficulty developing many mental imageries.,Had difficulty vividly visualizing (drawing) my mental imagery.",There were some shapes where I could barely think of any mental imagery.,,I'm bad at drawing.,,,Having more than one picture to choose from would help. It would give me options that would make it easier to get a prompt that I like.,pictorial,,It doesn't limit creativity like a text prompt would.,,I wish to have to get help because it gives me a starting point from which I can expand the idea. It makes it easier for me.,Take a screenshot of the visual element with the rectangular frame around it.,607cabdfb9addc46d23a0f19
+2024-01-30 10:22:53,2024-01-30 11:40:03,IP Address,94.67.48.80,100,4629,True,2024-01-30 11:40:11,R_2P6iSLEd2ScTZZk,,,,,39.619,19.9172,anonymous,EN,"Yes, I consent to participate.",5fada668f8a0961779aa778b,Yes,Yes,Rarely,"I draw mostly icons, transparent vectors etc... in photoshop. i also rarely used Dall-E for creating AI wallpapers.","No I am not, but I have a degree in other creative fields (e.g., music, performance art)",,3,6,5,"tent,woods,fire,outdoor,adventure",tent,F_2Tpo2I5gy0IdhSw,1.png,232995,image/png,Outdoors survival,"magnets,highway,abstract,gps,route",highway,F_3NzjBIeQcmENEya,2.png,120875,image/png,The road ahead,"eye,bunker,tent,",eye,F_1pQo5hZYPnLUvNV,3.png,170644,image/png,The stare,"guitar,strings,highway,ropes,shelves",guitar,F_AGWndejGTuj8sxz,4.png,106565,image/png,An electric guitar,"butterfly,section,fish,balloons,kite,crossroad",balloons,F_1jwBdCB5Tm1VTOs,5.png,142683,image/png,Floating Balloons,"fish,silhouette,eye,lamp,trees,bottle,watch,spoon,fork",fish,F_1JJ7YQ1db5v1LfE,6.png,201162,image/png,"A fish in its element, the sea","pot,ball,obstacle,pinball,glasses,boat,sea",boat,F_3rNcZSZS0QFvhck,7.png,167804,image/png,A roaming boat,5,6,7,5,6,"I tried to imagine more but to draw less in the end, because your time limit was too tight. I also tried to relate to those samples, using personal experiences. That helped me save time when thinking about what to do with them.",Had difficulty developing many mental imageries.,It was hard to draw straight lines using a computer mouse,,,,,"more complex shapes maybe, or add some audio along with the visuals in order to spark more creativity.",others,,,musical,"no, i am confident using just my imagination, but this question doesn't really make sense to me. i don't know maybe the syntax is wrong.",Take a screenshot of the visual element with the rectangular frame around it.,5fada668f8a0961779aa778b
+2024-01-30 13:31:30,2024-01-30 14:36:57,IP Address,188.143.0.187,100,3926,True,2024-01-30 14:37:04,R_2yAP2xPf0fuhfhL,,,,,47.5636,19.0947,anonymous,EN,"Yes, I consent to participate.",60ddfb3db6a71ad9ba75e387,Yes,Yes,Weekly,Playing drawing games with friends.,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,5,6,6,"tent, house roof, navigarion, end of an arrow",tent,F_3oNGa7Eqkcu3XPl,1.png,121839,image/png,The happy summer camp.,"clock, windscreen wiper, seatbelt, street line, pencil",windscreen wiper,F_0Di0IjSsMq8WbAJ,2.png,106580,image/png,The wiper working all day long.,"sunset, bread, sleeping man, fence door, bridge",fence door,F_2bNq8cKuVAhkOCR,3.png,73595,image/png,A nice day at the end of the garden.,"pedestrian, three lane street, ladder, cell bar, fence",pedestrian,F_2c7LRRPopR9crS0,4.png,70564,image/png,Pedestrians are crossing happily today.,"dancing man, tree, flower, boat, airplane",dancing man,F_Xp8HefpCipA6LGF,5.png,100603,image/png,That party was awesome.,"vase, a girl, tree, jail cell, flower pot, a street, oval, moon",vase,F_urDHPGbmNkh34nD,6.png,109130,image/png,A vase on a table.,"pram, wind blow, lips, mask, wheelbarrow, waves"," pram",F_V2O70yVhCdgkFBD,7.png,117811,image/png," Take the child out into nature.",2,1,4,7,2,"Closed my eyes and tried to imagine pictures in my mind. And then select the best one in my mind and draw it.   ",Others,,,,,Select the best idea,"Using AI can provide a wide range of solutions. It can give a lot of ideas of what to draw and how to draw them. ",pictorial,,Easier to imagine,,"Looking at similar pictures, it can give a lot of inspirations. Like using AI technology can help a lot. Giving examples and solutions.",Take a screenshot of the visual element with the rectangular frame around it.,60ddfb3db6a71ad9ba75e387
+2024-01-31 08:00:35,2024-01-31 08:43:06,IP Address,83.10.204.34,100,2551,True,2024-01-31 08:43:12,R_4rBBgOuJHAHB24W,,,,,50.0585,19.9342,anonymous,EN,"Yes, I consent to participate.",5f8ef5cf036fa50c4aba6a61,Yes,No,A few times a year,"traditional and digital, hobby","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,6,4,"mountain,ear,fire,campsite,ferris wheel,theme park,volcano,candle",camping,F_1mFsCKoerJaTz3a,1.png,35294,image/png,night at the campsite,"arm,trip,path,blank face,roof",roof,F_1pxIumOD91J5qCy,2.png,50358,image/png,forest hut,"sunset,sunrise,burger,food,ice-cream,dome,beauty and the beast",rose dome,F_3FRMcqlK6j4FbVS,3.png,61053,image/png,protected beauty,"river,fog,store front,jail,tram,train,books,block of flats,office,bee",bee,F_2axCUbrfy9seJjs,4.png,32909,image/png,bumble bee,"dancing,human,person,grass,dandelion,candle,",dancing,F_UYcPcmf60uR9ss1,5.png,36152,image/png,dance,"mouth,eye,tunnel,flower,planet,space,ladybug,bridge",flower,F_2annEYqPOAeAEbF,6.png,42569,image/png,spring flower,"sea,river,clouds,wind,eye,angry",angry dog,F_3PIgNNbBiS1Kuj3,7.png,35271,image/png,angry puppy,2,3,5,3,6,i was trying to come up with an idea that didnt seem obvious but at the same time something i would be able to draw in the tool that was indicated,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.,,,,"i was stressed about the time, the tool for drawing was not easy to use (drawning with a mouse is horrible)",,I get inspired from abstract ideas / text more than from a visual element. visual element seems to be more limiting,textual,i can imagine the outcome entirely rather than rely on what's provided,,,"i don't understand this question, i have no idea what you are asking about here - is this about me using AI to generate images?",Take a screenshot of the visual element with the rectangular frame around it.,5f8ef5cf036fa50c4aba6a61
+2024-01-31 08:18:02,2024-01-31 08:50:44,IP Address,79.103.49.14,100,1962,True,2024-01-31 08:50:49,R_2lciyy1MAhzame5,,,,,40.6439,22.9358,anonymous,EN,"Yes, I consent to participate.",655f5b28db8f23daff6c4b1d,Yes,Yes,A few times a year,i like to draw simple things just to relax my mind,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,5,7,6,"tent,fire,camping,cat",cat,F_2v7E84R87H6GDn5,Untitled-2024-01-31-1728.png,26838,image/png,the cat with sharp ears,"clock,time,watch",Clock,F_vAAmts3oyoFjifv,Untitled-2024-01-31-1733.png,21971,image/png,The clock,"Trampoline,river,bridge,burger,food,table,furnace",burger,F_1dmBanoGooeLKt1,Untitled-2024-01-31-1740.png,21442,image/png,man eating burger,"road,wall,river",wall,F_WwaOBwShEXyxvwd,Untitled-2024-01-31-1724.png,25667,image/png,The wall of happiness and fire,"straw,volley,basketball",volley,F_1DSuFHjS3yVFADr,Untitled-2024-01-31-1730.png,22206,image/png,The volleyball player,"eye,vision,glasses,face,half,smallface,nose,vagina,leg,muscle",half face,F_1rHV24KjWHY4R4r,Untitled-2024-01-31-1734.png,25449,image/png,The half face,"pipe,smoking,cigar,eating icecream",smoking,F_5avzagTVIiP69Wh,Untitled-2024-01-31-1744.png,24538,image/png,The smoking man,4,2,1,7,1,"i tried to do the first thing that came to my mind, i just draw like i would myself and didnt try to come off my main theme",Others,,,,,I didnt have any problem,a text along the images would be nice to describe something like a theme or some keywords to help get better ideas,textual,some small text that provides info for the img,,,"Yes i thinkg i would, because the support would help boost my creativity and provide better and clearer images",Take a screenshot of the visual element with the rectangular frame around it.,655f5b28db8f23daff6c4b1d
+2024-01-31 07:58:37,2024-01-31 08:51:02,IP Address,178.115.227.251,100,3144,True,2024-01-31 08:51:09,R_6msA4PaJ8RL2rPJ,,,,,47.9464,13.3011,anonymous,EN,"Yes, I consent to participate.",5cab5e8a2eafae00169803e1,Yes,No,A few times a year,"playing, fun","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,6,3,"hat,roof,pizza,carneval,pacman,noodles,mouth,mountain",pacman,F_3iWpyaUDqIkiuiH,1.png,56552,image/png,pacman,"tenniscourt,table,hair,hat,apple,banana,pizza,pizzaslize,rocket,bed,sunglasses,window",tenniscourt,F_56g9fWjLJdmJLMd,2.png,56463,image/png,Tennis grand slam tournament with some audience and a clear winner,"eye,roof,building,bus,car,cat,sphinx,eyebrow,avocado,mouse,pc,bed,turtle",turtle,F_27lgU3V4opum4Bx,3.png,44099,image/png,turtle with a partyhat on a skateboard,"street,motorway,hair,boat,water,sign,burger,sandwich,paper,work,books,worm,bee",bee,F_2xzMmRonNNnHjCw,4.png,35067,image/png,bee,"hand,dancing,dancer,flower,wineglass,tulip,fork,farmer,devil,satelite",flower,F_3PIkp7YoUA23Eud,5.png,71428,image/png,Bee hearing some sound of the flower,"vagina,hair,women,eyeball,football,sandwich,potatoe,avocado,fruit,pear,apple,cow,cowboy,penguin,mexican,man,child,clown",cowboy,F_25MBtd3AptS9KH2,6.png,56947,image/png,funny cowboy with two guns,"eye,hair,rollerblade,pinapple,cocktail,glasses,reptile,roof,octopus,squid,jellyfish,spider",jellyfish,F_3CGXQAUaPOdUhG6,7.png,68006,image/png,Mrs Jellyfish and her friends,6,2,3,4,5,"it was very difficult, but i tried to think of food and animals in the beginning. Then I tried to think of myself and I happened to see a lot of similarities in the different pictures, like eyes.",Had difficulty developing novel mental imageries.,,beause i always had food or animals in my mind,,,,"music could help to get more creative as the sounds let one think of different scenarios, or also videos (not necessarily music videos, but also ads, tv spots, series and so on)",pictorial,,beause it is easier to imagine things,,Beause one does not get narrowed down to one single road of ideas. If one receives support one can e.g. get new and fresh ideas to do the drawings or see certain things which one did not see in the beginning,Take a screenshot of the visual element with the rectangular frame around it.,5cab5e8a2eafae00169803e1
+2024-01-31 07:57:20,2024-01-31 08:52:17,IP Address,147.161.248.110,100,3296,True,2024-01-31 08:52:23,R_5ekHYT4sPX1vHxK,,,,,52.2296,21.0067,anonymous,EN,"Yes, I consent to participate.",60fd6fb15653e2243eb73e65,Yes,Yes,Weekly,Graphic design used for interior decorations or cartoons,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,5,3,"mountain,cat,pen,bird,dagger,",quill pen,F_1Q0knFj7LgnAqoc,Untitled-2024-01-31-1604 3.png,64152,image/png,Enormous quill pen,"stick,whale,mountain,eiffletower,lightsaber,tadpole",tadpole,F_SVNTwPlFihi6JVL,Untitled-2024-01-31-1604 2.png,38408,image/png,Cartoon not content tadpole,"sunset,sunrise,ball,monster",monster,F_22FFnts8p3YkReg,Untitled-2024-01-31-1604 6.png,53205,image/png,One wide leg monster with one big eye and octopus arms,"snake,matches,",snake,F_6x63EtVfc7Pvo1b,Untitled-2024-01-31-1604 7.png,50992,image/png,Cartoon snake that just ate two ostrich eggs,"tulip,weight,",tulip,F_3Ecmrf5v27XbGU3,Untitled-2024-01-31-1604 4.png,53142,image/png,Tulip in vase with bee flying around it,"vase,eye,boat,kayak,statue,leaf,tower,plane,rocket,rocketplane",rocketplane,F_3O36eMkRMpcgvJc,Untitled-2024-01-31-1604.png,99859,image/png,Earth to Mars reallocation,"fish,eye,face,boat,",fish,F_2uTI9DRp9WWILaK,Untitled-2024-01-31-1604 5.png,57531,image/png,Men on a boat catching a giant fish,5,2,6,7,2,"start drawing, then most ideas came up, even those that were not part of drawing itself. I tried for the picture to represent whatever I submitted in the description, some with more details, some with less, depending on my imagination.",Had difficulty developing many mental imageries.,"due to time sensitive task I was not focused to think as many as possible potentials ideas, focused on drawing whatever already came to m mind to finish task on time",,,,,Usually I start with a base I want to create and then with each generated picture I add up more details to reach the outcome I want,pictorial,,it's easier to look into picture and decribe the changes and additions that start with detailed text description which may not be interpreted by AI toll the same way I see that,,"not necessarily I like the creative process and the steps behind creation of a new image. I would be useful only if I were a professional graphic designer, not doing it as a hobby. However I would like to be able to highlight specific elements of the picture that could change. ",Take a screenshot of the visual element with the rectangular frame around it.,60fd6fb15653e2243eb73e65
+2024-01-31 07:59:02,2024-01-31 08:53:42,IP Address,95.176.176.213,100,3279,True,2024-01-31 08:53:47,R_3JlUFaluSaId1NN,,,,,45.6842,13.9669,anonymous,EN,"Yes, I consent to participate.",65a82dada53820dbd0f96bfc,Yes,Yes,Weekly,"I tend to engage in recreational drawing (drawing for fun). My drawing usually involves characters in different settings or headshots of my imagined characters. ","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,5,3,"tent,christmastree,arrow,bird",bird,F_245V2yknAingFns,3.png,50804,image/png,Young Bird Fed by Mother,"tent,comb,frame",frame,F_1pyUBGdHfcvIN1n,1.png,43383,image/png,Grandma's Picture Frames,"sunrise,bed,eye,swimwear",bed,F_ROF5JbZ6ZZDXIeR,2.png,43009,image/png,Children's Bedroom,"bridge,river,ladder,can,broom,road,tracks",ladder,F_2QyxVJY1r6ChPAh,6.png,34399,image/png,Girl Climbing Ladder,"leaves,scissors,rope,jungle",jungle,F_3rZeuqBXv0TYQ4j,5.png,69818,image/png,The Deep Jungle,"ornament,woman,lightbulb,hole,potion,eye,candle,plant",potion,F_4VoXVNYUZp3xHeF,7.png,63761,image/png,The Witch's Potions,"tongue,eyeofhorus,hair,wind,crying",eyeofhorus,F_24zWyPsNIjJAS1E,4.png,53257,image/png,The God Horus,6,1,6,5,6," I picked the ""most creative"" word based on what I thought I could draw with it that would be deemed most creative.","Had difficulty developing many mental imageries.,Had difficulty developing novel mental imageries.","I tend to usually go with what I think of first when I draw, so thinking of many concepts to draw was quite challenging.",I was unsure what would be considered as novel and think that my ideas were perhaps not as creative as I would have liked them to be.,,,,"I think it would be nice if I was provided with a theme and a few images from that theme. Like fantasy or cyberpunk, and the like. It would be easier to think of mental imageries when you have something to bounce off of. When I go to draw something in my spare time, I like to browse Pinterest for references and themes.",pictorial,,Having theme is always nice when drawing. You have something to use as a reference.,,"I am a bit confused by this question. But, if it is asking if I think this support will help me generate creative mental imagery more easily, I think yes. I think that, when you pick a theme for drawing and try to, in a way, ""limit"" yourself within that theme, you become a lot more creative. You try to come up with new, unique (more creative) ideas within these constraints. And on the other hand, seeing some kind of visual for support aids in drawing.",Take a screenshot of the visual element with the rectangular frame around it.,65a82dada53820dbd0f96bfc
+2024-01-31 07:57:56,2024-01-31 08:54:18,IP Address,147.188.245.189,100,3382,True,2024-01-31 08:54:23,R_3Ejk0suoqXn0ptA,,,,,52.4425,-1.9442,anonymous,EN,"Yes, I consent to participate.",602b586f3a3b7a2a138934b1,Yes,No,Monthly,"I don't do any drawings ","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,5,3,5,"star,house,tree,hat",house,F_p003NZcs1owWw6t,1.png,42578,image/png,Gnome house,"road,pencil,icecream,broom",road,F_bmcz2wTdZn9BNXH,2.png,41391,image/png,road with cars,"eye,chicken,basket,basketball,cushion,bag",basketball,F_2w4f5bGspptcKmf,3.png,34609,image/png,"Girl playing with basketball ","highway,fork,burger",burger,F_3qmrkPcvRehDOVA,4.png,17594,image/png,Burger with salad and beef,"leaf,hair,umbrella,apple,pear",leaf,F_55e8EFIVmN4hT0d,5.png,52474,image/png,Autumn fallen leaf,"snowman,person,ball,ballon,sweet,chocolate,bike,bird",snowman,F_9uvQ6Gialjr5Y0F,6.png,45255,image/png,Kid making snowman while it's snowing,"hat,hair,skirt",skirt,F_3dFe7MK56c6UVMw,7.png,43696,image/png,"A skirt, on a mannequin, that is being sold for $10",5,3,4,5,3,"My strategy to be creative was to think of things that would go with the image and trying to make something that made sense ",Had difficulty developing many mental imageries.,not the most creative person so made things that made sense,,,,,"I think from Pinterest because they have different images and can be quite creative and stimulate people to draw creative images ",pictorial,,easier then to draw something,,Yes I think by receiving support I would have made more creative designs as I can get ideas from the support,Take a screenshot of the visual element with the rectangular frame around it.,602b586f3a3b7a2a138934b1
+2024-01-31 08:05:13,2024-01-31 08:55:59,IP Address,140.78.124.117,100,3046,True,2024-01-31 08:56:05,R_1ciKGewilGGK46w,,,,,48.3074,14.285,anonymous,EN,"Yes, I consent to participate.",6560b7cb855f7158b6709217,Yes,Yes,Weekly,People like shapes which express certain emotion,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,,3,"church,delta wing,pacman,arrow,eye,fish,tunnel",tunnel,F_29akF7hPmfYr6QZ,Untitled-2024-01-31-1646.png,76737,image/png,Approaching a triangular tunnel in a sunny day,"rotating staff,manta ray,electric field,arrow,magic wand,face",manta ray,F_XMrub6utkwjTN3b,Untitled-2024-01-31-1633.png,70524,image/png,"manta ray with a luminous tail getting into seeweed ","eye,belly,car,portal,mouth,biceps,candy,icecream,sunset",sunset,F_31heZDJDtguR1c1,Untitled-2024-01-31-1649.png,56618,image/png,sunset in the sea,"staris,book,flag,river,fingers",fingers,F_2YhAaAcxnizcWQF,Untitled-2024-01-31-1617.png,58677,image/png,Scared man watching how the hand shoots bullets to his friend,"weed,fork,snake,scar,stick man,lollipop,crossing,face",face,F_yV1DKnB19V6i5sR,Untitled-2024-01-31-1642.png,72923,image/png,The face of a woman watching the feathers of his parrot falling down,"ant,flower,head,duck,fish,man,eye,lamp,torso,butterfly",fish,F_1luY655YH4KDS24,Untitled-2024-01-31-1624.png,72802,image/png,fish with flexible tentacles trying to eat a tape worm,"rooster,infinite,mouth,wrinkle,noodles,tentacles,kiss",kiss,F_NXfOOLRMWUaGOc1,Untitled-2024-01-31-1638.png,64403,image/png,the kiss of the chicken man and the fat woman,5,4,5,6,2,"thinking of shapes I have seen before and think in absurd situations in which the object can be extrapolated, also mentally rotating the image helps a lot",Had difficulty developing novel mental imageries.,,some images were very abstract,,,,"I want inspiration from living context trying to represent mental images like images that respresent pain, happiness, sadness, etc.",pictorial,,colors have a greater emotional effect,,"I would want to try it but I am no sure if it would really help because I think I have a very particular taste ",Take a screenshot of the visual element with the rectangular frame around it.,6560b7cb855f7158b6709217
+2024-01-31 08:03:53,2024-01-31 08:57:07,IP Address,89.64.54.188,100,3193,True,2024-01-31 08:57:12,R_20BT4asO1bDk8Ux,,,,,50.0585,19.9342,anonymous,EN,"Yes, I consent to participate.",6075cf9b059725b365f85e34,Yes,Yes,Rarely,I mostly draw for fun and I wouldn't consider myself a real artist.,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,6,2,"a christmas tree, a cottage, a gnome",a gnome,F_3NxhwhgUUgbbOji,666666.png,90956,image/png,"It is a friendly gnome repelling the darkness at night. The title is: Do not fear me, I will protect you.","a staff, a robot, a wall, a cat",a robot,F_27IFamzKRP8BN3e,4444.png,35141,image/png,"It is a sad robot with a head thats too heavy to lift. The title is: Smile, honey.","a mushroom, a pillow, a sleeping man",a sleeping man,F_3mdzkRewRbbK272,aaassa.png,27097,image/png,It is a man sleeping and his hair is taking out his nightmares so he can sleep well. The title is: The Calm,"a cake, a fence, a wall, a road",a cake,F_1E52npkJTGAe4t7,2222.png,34127,image/png,It is a parody of a workplace ad. The title is: The cake is a lie.,"a rose, a dancer, a leaf, a fencer",a rose,F_2rHlYOJuEVjUb4T,5555.png,26796,image/png,"It is a wilting rose, with thorns so big that they protected the rose too well. The title is: I've build walls not bridges.","tree, bottle, hole, cell bars, dress, swords, banana",bottle,F_12aOCeBsC2dtBiU,file1.png,62769,image/png,It is a person holding a cola bottle so hard it starts to bend outwards before it bursts. The title is: He who thirsts and craves shall thirst and crave eternally.,"a shoe, a fish, a wave, an eye",a shoe,F_2uKWeQM2dGnUhV2,3333.png,26603,image/png,This is an impossible to wear shoe. The title is: Fashion in the 21st century,5,2,3,7,3,"There really was no real strategy, I just tried to look at the pictures in different angles and I thought about how it resembles something that I know",Had difficulty vividly visualizing (drawing) my mental imagery.,,,It is hard to put into a picture mental images when using a mouse.,,,"Random other artworks and real life experiences can inspire me greatly. I am very inspired when experiencing strong emotions, for example my the death of my sister inspired great anguish in me that I used to write poems in her name. Real emotions always triumph over something the author doesn't really believe in. ",others,,,Emotional real life experiences. It feels so natural and raw.,I don't. I feel like the natural process is very much the only way to represent novel ideas. Generating mental imagery just happens and it needs very few stimuli.,Take a screenshot of the visual element with the rectangular frame around it.,6075cf9b059725b365f85e34
+2024-01-31 08:06:32,2024-01-31 08:57:37,IP Address,185.58.80.226,100,3064,True,2024-01-31 08:57:42,R_82RHFH1S52aEbsB,,,,,38.731,-9.1373,anonymous,EN,"Yes, I consent to participate.",60ff3a7e3057022617006e78,Yes,Yes,A few times a year,observation drawing and creative drawing for hobby purposes,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,4,5,4,"tent,hat,roof",hat,F_3kBqWlNYHrKJvkA,1.png,10759,image/png,witches territory,"magic wand,broom,hockey stick",broom,F_8cyM9lpDBiBKvHX,2.png,19970,image/png,flying witch,"burger,bridge,lip",burger,F_1juMZceUIk53UjL,3.png,14958,image/png,hungry drooling man,"road,draws,lips,sandwich",lips,F_2w08LxbZ3pyU3GZ,4.png,12637,image/png,big lip lady,"drooling,martini,smoking,ice cream",martini,F_12tgyucHd8b0gne,5.png,15623,image/png,drunk experience bigger than life,"fat baby,penguin,sequoia tree,eye, ice cream,lip,leg,water bottle",penguin,F_eL5KR0vOyzKtLzP,6.png,19655,image/png,happy penguins living in community,"tie,Egyptian painting,dress,swimming fish",swimming fish,F_bQV95JVyhYGALv3,7.png,33721,image/png,happy swimming fish going on a trip,5,1,5,6,2,"trying to think of something that wasn't the main object, but part of the picture, more in the background, but it was difficult and ended up being pretty basic","Had difficulty developing novel mental imageries.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.",,"I had a lot of ideas, but they seemed very basic",,"getting an idea was easy, but making it creative was not",,"from artists who transform other materials into works of art, like trash to make sculptures, because they can transform something into other things completely different",textual,"my main issue is getting the creative ideas, not implementing",,,"i didn't understand the question exactly, but i guess that I need help with the creativity part, thinking of out of the box ideas",Take a screenshot of the visual element with the rectangular frame around it.,60ff3a7e3057022617006e78
+2024-01-31 08:00:35,2024-01-31 08:59:27,IP Address,86.15.96.25,100,3531,True,2024-01-31 08:59:33,R_1r3qUVbY4RJ6Zwg,,,,,56.0348,-3.4981,anonymous,EN,"Yes, I consent to participate.",5f208cff0b6d52398929e86f,Yes,Yes,A few times a year,"Manga and its just for fun, im no expert","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,4,5,5,"a fire pit,camping tent,a nice hat,bowling alley, man running down road",",camping tent",F_2QY8vQnVjS1cKrg,1.png,67626,image/png,It represents nature i call it exporation,"two people standing each side of a wall,two people sitting in at each end of a long table,two ended drumstick, that alien from toystory",alien from toy story,F_25GHyTo6J2v7QzB,2.png,31470,image/png,"My drawing is the alien from toy story, I call it ""We are eternally gratefull""","someones eyes,a horizon, a window",someones eyes,F_DGLewWmK1KUkVC9,3.png,47017,image/png,It represents stalking and i call it PEAK,"road with racing,table with food on it,",",table with food on it",F_2akT1iadLW02Deu,4.png,24744,image/png,Food and its called the first supper,"Balloon bouque,arm wrestling,floating kites",Balloon bouque,F_1q1ZMheNlWjtIOM,5.png,38861,image/png,It represents freedom i call it floatin',"snowman,ear,female genatialia,eyeball,river, fat man",Snowman,F_2eXtdk5Wcko1mDq,6.png,27741,image/png,Just a snowman that loves the holidays. I call it FROSTY,"swan, saxaphone, womans hair, snake",saxaphone,F_8uM71YMD8md06bL,7.png,33188,image/png,Music and I call it sexyphone,4,1,2,6,3,I just tried to paint a bigger picture in my head and drew lines in and around the lines to see where they could go,Had difficulty developing many mental imageries.,I sometimes had difficulty imagining with some other images than others,,,,,Many certain topics or just randomly generated words that could inspire something opposed to forcing it. It would be helpful for a baseline idea and it could even lead to something else after some input,textual,I would simply just go with textual prompts instaed of pictorial as it almost gives too much and can be the cause of plagirism and anti creative thinking. Textual forces you to draw it yourself,,,Its more of a jumpstart to lead creative thinking as opposed to help. I might get inspiration from the initial prompt that could veer into something else entirely different from the prompt but wouldn't of gotten there without said prompt.,Take a screenshot of the visual element with the rectangular frame around it.,5f208cff0b6d52398929e86f
+2024-01-31 08:01:54,2024-01-31 09:00:35,IP Address,78.30.66.190,100,3520,True,2024-01-31 09:00:41,R_80USFTMbjlX8t2D,,,,,52.2296,21.0067,anonymous,EN,"Yes, I consent to participate.",6474d7ee51ea5b296ca2846c,Yes,Yes,Monthly,"i draw mostly for fun - fictional characters i enjoy or funny pictures with characters created by my friends for our dungeon and dragons campaign. I consider it definitely less important than my education or work, so it's only ocasional. Usually, i draw in traditional method - digital doesn't work for me well, as it's expensive to get the necessities","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,5,2,"animal ear,tree,pyramid,legs,eye with eyebrows,mountain,skirtA",tree,F_u9uOaVsGTVonDqN,5.png,53352,image/png,"christmas tree, surrounded by snowflakes and a snowman","face,fringe,skirt,car,window,notebook,page,book,hanger",face,F_1QGXTmolB69Z9x2,2.png,61338,image/png,cat with an indifferent face playing the piano,"sun,eye,female chest,butt,tummy,mochi,cake",sun,F_2wh8xQ1z8btOhx1,4.png,36920,image/png,mountain sunset landscape,"books,jail uniform,ladder,bookshelf,cake",cake,F_1FP5XFI2vXY5PDq,6.png,61273,image/png,"birthday scenario - a slice of cake with candle, surrounded by gifts and sparkly drink","person with a finger at their mouth,leaf,tree,axe,owl,face,chalice,trophy,wine glass,flag",axe,F_1JIyNZnAOOQvtFs,1.png,92715,image/png,a lumberjack handing someone over an axe,"glass,eye,female chest,hands,bunny ears,nail,human chest,human figure,lamp",hands,F_3svtHkRsy8N2FwG,7.png,108372,image/png,"a person praying in a christian church - the people around them are also praying; their hands are put together, as theyre devotely asking for some gods guidance","eyes,hair,goggles,racoon,thief,egypcian god symbol,human chest",racoon,F_2VCqlb175pH4hgt,3.png,61941,image/png,a racoon sassily stealing someones trashcan,5,3,4,5,2,"Think without no shame - I am a person definitely influenced not only by art, books, trying hard to understand the concept of beauty (for example, human bodies are beautiful - and shouldn't be sexualised), but also by being raised as a christian. I am not religious - but the fact i was raised in catholic culture left a mark on me and I am embracing it","Had difficulty developing many mental imageries.,Others","after coming up with my favourite one, i was so in favour of it, the other came to mind harder",,,,"I felt like I'm not doing my ideas justice - they could've been drawn better and it made me angry ","Classical art! Old books, old paitings inspire me a lot - I just needed a lot of time to grow up and see it as something more than boring history items I have to remember for school. It's beautiful, so gentle and holds so many memories",textual,"I prefer to see things in my head than by eyes - I can appreciate seeing art, but it's a human feature to be drawn more towards things in the way we imagine them. We want them to be.",,,"Not really. Art is not only pleasure, but also pain - and that's beautiful about it. It represents humanity itself, their struggles, their emotions, even the negative ones. You cannot understand others when they're focusing only on positive, easy things - it allows you only to see their surface.",Take a screenshot of the visual element with the rectangular frame around it.,6474d7ee51ea5b296ca2846c
+2024-01-31 07:55:35,2024-01-31 09:00:35,IP Address,89.155.175.78,100,3900,True,2024-01-31 09:00:41,R_2sv3pEzjQ4Hy3ja,,,,,40.851,-8.399,anonymous,EN,"Yes, I consent to participate.",6595f5146a8033382763c9d5,Yes,No,Never,Mostly abstract figures cause they help me thinking.,"No I am not, but I have a degree in other creative fields (e.g., music, performance art)",,5,6,6,"Bird hand asleep while babies run away,
+Tent",Mom asleep while babies run away,F_WBUWgf2U5nwVWBb,prolif3.png,30724,image/png,Sleep vs motherhood,"Robotface,path",DrunkRobot,F_ReoJe2mSKI9L9lL,prolific2.png,37226,image/png,"A drunk robot dancing in a bar. There's a counter behind it, broken bottles, a mirror ball and music ","Horizon,person swimming",person swimming,F_ssTI93QHJlncW1H,prolif.png,21132,image/png,A man swimming in the middle of the sea with fisches and birds,"Music score
+Wall",Music score with person playing piano,F_2rI6FTIWawbgLbx,prolifc4.png,26046,image/png,Music all around,"Dance
+table game ",table game,F_3qyrpzpgERCewsI,prolifi7.png,31860,image/png,Bad loss in the Rooster game,"Preguenant with 2 babys
+Ballet dancer with performance goin wrong",Ballet dancer,F_27l2GAFPYtrVleX,prolific5.png,31668,image/png,Bad ballet performance,"A boy and a girl having sex
+swimming pool",A boy and a girl having sex,F_UDymCaUsBdX26xH,prolific6.png,23972,image/png,Sex that nobody likes,6,3,5,6,2,"Look in a different direction like uside down
+Close your eyes and open them again after couple seconds
+Start drawing to see any other form",Had difficulty vividly visualizing (drawing) my mental imagery.,,,Cant draw very well,,,"I just need more drawing skills but more starting lines would help. AI would also help me to have ideas to follow, but I'm afraid I'll condition myself too much.",pictorial,,Gives me the space ideia,,"Yes, because I feel that several drawings I've done could have been more creative and weren't because I didn't have different examples. Despite this, I feel that not having help helps me to be more creative. Sometimes seeing someone else's idea ends up spoiling your own.",Take a screenshot of the visual element with the rectangular frame around it.,6595f5146a8033382763c9d5
+2024-01-31 08:00:21,2024-01-31 09:04:08,IP Address,37.18.161.200,100,3826,True,2024-01-31 09:04:13,R_2gR9TZkBpOxnHXn,,,,,48.8582,2.3387,anonymous,EN,"Yes, I consent to participate.",6164922ae1964946ed065c12,Yes,No,A few times a year,Just when i'm bored i draw random things on a piece of paper,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,3,2,"tent,triangle",tent,F_1gMBtO6IEYwdN1S,3.png,56150,image/png,It is a tent so soemeone is camping. Their is a fire and trees in the background because we're in the forest. There is a single chair and the tent has a window on the side,"Superhero,book",superhero,F_2w5ejyyvGdzqT1z,2.png,84247,image/png,So now we are on a battlefeild and it is happening in a fictional world with people who are semi viking and semi galdiators. So there is one human team and one viking / gladiators team. The main carachter is on the rght. He has a saber like in star wars. The war isn't done but his team is winning and he's very confident. He is fighting against humans who are on horses. And in the back there are moutains,"sunset,person",sunset,F_Uit0MoUpnUqkSL7,3.png,37340,image/png,The relaxing susnet It's a sunset on the sea with some clouds and 2 birds. The sea is calm and the still quite sunny and it's relaxing,books,books,F_1gToKU0TwWoHTpn,4.png,35966,image/png,The bookpile : it is a pile of books. There are 3 of them. They are on a desk with a peive of paper as well as some crayons,"Someone with their arms up, someone playing volleyball",Someone playing volleyball,F_7afGGXLXh84FPZT,1.png,62654,image/png,"Volley Bally. The image represents some people playing volley ball and one of them is gonna get the ball. It's very agitated obviously because we are in th emiddle of the game but even though they are quite competitive, they are really just having a fun time.","Easteregg,ball,opening,door,baseball,parenthesises,book,doorframe,window",Easteregg,F_3spmPMpJWmatopb,6.png,23040,image/png,It is an easter egg that is decorated to look like an easter egg. It has stripes and dots all over it. It is a beautiful easter egg and it is in black and white because it is a minimalistic easter egg. And i didn't have lots of imagination for that one so it's juste that,waves,waves,F_2veHpWsFL7hxZeZ,4.png,50816,image/png,"We are in the ocean and the weather is really bad, there is a strom. It is in the middle of the night because there is the moon and stars in the sky. Also there is a boat the no one is on it so i don't know what happened",5,2,2,4,2,I was just going on intuition. And i tried to add lots of details. I did had a hard time trying to find ideas of images sometimes but if you insist it comes quite easaly. I was just trying to find what the image looks like or how it can extend to a full drawing,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.,,,,Because it's not easy to draw on a computer and i don't know about perspective,,"Just nature and real life. That's my favorite tyoe of art. I think it's more beautiful especially realistic art. So when i say nature it can be anything but like people, landscape, cars, although i do prefer landscape kind of like what they were doing in the 18 / 17 century. It just does't get more real than real life.",others,,,real life nature,"No because i think it's very personnal and it's the type of things that if you do it with an external source, it's harder to get e result ",Take a screenshot of the visual element with the rectangular frame around it.,6164922ae1964946ed065c12
+2024-01-31 08:02:43,2024-01-31 09:07:36,IP Address,82.168.166.190,100,3892,True,2024-01-31 09:07:41,R_2PB1myQjNvfNqgz,,,,,52.3631,5.2139,anonymous,EN,"Yes, I consent to participate.",63110d3cf64f5fc28647f029,Yes,Yes,Weekly,I am drawing diagrams and schemes at my work.,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,1,3,2,"pencil, Pacman, hut, fireplace, ear, mouth, mountain",Pacman,F_1gioPZaQINjKl4h,6.png,13441,image/png,Pacman going down,"line with two dots, delimiter, clock, magic wand, road separator",road separator,F_3iRzh3oCk65x6R3,3.png,16517,image/png,There is a car driving next to a road separator.,"rising sun, sunset, sea, sleeping person, trampoline",sunset,F_3s07WGA4NMVTI4Z,5.png,9775,image/png,sunset in the sea with some birds flying in the sky,"notes, stripes, bench, flower pot, guitar, glass, road",flower pot,F_2Bm6QTaTUm3yG8a,7.png,10942,image/png,Pot next to a window with a flower in it.,"dancer, theta, happy person, flower, leaf, chicken",leaf,F_31H5uCwVlzXLXml,4.png,16571,image/png,leaf on a puddle,"eye, barrel, watermelon, pineapple, keyhole, vase, two lines",pineapple,F_2WPBI2jmwrLEiN3,1.png,27208,image/png,A pineapple that stays in the middle of the table. There is a sun and a small cloud in the background.,"lips, mustache, mask, bra, swimming suit, bowtie, monster eyes",mask,F_SPf45zbzWkkjowV,2.png,28153,image/png,A cyclist in a mask that is riding next to a bricked wall. He has a scarf that is weaving because of the high speed.,7,5,1,3,2,"I just looked at the initial drawing and tried to imagine it from different angles, what could it be a part of.","Had difficulty developing many mental imageries.,Had difficulty vividly visualizing (drawing) my mental imagery.",Sometimes I was stuck as new mental images were not coming.,,It's not easy to draw with a touchpad.,,,"For example, if I had some music playing at the background or some smells. Music and smells could suggest some memories or bring some emotions. It will help me to come up with more mental images.",others,,,music and/or smells,I do not care about generating mental imagery more easily. I need to be left alone and given some time to develop it. I would perceive additional support as more distracting.,Take a screenshot of the visual element with the rectangular frame around it.,63110d3cf64f5fc28647f029
+2024-01-31 08:01:23,2024-01-31 09:08:03,IP Address,102.141.174.113,100,4000,True,2024-01-31 09:08:08,R_2HCfI5Kibxc3SdX,,,,,-25.7599,28.2604,anonymous,EN,"Yes, I consent to participate.",6125548aedd39987af5adb5a,Yes,Yes,Rarely,"A drawing of myself/ converting a real-life picture into an AI ""cartoon"" picture","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,3,3,"Front,of,a,jet",A plane,F_2wiV5kQqBK0x51a,Jet-G6.png,16839,image/png,A jet in the sky,"Point.A,to,point.B",A ball moving in a straight line,F_1GJKG0yiIFWKyxd,Qball.png,9731,image/png,A ball hit into a ball and white whole,"Top,award,winner",A trophy,F_1fiTUsiJP9xEDzx,Trohpy.png,10490,image/png,A trophy,"Knowledge,is,power",A stack of books,F_2yeiq5A3qh6x2Bi,Untitled-2024-01-31-1737.png,10833,image/png,Books,"Be,happy,You,Woke,up,today,life,is,beautiful","be,happy,life,is,beautiful",F_1oc1sTcFcn9FMfe,"YOUR,ALIVE,BE,HAPPY.png",15570,image/png,A healthy person jumping fromr the joy of being alive,"empty,spaces,need,to,be,filled,to,make,a,room,eligent",vasse,F_2tG1QFqSXyvq3gD,decorations.png,18723,image/png,flowers in a room,"A,wild,animals.eye",eye,F_3O3yH80i6Byc5Jp,Wild.png,19026,image/png,A raptile,5,3,3,7,1,Thinking out of the box and about the things i see on a daily bases be it on TV or in real walking life,"Had difficulty developing many mental imageries.,Had difficulty developing novel mental imageries.,Had difficulty vividly visualizing (drawing) my mental imagery.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.,Others",drawing accurating and in a straight line,"just creating images from what ws given in the screenshots was  hassle ","Its more like creating something out of nothing and it needs to make sense to the next person who doesnt know what is going through your mind ",haev to draw something taht will make sense to the next person who does not know what is goin on in my mind at the time of creating the drawing be able to identify what is in the image without reading the caption or new given tittle,transforming something original but not destroying it and keep it authentic,"be allowed to add emojis and colors to the pictures to create a more modern type of image let the picture be attractive after it has been transformed ","textual,pictorial,others",Emojis writings and mabye a story behind the iamge,"colour images a detailed desciption of wht is the first iamge ","more and more and description on the types of images that might help my creativity span for as long as possible ","Helps with being creative and mind healthy more images and creates a good room for day dreaming staying young and unstressed ",Take a screenshot of the visual element with the rectangular frame around it.,6125548aedd39987af5adb5a
+2024-01-31 08:01:34,2024-01-31 09:10:43,IP Address,87.95.4.209,100,4148,True,2024-01-31 09:10:48,R_7Pz2HxhweY7bIVS,,,,,60.1797,24.9344,anonymous,EN,"Yes, I consent to participate.",654912c2d243a7753e1b4934,Yes,Yes,Rarely,"Sometimes I draw in social games (on paper and digital), eg. Scribble.io, Activity, etc.
+I also have drawn maps for D&D.
+As well as scetches for explaining things (e.g. work, teaching)
+I have tried mz hand on more artistic drawing, but not for long.","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,5,6,3,"tipi,mountain,arrow,KKK,wizard-hat,pacman",wiyard-hat,F_1i4oprmTX8UNyQh,1.png,34707,image/png,magic,"Golf,Face,Map,pool,ladder,",golf,F_1gpsCoauJ1P7sQM,2.png,28862,image/png,Golf,"Burger,Bell,sunrise,hill,",burger,F_9AM1xwWHG9iBZQt,3.png,27051,image/png,Burger&Fries,"earth,lasagne,road,stairs,wavefronts,wave",wave,F_2qvLGn0xUBj6juX,4.png,37836,image/png,A day on the Beach,"Dancer,hammok,Bow,",Bow,F_2uR6f9sxgKTiku3,5.png,37114,image/png,On the Hunt,"parenthesis,vagina,fat-man,rocket,bottle,granade,WhyDoesThisHaveToBe50Characters?",rocket,F_3nSZmd4rmnTV6W9,6.png,38754,image/png,To the Moon,"Swimming,Boat,Fucking,whale,EyeOfHorus,",Whale,F_7NzI0gTiF8iDM2t,7.png,31944,image/png,Boats on top of Whales,2,2,5,5,3,"I either tried to derive creative images from the obvious ones, or I tried to push the obvious ones out of my mind to make unrelated images click.",Others,,,,,"I got morre hurried and sloppy as time went on as I didn't know how long the task was and there was a fixed time limit. ","For me it is the other way around, I dont seek inspiration, Inspiration is what drives me to create visual imagery. For example, I drew little comics about the game rimworld, because it inspired me to do so.",textual,It has inspired me before (unlike pictorial),,,"I do not understand this question                                                                                                   ",Take a screenshot of the visual element with the rectangular frame around it.,654912c2d243a7753e1b4934
+2024-01-31 08:01:41,2024-01-31 09:10:46,IP Address,109.243.0.29,100,4145,True,2024-01-31 09:10:52,R_8UZ7Fnnrk0SVAwp,,,,,52.2296,21.0067,anonymous,EN,"Yes, I consent to participate.",650a05d42ac1a544fe1b9937,Yes,Yes,A few times a year,Sketching basic shapes and items in order to learn drawing.,"Yes, I am pursuing a degree in visual arts.",,3,5,3,"arrow tip,tent,entrance,roof,house,guitar headstock,helmet",guitar headstock,F_1KrUmbx4fRkrzJs,1.png,115195,image/png,"photo of a sharp, V-shaped guitar headstock","bow,razor,peeler,lace,zipper,handle,blade,",razor,F_ULJP2vuXsLhBuiB,2.png,292340,image/png,man shaving using a razor,"eye,pillow,candy,rock,headphones,lamp,computer mouse,",computer mouse,F_10rwLMovlxv1N0t,3.png,94646,image/png,side picture of a computer mouse with a hand reaching towards it,"road,logo,wall,icon,writing,interface,books,",books,F_OD9GrNfD4PUVFRL,4.png,74225,image/png,books laying on top of each other on the desk,"dancer,flower,movement,lamp,tree,candle,axe,flame",candle,F_ddnGsAwSHz6KQyB,5.png,62092,image/png,"lit candle ","eye,vase,potato,candy,symbol,dress,sweater,torso,raindrop",torso,F_1hAtNcu6FBgXfy8,6.png,149689,image/png,a full body shot of a cartoon character with round torso,"pasta,ocean wave,chip,snake,storm,scissors,knife,eye,jellyfish",jellyfish,F_8HWR9dflYBjo80h,7.png,175450,image/png,jellyfish floating at the bottom of the ocean,5,2,4,4,2,"Looking at objects around me, finding possible similarities between shapes and objects. Remembering the movies I've watched, video-games that I've played etc. Referencing other media.",Had difficulty expanding (transforming) my original mental imagery further to make it more creative.,,,,I felt the limitation of time and kept my drawings vague,,"AI Generated Pictures/Art - It can surprise and inspire the viewer with how it looks, even though it consists of things that were done before by real artists and you usually can tell the difference between AI generated and real picture.",pictorial,,Seeing the reference. Finding similar things to one in the picture,,"No, I want to try and challenge myself with generating the mental imagery required to complete the task on my own even though it might be harder for me. ",Take a screenshot of the visual element with the rectangular frame around it.,650a05d42ac1a544fe1b9937
+2024-01-31 08:24:35,2024-01-31 09:16:20,IP Address,212.142.124.26,100,3105,True,2024-01-31 09:16:27,R_3w1stHdOBj2sfU1,,,,,56.9496,24.0978,anonymous,EN,"Yes, I consent to participate.",60196480480c1403e32285a8,Yes,No,Weekly,I draw sometimes as hobby on my ipad. Random drawings of people or animals,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,5,5,"camp,monster,sign,girl,dumpling,robot,chip,pyramid,stomach",monster,F_uyQS0CXL0Xwy89z,2.png,187714,image/png,Nightly monster hunt,"robot,pencil,sign,arm,tree,lamp",robot,F_2SHsoIb8xtEReir,2.png,103887,image/png,Curious robot discovering the world,"sunset,bed,eye,lasagna,clam,button,chest,burger",burger,F_3PiVb5dCXnbvJnE,3.png,106950,image/png,A lovely meal today,"noodles,brush,paw,window,lasagna,flag,steps,train",train,F_22YsnT2w9bB37UF,4.png,83696,image/png,Waiting for the train to come,"ballerina,basketball,napkin,tent,cowboy,toy",ballerina,F_2s743R9lUFu4pBo,1.png,155782,image/png,Ballerina dancing to the beat of the flowy music,"belly,vagina,mirror,eye,chip,clam,fish,noodles,banana,bottle",fish,F_3p9linXMJnoRkoO,6.png,99532,image/png,Fishy surviving in the wild,"chip,dress,duck,bird,arms,noodles,organ",duck,F_3KNjOlFnymnJPXY,7.png,117680,image/png,Duck enjoying a rainy day,6,1,5,6,2,"I tried to come up with as many different things as I can. Trying to check from a different perspective. Trying to remember what those specific shapes associate with in real life. If nothing comes up, I tried thinking of a category - real life, fiction, food, tangible thing. What resembles that category more and go from there.",Had difficulty developing many mental imageries.,"I suppose I was not feeling too creative today, so did not get a lot listed as potential images. Honestly, usually I can come up with a lot or at least quality things when looking at a random shape.",,,,,"I want someone to give me a specific category. That would help me focus on a specific type of thing I should imagine when trying to look at a specific drawing. If not that, then maybe a type of music - then I would know if I should make something related to happy, tame, scary or boring/real life stuff.","textual,others","It would help generate specific ideas, and not be overwhelmed with possibilities",,Music - it would help with coming up with a theme to go with the drawing,"Yes, I think it would be more fun to see how differently the pictures would come out with additional support and would make the process more relaxing and not as stressful because I have to come up with everything myself.",Take a screenshot of the visual element with the rectangular frame around it.,60196480480c1403e32285a8
+2024-01-31 08:01:53,2024-01-31 09:20:03,IP Address,105.209.187.47,100,4689,True,2024-01-31 09:20:09,R_8CHzbhc4JOBRLV5,,,,,-26.2309,28.0583,anonymous,EN,"Yes, I consent to participate.",6168426ad3853e5729c2770e,Yes,No,A few times a year,"I usually draw simple drawings and abstract art. I draw as a hobby, in my spare time. ","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,4,5,3,"Mountain, pyramid, hut, house, diamond ring, triangle. ","House. ",F_262YGimCgSxPB0S,4.png,88930,image/png,Home is where the heart is.,"Kite, ice cream, cup.",ice cream,F_21vsmFEZ7uZUWPY,2.png,85005,image/png,The spring carnival,"Umbrella, bridge, eye/face.",Eye/face.,F_2w65tf6euMvCd71,3.png,94138,image/png,Window to the soul.,"Highway, bookshelf, stripped t-shirt, bridge. ",Bookshelf.,F_1K0DFAOKkugCnad,2.png,88827,image/png,"Knowledge is power. ","Whale, tap dancer, kite, ribbon, fencing. ",Kite,F_2t68IRiVDThC7ic,3.png,57188,image/png,"Beneath the wind. ","Dress, egg, mango, rugby ball, bride, fish, ornament. ",bride,F_31zrIEnivZHmXjl,4.png,89905,image/png,Here comes the bride.,"Dress, duck, cap, lips.",Dress,F_2rT1kogmdxl8GAH,1.png,75817,image/png,The tango,4,6,6,7,1,"My strategy comprised of focusing on the image, using my imagination and thinking outside the box by applying day to day events and objects. I additionally further expanded on my initial imagery, to see more in the given picture.",Had difficulty expanding (transforming) my original mental imagery further to make it more creative.,,,,I had to be really creative with my imagery considering space limitations.,,"The kind of inspiration that I would like in order to generate a more creative visual imagery is a short description or an incomplete story. ",textual,"It expands my imagination, it doesn't limit me to just one image. ",,,"Yes, reason being there are more creative ideas to work with. Support also provides different elements and flair as two heads are better than one. Team work makes the dream work. ",Take a screenshot of the visual element with the rectangular frame around it.,6168426ad3853e5729c2770e
+2024-01-31 08:27:48,2024-01-31 09:21:23,IP Address,87.101.68.39,100,3215,True,2024-01-31 09:21:28,R_7l46eBQW53fTCjT,,,,,50.1036,18.508,anonymous,EN,"Yes, I consent to participate.",5fdbbf98516177026985ad36,Yes,No,Rarely,I scribble weird stuff in my notebook while in uni class,Other,"I don't have or pursue a degree in these fields, but I finished technical high school in graphic design and printing (never drew anything on a tablet or anything though). I also produce music in my free time",2,4,1,"tent,camping,blade,knife,spear,shuriken,point,hood,monk",camping,F_ysuILlFBYk25n0J,1.png,39758,image/png,a camping night under the stars,"hunting bow,stick,magic wand,chemistry rod,ancient relict,extraterrestial tool",hunting bow,F_1GUOKlYeQzq6rsJ,2.png,33534,image/png,hunting a beast with a bow,"cap,hat,beanie,bread roll,bread,baguette,tunnel,cave,burger",burger,F_2fm6SCuxsabis58,3.png,22011,image/png,a burger,"road,highway,pedestrian passing,shelves,bookshelves,steps,stairway,books",books,F_2wi9dV3mGdwfZIi,4.png,24475,image/png,books stacked on a table,"arms of a fighter,a dancing figure,basketball player dunking,",basketball player dunking,F_380fTHsWpTcQATv,5.png,44723,image/png,basketball player dunking for a buzzer beater,"vase,abdomen,cockroach,bug,ladybird,vessel,leaf,vagina",ladybird,F_cH0L1W5jiQutbZn,6.png,52130,image/png,a ladybird on a leaf,"eye of horus,heel boots,water drops,tears,winking eye,shadow person",eye of horus,F_3hbW7cEnWjpRBZA,7.png,31358,image/png,eye of horus on bricks of an ancient temple,6,2,3,4,5,I just tried imagining something that is close or relevant to me but maybe not so obvious for other people.,"Had difficulty developing many mental imageries.,Had difficulty developing novel mental imageries.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.",I got stuck on one particular idea of a mental image and struggled to think of others,"Same as above, got so mentally stuck on one interpretation others were impossible to think of",,"Im really bad at drawing, especially with a mouse so it was hard to transfer my mind into the digital canvas to make it look aesthetically pleasing",,"If I was given a textual prompt rather than some graphic lines I would do better at a creative job, Id like to think. Or a less vague thing than circles and lines. I think that something as basic as some shapes is more creatively limiting than anything else, some people are more creative in more confining scenarios.","textual,pictorial","Some people work better with text than pictures I think, just like with listening vs reading type studying perhaps",More defined shapes than the basic ones would navigate me towards something better,,"I'm sorry I don't think I understand this question clearly. Generate is the key word here, ""generated"" became a pejorative term for me, sounds artificial therefore (for me) of not good quality and like cheating. I wouldn't like to ""have to"" get help?",Take a screenshot of the visual element with the rectangular frame around it.,5fdbbf98516177026985ad36
+2024-01-31 07:59:05,2024-01-31 09:23:26,IP Address,82.154.164.217,100,5061,True,2024-01-31 09:23:35,R_2qjq8hhXC4wyUwU,,,,,38.6199,-9.1327,anonymous,EN,"Yes, I consent to participate.",60e9ec87eaec81c024447f04,Yes,Yes,Monthly,"It's a way of calming down, I usually draw people or parts of the human body","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,6,5,"tent,traffic signal,castle,roof of a church,camping",camping,F_0dBwA2bwVFvmawV,1.png,207842,image/png," a camp to relax in the summer","pensil,wrench,axolote",axolote,F_3J4WIYfok2YBa9m,2.png,213405,image/png," an oxolate on the beach","sunset,hamburger,button,lips",hamburger,F_30q23R7v9nVsRYX,3.png,187998,image/png,"my favorite moment of the day, eating!","stairs, wall,crosswalk,ice cream cone",ice cream cone,F_1NetX4aUbn2jF1v,4.png,239655,image/png,the look of desire when I see ice cream,"flag,dress,fish,scarecrow,someone's muscular arm",scarecrow,F_21hPErIcZtwJr5b,5.png,295567,image/png,a scarecrow on the farm,"guitar,pliers,half a melon,ball,peanut,the body of a snowman",guitar,F_2WAbF7HjKGxLt2F,6.png,191364,image/png,"me and my guitar, if I knew how to play","a cat's tail,someone playing guitar,woman bent down,bra",a cat's tail,F_1pQMx9kz2k5F3Wj,7.png,201776,image/png," just a very cute cat",3,5,2,6,2,"I tried to see the drawing as part of a bigger picture. Then I started drawing the main object and progressed my drawing from there, implementing things in painting that I find funny",Had difficulty expanding (transforming) my original mental imagery further to make it more creative.,,,," some ideas were obvious, so I had difficulty making the drawing more creative",,"probably if I'm seeing the object, I can make what I'm seeing more creative, for example, I'm seeing a glass, I can imagine the water inside the glass screaming because I'm going to drink it. I feel like I'm more creative when I have visual images",pictorial,,"If I see something, I can draw it better and make the idea more creative",,"
+If I had help I could do a better job, and it would be much more creative and potentially funnier, I like creativity combined with humor",Take a screenshot of the visual element with the rectangular frame around it.,60e9ec87eaec81c024447f04
+2024-01-31 08:03:03,2024-01-31 09:26:04,IP Address,41.144.3.29,100,4981,True,2024-01-31 09:26:10,R_28Hi5AuumqmYRAR,,,,,-29.8556,31.0449,anonymous,EN,"Yes, I consent to participate.",60f49bc8ed8976b9448e3730,No,No,Monthly,"on  illustrator, logo design.","Yes, I have a degree in visual arts.",,6,7,6,"house,lighthouse,beacon,camptent,mountain",mountain,F_3JbdHuaX8PnKy8j,1.png,57114,image/png,Mountain high,"car,hand,gate,house,tree,mirror,bottle,hairdryer",car,F_2COJ9Gd3S5pHnGw,2.png,56819,image/png,car in he sky,"cupcake,muffin,bridge,femininepad,roadside",cupcake,F_3iBZvsUW2zXiC7g,3.png,67421,image/png,Chocolate chip cupcake served on a rainbow day,"strippedshirt,bridge,gate,house,car,tv,church",church,F_OpORJpguKTJWxKV,4.png,44157,image/png,Church house,"littlegirl,happyfigure,tree,satelite,lighthouse",littlegirl,F_2ZQ8HjOtCtjLRrk,5.png,52175,image/png,Little girl,"pinapples,muscles,palmttrees,cup,bottle,mango,tank,grenaaide",palmtrees,F_204It4S4Q5WE5vH,6.png,54733,image/png,Palm trees by the ocean,"ocean,person,hat,house,car,swimmingpool",ocean,F_2eW3drbei2ksKM5,7.png,54579,image/png,Ocean and lighthouse,7,6,3,6,5,"Thinking of things I could see around me, because I would go blank at some points whenever I would think of something I would have to focus on that specific image and immediately start drawing.","Had difficulty developing many mental imageries.,Had difficulty vividly visualizing (drawing) my mental imagery.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.",I would go blank,,A little but once I tohught of an image I could see it,"Was not sure on how far to go, if it isn't too much",,"hints of images that could align with the elements, and maybe text that could steer my thoughts towards images related to my thoughts. Probably an example image on how far to draw etc.",textual,if I had a word or a little write up it would be easier,,,"yes, it makes life easier and it takes less time. The fact that II was stuck on most of the elements I could have taken a shorter period if I had clues that drew me to the right thoughts",Take a screenshot of the visual element with the rectangular frame around it.,60f49bc8ed8976b9448e3730
+2024-01-31 08:02:28,2024-01-31 09:30:59,IP Address,41.198.135.247,100,5311,True,2024-01-31 09:31:05,R_26BPYo7xcMAdbgt,,,,,-26.2309,28.0583,anonymous,EN,"Yes, I consent to participate.",61279625ac5cfd3b49d36c2d,Yes,No,Rarely,Adult Therapy coloring books for relaxation purposes.,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,1,2,2,"teepi,cone,campsite,star,roof,mountain",teepi,F_1ditL7yX2y5sFvI,1.png,31112,image/png,Teepi at the campsite and fire outside,"stickman,hatstand,shocks,umbrella",stickman,F_2TZUpKbXpwTsNoO,2.png,24352,image/png,Stickman at the disco with a straight gentleman's hat and a tennis ball,"eye,eyelid,sunrise,semicircle,dome,torch,turkey,flame,rainbow,sunset,wave",Eye,F_2fHFPkcKLPZWsOy,3.png,12711,image/png,All seeing eye of Horus with a large brow,"roadsign,microphone,honeystir,speakerbox,wings,tyre,bus,tower,monitor,TV,seat",roadsign,F_Ua7tdjsoAXaYhwt,4.png,53870,image/png,A high tides at the beach road sign,"tulip,flower,stickman,wrestlers,matchstick,tree",Matchstick,F_2918biDnVfyOYyn,5.png,17074,image/png,"Raise hands, Matchstick Stickman","pelvis,hips,legs,wings,shield,flames,airforce,bird,thighs,quads,arms,popeye",wings,F_1r8KEEujJcPpCn2,6.png,33805,image/png,Angel wings - Airforce,"lips,mouth,grin,jokermouth,scarface,bowtie,ocean,waves,teeth",Grin,F_1lfntrhOGFNi1tZ,7.png,25834,image/png,Monkey Grin,7,2,6,3,3,"Get as much images pop up in my mind as possible. Get started with one idea, generate more images from that idea to see how many ideas I could get. And make up scenarios in my mind as quickly as I could. ","Had difficulty developing many mental imageries.,Had difficulty vividly visualizing (drawing) my mental imagery.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.","The more images I drew, I noticed different ideas represented whilst drawing and gave me doubt after",,Getting the entire image in my head wasn't vivid before starting with the drawing,I ultimately didn't want to leave the original image unrecognizable,,Watching other artist's work. This will give me samples to work with and ideas on how to transform my own ideas. Learning of other people's ability to do a similar thing definitely encourages and motivates me.,pictorial,,This will be easy to see where the idea is going. And a lot of ideas will come up as the image changes.,,"Yes, I want to expand my think capacity with visual drawings and the ability to generate creative imagery is fascinating to me. The idea of creating my own creative imagery is fulfilling and inspires me.",Take a screenshot of the visual element with the rectangular frame around it.,61279625ac5cfd3b49d36c2d
+2024-01-31 08:10:02,2024-01-31 09:35:08,IP Address,41.13.112.9,100,5106,True,2024-01-31 09:35:14,R_1GC6mVOXXCVavLK,,,,,-25.7599,28.2604,anonymous,EN,"Yes, I consent to participate.",613ddd0b1da5b303d8991bc8,Yes,No,A few times a year,Tables for financial purposes,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,5,5,5,"Hut,tent,spaceship,stickman,kite,diamond",kite,F_1jp14MHy5STW9cZ,1.png,36990,image/png,"Have fun, ride your kite on a sunnyday","fishingrod,bridge,kite,shockabsorber,envelope,notepad",fishing rod,F_2BfYJo2wqJFxJXs,2.png,48903,image/png,fisherman catching fish in a boat,"burger,sunset,hat,bridge,igloo,icecream,house",sunset,F_1DUyGQjFkulBAug,3.png,33901,image/png,sunset by the beach,"Table,highway,road,desk,box,bridge,stairs,wall,briefcase.",Briefcase,F_3NEvG3lcUdh9u4z,4.png,10021,image/png,This drawing represents a business briefcase with important documents,"baloon,flower,stickman,lollypop",flower,F_3HprEaehB2yN7Wx,5.png,23484,image/png,Blossoming flower in spring,"Vase,bowlingpin,flowerpot,owl,fish,dress,art,cat,speaker,bear",vase,F_Zh6gZhyTEQnSH8B,6.png,35988,image/png,African Pottery Inspired vase,"Bird,flower,sweet,tree,shoe,hat",bird,F_vp2kYEjmpxnhXTX,7.png,40459,image/png,bird with a nest of eggs,6,5,5,7,5,"Thinking outside of the box and using my imagination in order to be more creative and visualize it. ","Had difficulty developing many mental imageries.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.",some images were difficult to be creative with,,,not easy to draw without shapes,,Adding more shapes to the original image in order to better translate what is in the mind or imagination.,pictorial,,Art,,"yes, because that better stimulates the mind to be quick and strategic and more stimulated to imagine more",Take a screenshot of the visual element with the rectangular frame around it.,613ddd0b1da5b303d8991bc8
+2024-01-31 08:51:08,2024-01-31 09:42:09,IP Address,41.115.79.143,100,3060,True,2024-01-31 09:42:15,R_5JXwJNZTKJIrdKb,,,,,-29.8556,31.0449,anonymous,EN,"Yes, I consent to participate.",6127547b385c9d9bc30d476f,Yes,Yes,Weekly,artwork i draw the nature of love,"Yes, I have a degree in visual arts.",,5,6,7,THE STRAIGHT LINE REPRESENT THE HAPPYNESS OF THE TRIANGLE,NUATURE CAN DRAW YOU,F_07VPeflh0dBhuTf,Untitled-2024-01-31-1809 PNG ONLY.png,89066,image/png,NATURE,LINE A DROWN IN THE LINE OF PAIN,SADNESS,F_2t8SADSKu4GxAQB,Untitled-2024-01-31-1809.png,89066,image/png,BAEUTY,SMILING OF THE PERSON,JOY,F_3JkI6S3rTtOkHL1,Untitled-2024-01-31-1809 PNG ONLY.png,89066,image/png,RAIN,"THE FEELING OF GIVING ",LETTING GO,F_3RmBSldIdJzOZNc,Untitled-2024-01-31-1809.png,89066,image/png,FLOWERS,"the lines of this art work show the love of the protract. ",the nature is the most beautiful thing to protract when drawing,F_4Mmy4hEZqd6IBY5,Untitled-2024-01-31-1809 PNG ONLY.png,89066,image/png,THE NATURE  IS THE MOST BEAUTIFUL AND YOU CAN SEE THE SUNLIGHT LIGHT UP THE FLOWER AND THE CLOUD MAKE THE RAIN SO THE FLOWER CAN REPRODUCE.,ASKING FOR MORE IN THIS SPACE OF THE NATURE THAT LOVE AND SPACE YOU NEED IN LIFE,QUESTIONING THE LIFE WHAT IS GIVING YOU,F_2OJipS72nB2iBVS,Untitled-2024-01-31-1809 PNG ONLY.png,89066,image/png,PEACE,GIVING UP TO LET THE JOY OF OTHERS,YOU GIVE,F_3hsUfTGdvK9OguP,Untitled-2024-01-31-1809 PNG ONLY.png,89066,image/png,"LOVE ",6,5,7,3,6,IT WAS TO CREAT LIFE OF GIVING IN POEPLE WHOM HAS LOST HOPE. ASTHE NATURE WE LIVE AT IS LIKING THE BEAUTY OF IT SO IT HARD TO LET GO OF THIS,"Had difficulty developing many mental imageries.,Had difficulty developing novel mental imageries.,Had difficulty vividly visualizing (drawing) my mental imagery.",BECAUSE SO MANY THING TO THINK OF AND COMES TO MIND,SOME IMAGE LET ME DOWN,IT WAS HARD DRAWING USING THE PC,,,WAS IS BEYOND WHAT WE SEE WITH NAKED EYES AND SOMETIME WE DONT SEE WHAT IS IN FRONT OF US AND WE FAIL TO UNDERSTAND THE NATURE OF THIS VISUAL IMAGERY,textual,IT WAS A BEAUTIFUL TEXTURE,,,"YES SO I CAN LEARN MORE ABOUT THE IT AND I CAN BE THE BETTER IN THE FUTURE OF ART THIS VISUAL ART IS THE LIFE WE NEED ",Take a screenshot of the visual element with the rectangular frame around it.,6127547b385c9d9bc30d476f
+2024-01-31 08:26:08,2024-01-31 09:42:19,IP Address,102.222.199.106,100,4571,True,2024-01-31 09:42:25,R_6HiFe8yRLu6KCIR,,,,,-25.7599,28.2604,anonymous,EN,"Yes, I consent to participate.",650aefa7cadfbf2394e47632,Yes,Yes,Weekly,I usually draw according to my emotions.,"Yes, I am pursuing a degree in visual arts.",,5,4,4,"Christmas tree, Hierarchy",Christmas tree,F_2X1fyxp32GifXms,christmas tree.png,29899,image/png,Feeling frosty,"Cross, Spear",Spear,F_10Bm9dmphq1PR9c,Spear.png,19428,image/png,Tribe,"Burger, cake, car",Car,F_a8Z9qCsQCX5zNCN,car.png,19615,image/png,Keep moving,"Rectangle, Triangle",Trangles,F_1jEfKfyVEk2asIK,trangles.png,19509,image/png,Shape of innovation,"Sunflower, Rose ",Rose,F_2PvUjIH8jOXPiIr,Untitled-2024-01-31-1740.png,56189,image/png,Live life in full bloom,"Rugby ball, an oval shape, hot dog, a pie shape, a seed",Rugby ball,F_3MAkvjYWcMQf3vj,rugby ball.png,35048,image/png,Lets play,"Infinity, relaxing chair",Relaxing chair,F_9HvDxIYrE12REt3,chair.png,52485,image/png,Life is about relaxing,7,7,7,4,7,"I would just zone out or look around to think of something that I could draw and once I set my eyes on something, then I start drawing what is on my mind.","Had difficulty developing many mental imageries.,Had difficulty developing novel mental imageries.,Had difficulty vividly visualizing (drawing) my mental imagery.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.",,,,,,My emotions are my inspiration. They make me draw down what I am feeling. I express my feeling through drawing.,textual,,,,"No, it is so hard to think of or generate creative mental imagery, with or without support. It needs time, concentration, dedication and also a clear mind.",Take a screenshot of the visual element with the rectangular frame around it.,650aefa7cadfbf2394e47632
+2024-01-31 08:49:45,2024-01-31 09:44:55,IP Address,82.11.135.82,100,3309,True,2024-01-31 09:45:01,R_4EXsi7EL6HEfhqV,,,,,50.8429,-0.1158,anonymous,EN,"Yes, I consent to participate.",65ae75b0066b2d1c8156bae2,Yes,Yes,Weekly,"I draw for fun or I draw when Im making a present for a friend or relative ","Yes, I have a degree in visual arts.",,,6,5,"tree,tenent,hat,nose,sign,tipi,icecream,catsear,partyhat",partyhat,F_1Oq1AKGqYIb5M18,1.png,36978,image/png,"its a cats birthday party, he is wearing a party hat and behind him is a birthday banner and a balloon ","pen,house,notebook,arm,flower,firebaton, plant,bottle,cutlery,flag,mountain",mountain,F_eXlzMUhv3cNR1T3,2.png,46616,image/png,two snowy mountains with campsite at the bottom of the mountain. There is a small tent of a climber that have small fire on to get warmth. The sky only have  one cloud on and there are birds flying over,"sunset,belly,bowloffood,eye,mountain,hillwave,arm,icecream,dessert",sunset,F_BWbRoimmbBU0fvz,2.png,28692,image/png,"couple in love sitting on a boat on a sea and enjoying the sunset. ","fork,noodles,zebracrossing,notebook,tracks,bridge,road,motorway",tracks,F_YS2jJDAXTJ4P1pD,1.png,37626,image/png,"car waiting on a train crossing as the train is passing on tracks, gates are closed so the car doesnt go on the tracks when there is incoming train","sign,candy,person,tongue,mouth,face,hair,animal,tree",person,F_3G1W1aUHSqqTsd2,2.png,40535,image/png,person that just bought an ice cream have dropped it by accident and they are covering their mouth in shock as they see their sweet treat fall,"vagina,belly,candy,head,fruit,piniata,pillow,balloon,fish,beehive,egg,easter",piniata,F_r1MXmbJ0nUy7h6x,2.png,45961,image/png,"boy hitting a piñata as its his birthday and there is a birthday part, there is table with his birthday cake in the background ","waves,book,shoe,shirtcollar,flower,dessert,surfer",surfer,F_3JenVtjPKDvmOm5,2.png,25630,image/png,"surfer on a sunny day went out to surf, thinking he did ""catch a wave"" was actually on top of a sea animal, surfer for a moment was surfing on top of a dolphin ",3,2,2,6,1,"I was trying to imagine what I could draw around it and was trying to find this shape around my room to get inspiration ","Had difficulty developing novel mental imageries.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.",,"it was hard sometimes to think of a creative scenario because in some cases i could only see simple drawings ",,"it was harder to add on more things as the box was quite small and i was working on laptop that made it harder to draw ",,"For me it helps looking around my room or outside to get inspiration from real life and real scenarios. I find that googling or looking up examples doesnt work for me and sometimes i feel like it does limits me so i find the best inspiration from things around me. People and places inspire me the most ",textual,"i rather get inspiration from text so i can imagine it visually if i see picture it does limit my imagination as i keep going back to image i already saw ",,,"I always find it helpful when someone talks me trough mental imaginary if they throw their ideas and we brainstorm together as sometimes people open my eyes to things I havent seen before and that kind of gets the ball rolling and helps me see more ",Take a screenshot of the visual element with the rectangular frame around it.,65ae75b0066b2d1c8156bae2
+2024-01-31 08:13:19,2024-01-31 09:45:56,IP Address,102.32.144.151,100,5557,True,2024-01-31 09:46:02,R_3nru3yEJ3Fxc7zj,,,,,-26.2309,28.0583,anonymous,EN,"Yes, I consent to participate.",6133f179d010ff586a101ac5,No,No,Rarely,painting for recreational purpose,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,4,4,"tent,house,rocket,arrow,window,letter,yieldsign",tent,F_XRqr0wjNCgfVf0t,1.png,62774,image/png,tent,"road,cane,crutch,triangle,lollipop,candle,bridge",road,F_1ouQ0v19APf5c5Y,2.png,53777,image/png,road,"eye,pillow,umbrella,bridge,speedhump,flowerpatch,hill",umbrella,F_UKq7EnTJNPdH82d,3.png,46352,image/png,umbrella,"river,fence,gate,road,pants,window,building",gate,F_2CxI4Qyi9xYt7Mg,4.png,37404,image/png,gate,"flower,tree,scissors,fruitbowl,hair,rose,olympicrings",flower,F_3Od44gD3BfpQcPD,5.png,75148,image/png,flower,"face,egg,pineaple,mango,lemon.droplet,seed,soap,avocado",pineapple,F_3hASLWHJmIASmlJ,6.png,69843,image/png,pineaple,"mug,fruitbowl,girl,jug,comb,soupbowl,hair,pot",mug,F_1kYsBB4VvyuKWzr,7.png,72180,image/png,mug,6,4,4,7,3,"trying to imagine as much images as possible.So that i have more options to choose from when drawing and also to see just how creative i can be  ","Had difficulty developing many mental imageries.,Had difficulty vividly visualizing (drawing) my mental imagery.",some of the drawings made it difficult to think of anything,,using a mouse to draw was a bit difficult,,,"an example of one image so one can have an idea as to what to imagine
+also a description of the kinds of images you cant come up with would be a great heelp.",textual,"a little bit of description to help ",,,"yes ,to be able to draw better and challenge my creativity survey could be set up in an easier manner so that everything can be done under one tab to make it more easier to complete the task on time",Take a screenshot of the visual element with the rectangular frame around it.,6133f179d010ff586a101ac5
+2024-01-31 08:56:41,2024-01-31 09:50:32,IP Address,102.182.46.176,100,3230,True,2024-01-31 09:50:37,R_1gOxxKcTF8zV8xX,,,,,-26.2309,28.0583,anonymous,EN,"Yes, I consent to participate.",6566c12f1f70541c740d8841,Yes,Yes,Weekly,"Sketch drawing, i draw as a hobby","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,3,3,beacon sign,happy face,F_STSwi5G6jDUqMKd,Screenshot 2024-01-31 180756.png,15159,image/png,smiley face,rod stick,sunset,F_1rqxCFoCC10z8Qu,Screenshot 2024-01-31 181335.png,19761,image/png,Sunset hill,hump sign,stop sign,F_1pEaV89FaSR7euh,Screenshot 2024-01-31 183149.png,17426,image/png,stop sign,"parallel lines,3 lines",point of intersection,F_Y5nqyuwvtPjwS4x,Screenshot 2024-01-31 183929.png,14815,image/png,points of intersection,the letter T,company logo,F_3OogiL8rKsZ0oVJ,Screenshot 2024-01-31 184436.png,12121,image/png,3d letter t,"parenthesis,open semi-circle,curve,comma,and brackets",plain 2d picture of rubics cube,F_3nIyWsLvI8pwhgJ,Screenshot 2024-01-31 182340.png,6111,image/png,2d picture of rubics cube,infinity sign,tennis ball bat,F_U9Y3L1VE2hjApzP,Screenshot 2024-01-31 181932.png,9013,image/png,baseball bat and ball,6,4,5,3,3,i was drawing sketches that aligned with the ides that were given in the example pictures and what i thought they were,Had difficulty developing many mental imageries.,it was hard imagining what the pictures could be,,,,,More clear imagines or instructions about how to go about generating the images or what they can be about,pictorial,,this will give me a more clear visual idea,,so that i can improve my mental imagery generating without having to think for longer period of time,Take a screenshot of the visual element with the rectangular frame around it.,6566c12f1f70541c740d8841
+2024-01-31 08:13:22,2024-01-31 09:56:31,IP Address,41.116.77.253,100,6189,True,2024-01-31 09:56:37,R_3NTYkSTHOLIVfEH,,,,,-26.2309,28.0583,anonymous,EN,"Yes, I consent to participate.",6562461c175724ea7f18449f,Yes,No,A few times a year,i did archictectural drawing..of housing plans..in addition art basically,Other,,4,3,4,"basic needs,",basic needs,F_XnVMpCP8ag5okFP,visual element 1.png,32064,image/png,"representds shelter basics of a human needs ",scale,scale,F_3jfj0mH0C1oqn0K,visual element 2.png,26138,image/png,represents scale for weighing,"this represents stages of life a human goes through,this represents human capability",stages of life human  goes through,F_3nNNgoFFKA5VDyd,visual image 3.png,29822,image/png,stage a human goes through..basicall life is like a ladder as seen in the pic..you go through the top and face challenges..and come back down again..hoewer they is another chance of going back again,"reperesents that life is like a puzzle the future is unkwown,stages of human life as they grow",life is like a puzzle,F_3fN3eNG71H8kzNh,'=visual image 4.png,18974,image/png,represents that like is like a puzzle tomorrow it might be dark or next day day brighjt so hold on,"develepmont,infrastusture",development,F_By16Jcp1fIjQLmx,visual 2.png,48145,image/png,development in terms of our roads,"this might be the dreams of all individuals put together,this also represents the love and humilityor humanity inside human heart that everyone was born with,",love and humility inside human heart that everyone was born with,F_1g6AMTcXB93jjlp,visual element 6.png,58859,image/png,"it represents what a human being heart comprises  from day one when they are born....... ",represents human achievements,human achievements,F_3HZfEHzUEUk4sGV,visual image 7.png,21690,image/png,represents achievements made by a person at university as shown by the graduation cap,3,2,3,2,3,"used my brains to imagine and look at different angles create the mental imagery..Exploring different perspectives helped me uncover new insights, opportunities, and solutions.",Had difficulty expanding (transforming) my original mental imagery further to make it more creative.,,,,had to think outside the box of my brains,,would love to hear from different sources to generate more creative visual imagery..basicaly from the internet...sources from the internet provide wide variety of answers on solutions,pictorial,,its gives picture into the brain,,it will help me to create more mental imagery informastion and help the future generation...in addition more peope can learn and reconstruct ideas form the mental images that i designed,Take a screenshot of the visual element with the rectangular frame around it.,6562461c175724ea7f18449f
+2024-01-31 08:08:54,2024-01-31 09:56:39,IP Address,102.217.178.126,100,6464,True,2024-01-31 09:56:45,R_6EcfXCJZ6Pr8CX3,,,,,-26.2309,28.0583,anonymous,EN,"Yes, I consent to participate.",616fecdd127553593aac3134,Yes,Yes,A few times a year,drawing animation like goku,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,1,2,2,"arrow, road sign, hat, rat, spaceship, direction arrow, top a building, house. ",house,F_RCUg6FSCFg5KfFT,1.png,29150,image/png,road hump,"robot, pen, pencil, colour pen, Cokie pen, walking stick, book, big book, small book",walking stick,F_3Lb7x8JK4A8mIxw,Untitled-2024-01-31-1720.excalidraw,57772,application/octet-stream,walking stick,"Egypt king drawings, speed hump, bumpy road , road sign hump attention ",road sign hump,F_1robqTxoO42NplK,Untitled-2024-01-31-1720.excalidraw,32776,application/octet-stream,spped hump,"car road, rail road, electric cable, long tread, many lines, fence, book lines",book lines,F_2wKv8WApGYsWkYF,Untitled-2024-01-31-1720.excalidraw,57772,application/octet-stream,book line,"tree, tree sump, Christmas tree, two ovals, two joints, adjustable wrench.",treee stump,F_3p9Kbn2jMMKAhAc,Untitled-2024-01-31-1720.excalidraw,127508,application/octet-stream,tree stump,"hourglass, curve girl, DNA, oval, chubby face, egg, cake, defective chromosome",CURVE girl,F_2RW9jMBxxo3vZRa,Untitled-2024-01-31-1720.excalidraw,41367,application/octet-stream,curvy lady,"eye of a tiger, eye of a human, eye of an elephant, eye of a pig, eye of a lion , eye of a one-eyed man",eye of a one-eyed man,F_2PzinOaRLh8DGD0,Untitled-2024-01-31-1720.excalidraw,44236,application/octet-stream,cyclops,5,5,2,5,3,i made a mistake but adding circles and more angles i am willing to return the study if you want me to and hope someone who will completely follow the instructions will be able to complete it properly or you could give me a second chance then i will do it the right way next time,Had difficulty developing many mental imageries.,forgive me but i used the instructions on the last image,,,,,"i know i won't get paid bu hope i helped in the study, and i am very much willing to return the study if Ur not satisfied. ",others,,,agian i was only able to follow the complete rules on the last image,"yes support is very important, honestly i did not see the option at first of viewing the video up until the last image, hope i could get another chance because i did a lot if mistakes.",Take a screenshot of the visual element with the rectangular frame around it.,616fecdd127553593aac3134
+2024-01-31 09:02:55,2024-01-31 10:00:02,IP Address,74.141.160.243,100,3427,True,2024-01-31 10:00:07,R_60rgLndSL1NfpPo,,,,,39.953,-83.0767,anonymous,EN,"Yes, I consent to participate.",654142b51c0cbebefa6f3ea0,Yes,Yes,Weekly,"typically it's for some kind of home decor project. ","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,4,4,"teepee,birthday hat,duck bill,letter a,roof of house,cat ear",teepee,F_2wcaPC4XGwj85nl,1.png,19075,image/png,native home,"seesaw,sideways face,road,spaghetti noodle,hair,bone,caterpillar",seesaw,F_6YjOS14Iu1ajlEl,2.png,17509,image/png,up high on seesaw,"hill,half of a butt,birds eye view of stage and stadium,hamburger",hamburger,F_Td5HPjlc8FpY0gh,3.png,16685,image/png,burger,"sheet music lines,road,river,noodles,frogger game,letter e",sheet music lines,F_1IABIDVtkl5YNWM,4.png,16366,image/png,sheet music,"person,person dancing,conductor,cursive e,flower stem",cursive e,F_33B8ithFXwyaqY6,5.png,13820,image/png,cursive writing,"teddy bear,hips,egg,body without arms,oval,booty,backside",teddy bear,F_3sbR4jhN4RGIWMj,6.png,25732,image/png,teddy bear,"person eating,person talking,boat on the ocean,bird riding wave",boat on the ocean,F_yjNg5nwb9IaOfF7,7.png,17477,image/png,boat on waves,6,3,2,6,3,just trying to draw my best with a touchpad mouse despite the difficulty. then trying to draw what i saw specifically in my head,Had difficulty vividly visualizing (drawing) my mental imagery.,,,"used a touchpad, hard to navigate",,,i don't know how to answer this question. it is worded weird and i can't answer a question i dont understand,pictorial,,because it'd be easier to visualize,,i don't understand the question. i can't answer a question i don't understand. maybe i could if it was asked a different way,Take a screenshot of the visual element with the rectangular frame around it.,654142b51c0cbebefa6f3ea0
+2024-01-31 09:05:56,2024-01-31 10:08:31,IP Address,188.143.0.187,100,3755,True,2024-01-31 10:08:38,R_2qlLAeRkA2GBxB9,,,,,47.5636,19.0947,anonymous,EN,"Yes, I consent to participate.",60f43127b2b2e32120869426,Yes,Yes,Weekly,"Just for fun, making pictures with AI","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,5,7,6,"house roof, compass, arrow, tent, mountain",compass,F_1CKhz4y8tExY7qt,1.png,105010,image/png,I am looking at North.,"wall clock, stopwatch, ladder, wifi antenna",wall clock,F_Qnxbbb1mfCDLuFz,2.png,63232,image/png,"Its almost night, lets go sleep.","Sunset, waterwave, house roof, elephant foot",elephant foot,F_R1W9v4AClzygN9f,3.png,98314,image/png,Elephant drinking water.,"bars, ladder, pipes, name cells on a book, ",name cells on a book,F_41R12jKk8moenfP,4.png,82814,image/png,My math book from 2010,"Flower, tree, footballs, basketballs, bicycle",bicycle,F_1FOCircKj4UT156,5.jpg,126682,image/png,Ride my bicycle on a sunny day.,"bottle, big tree, cell, pillars, antennas, river  ",bottle,F_29dpjoOGFkBSPnL,6.png,112905,image/png,A half filled bottle.,"fish, eyes, sandstorm, water waves, fence decor",fish,F_1IlRT5eClIJXIkV,7.png,99803,image/png,Happy fish's happy life.,2,1,2,7,2,"I tried to imagine all possible pictures what I can creat with these starting pictures, and than tried to draw one of them.",Others,,,,,find the greatest option,With help of the AI I can create a lot more pictures and It can give a lot more ideas what to draw and how to use these starting pictures.,pictorial,,,,Searching on the internet for more ideas or using AI to give a lot of examples what could I draw. It can be more inspirating than anything else.,Take a screenshot of the visual element with the rectangular frame around it.,60f43127b2b2e32120869426
+2024-01-31 09:21:04,2024-01-31 10:20:43,IP Address,79.147.85.140,100,3579,True,2024-01-31 10:20:49,R_2SdZC9R4fDzwBVV,,,,,36.7125,-4.407,anonymous,EN,"Yes, I consent to participate.",5d67b6d92b7448000173d95a,Yes,Yes,Rarely,"I sometimes do doodles but I'm not good at drawing ","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,2,2,"tent,eye,mountain,tree,beak,fish,mouth",fish,F_3q88XS0tiRcgcur,1.png,121100,image/png,Koi fish going up a waterfall,"bracelet,road,axolotl,face,traffic,lights,car",axolotl,F_2CK9cEF6HbBDzdu,2.png,58014,image/png,axolotl swimming towards you,"sunset,closed eye,scorpion tail,car,computer mouse,window,belt",sunset,F_Uu0WYfCWb1BjHep,3.png,36775,image/png,Sunset by the sea,"bacon,stream,hamburger,river,wind,road,table",hamburger,F_2QA69m1viE9lsVy,4.png,50222,image/png,Burger and fries menu,"Hair,scissors,eye,legs,cross,",legs,F_8hT7961RcSorCqR,5.png,59421,image/png,Running in nature,"parenthesis,eye,muscle,cactus,balloon,worms,hot air balloon,",cactus,F_1OVqy8RXm7OFvby,6.png,65238,image/png,Desertic landscape,"wave,cloth,pringle,hero cape,birds,eyebrow,whale,fish",hero cape,F_1LbdbPZ1RGjJaUu,7.png,61809,image/png,Superman watching over the city,6,2,3,4,5,"I didn't have any strategies, I just wrote whatever came to mi mind in which i could include the element","Had difficulty developing many mental imageries.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.","When I think of something I want to draw, I can't get my mind to think of other ideas",,,I'm just not good at it,,"I like to hear from children. They have such a good imagination and my kids always have a lot of creative ideas. For example, I thought about an axolotl because my son adores them and likes to draw them",pictorial,,I'm not good at visualizing text in my mind so I prefer images,,"It's not really one of my concerns but I guess it would be cool. However I'm aware of the moral issues of AIs using stolen content from artists over the Internet, so I wouldn't use it unless I was sure that the data banks were obtained through reliable, trustworthy sources that supported artists",Take a screenshot of the visual element with the rectangular frame around it.,5d67b6d92b7448000173d95a
+2024-01-31 10:16:43,2024-01-31 11:07:12,IP Address,84.65.178.2,100,3028,True,2024-01-31 11:07:17,R_8fEBromNTAbll1D,,,,,53.5866,-2.4354,anonymous,EN,"Yes, I consent to participate.",571a78f06a1c6300114b8d80,Yes,Yes,Monthly,"Just doodling or drawing for fun. I use pencils and coloured pens. ","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,4,5,4,"tent,wigwam,eye,icecream,house",house,F_1GKskYloe9CRsNb,Untitled-2024-01-31-1738.png,20066,image/png,A house in the woods.,"frog,ruler,house,knife,carrot, pencil,",pencil,F_2fH7tzYXFuO1AbD,Untitled-2024-01-31-1800.png,21910,image/png,pencil drawing in a book,"eye,bridge,sunrise,muscles,",eye,F_30c8EC1LlSeAlKN,Untitled-2024-01-31-1733.png,13652,image/png,An eye waking up.,"book,sandwich,burger,road,menu,smile,",smile,F_1UiVnLPr5EzbHlD,Untitled-2024-01-31-1720.png,19203,image/png,A big smile,"dancer,house, legs,man,profile of face,",dancer,F_2BfaC3C0VL1kB50,Untitled-2024-01-31-1750.png,17983,image/png,A dancer at a party,"vase of flowers,body,eye,flower,ant,bee,seed,carrot",flower,F_24BMS6vktfzfOs3,Untitled-2024-01-31-1743.png,25621,image/png,Top half of a flower in bloom.,"waves of sea,eye,flowers,boat,bird",bird,F_cGPu2U6T47dL0Hv,Untitled-2024-01-31-1747.png,18249,image/png,A bird in the trees.,2,2,1,5,1,"Just trying to see the designs from different perspectives and think outside of the box. I looked around my surroundings and thought about recent things I'd seen outside the house. ",Had difficulty developing many mental imageries.,"I think I got a bit repetitive in the end. ",,,,,"just books and general things I would find around the house or from a web search. things I encounter in every day life and perhaps books I've recently read or heard about. ",pictorial,,"Images give me greater inspiration that words. ",,"I have used chat Gpt before to get inspiration from art and images. It's often not exactly what i want but does help to give me fresh ideas what I wouldn't usually have thought about. ",Take a screenshot of the visual element with the rectangular frame around it.,571a78f06a1c6300114b8d80
+2024-01-31 08:59:57,2024-01-31 11:20:49,IP Address,196.39.211.42,100,8452,True,2024-01-31 11:20:55,R_6LL59wcdl94AZjP,,,,,-26.2309,28.0583,anonymous,EN,"Yes, I consent to participate.",614759cfe568048a1689b38a,Yes,Yes,Monthly,I use it for creating my album drawings because I become more creative with it coming up with new Ideas.,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,5,5,6,"Triangle,Tree,Table,Tent",Tree,F_3MG10FEXXI4DglO,1.png,36407,image/png,It represents a tree that it is the streets where people will come and chill and cars,"Door,steps,stephill,door",Door,F_3CVH8h1pHvWYbwH,2.png,24477,image/png,It is a door that it used to open to enter the house,"couch,bridge,door,mountain,bridgeroad",bridgeroad,F_3CINtCTjx41qKri,3.png,30358,image/png,It is a road that it is used by cars to drive through it going somewhere,"window,roof,table,road",Road,F_1i5nUNhOYRstSf9,4.png,16569,image/png,"It is road that can be used for cars ","Tree,Cup,Table","Table ",F_2Sw3q9FAyLuEyqI,5.png,42411,image/png,It represents a table with two chairs for people to stay,"ball,box,clay,egg,flower,tree,leg,rugbyball,baseball",flower,F_udWF1yZP6FqblgB,6.png,47212,image/png,Its a flower that it outside and cloudy it is shows that it is raining so that the flower can get rain,"wheel,cloths,Table,Human",Person,F_BsQak5RVtL387zr,7.png,30966,image/png,It represents a boy walking in streets while the sun is out and shining.,7,7,6,6,4,To try to come up with simply thing that we use most of the times and coming up with new ideas to add so that it can be creative,"Had difficulty developing many mental imageries.,Had difficulty developing novel mental imageries.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.","trying to compete with time which was difficult ",Yes,,It was tough when it comes in drawing,,"I just want to get something it is easy to use and it easy to everyone eyes it must be easy for people to get it and undersstabd it ",textual,It is one of the best to use,,,Yes because it is not easy and the drawing part is not simple thats only parts that were difficult to do especially if you are not a good drawer,Take a screenshot of the visual element with the rectangular frame around it.,614759cfe568048a1689b38a
