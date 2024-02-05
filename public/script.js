@@ -15,7 +15,9 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-function displayImage(imagePath) {
+function displayImage(imageData) {
   const container = document.getElementById("imageContainer");
-  container.innerHTML = `<img src="${imagePath}" alt="Image">`;
+  console.log("image" + imageData.original);
+  const specificImageSrc = imageData.specific ? imageData.specific : imageData.original; // Use specific image if available
+  container.innerHTML = `<img src="${specificImageSrc}" alt="Image"> <img src="${imageData.original}" alt="Image">`;
 }
