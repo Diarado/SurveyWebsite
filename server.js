@@ -1,5 +1,6 @@
 const express = require('express');
-const fs = require('fs').promises;
+const fs = require('fs');
+const fsp = fs.promises; 
 const path = require('path');
 const csv = require('csv-parser');
 const app = express();
@@ -9,15 +10,18 @@ const PORT = 3000;
 async function readCSV(filePath) {
   const resIDs = [];
   const stream = fs.createReadStream(filePath).pipe(csv());
+  let cnt = 0;
   for await (const row of stream) {
-    resIDs.push(row.ResponseId);
+    cnt++;
+    if (cnt > 2) resIDs.push(row.ResponseId);
   }
   return resIDs;
 }
 
 // filter images by prefix
 async function filterImagesByPrefix(folderPath, prefix) {
-  const files = await fs.readdir(folderPath);
+  console.log("prefix" + prefix);
+  const files = await fsp.readdir(folderPath);
   return files.filter(file => file.startsWith(prefix));
 }
 
@@ -26,19 +30,21 @@ async function generateImagePaths() {
   const folders = ["VE1_4", "VE2_4", "VE3_4", "VE4_4", "VE5_4", "VE6_4", "VE7_4"];
   let images = [];
 
-  const filePath = path.join(__dirname, 'data/dat.csv');
-  console.log(filePath);
+  const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
   const resIDs = await readCSV(filePath);
-  console.log(resIDs);
   for (let folder of folders) {
-    const folderPath = path.join(__dirname, 'public/images', folder);
+    const folderPath = path.join(__dirname, 'public', 'images', folder);
     for (let resID of resIDs) {
       const matchedFiles = await filterImagesByPrefix(folderPath, resID);
-      matchedFiles.forEach(file => images.push(`${folder}/${file}`));
+      matchedFiles.forEach(file => images.push(`/images/${folder}/${file}`));
     }
   }
 
-  // shuffle the images array if needed
+  // shuffle 
+  for (let i = images.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1)); 
+    [images[i], images[j]] = [images[j], images[i]]; 
+  }
 
   return images;
 }
@@ -49,18 +55,23 @@ app.use(express.static('public'));
 // API endpoint to fetch image paths
 app.get('/api/images', async (req, res) => {
   try {
-    //const images = await generateImagePaths();
-    images = [];
-    images.push('/images/VE1_4/R_1GC6mVOXXCVavLK_1.png');
+    images = await generateImagePaths();
+    const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
+    console.log(filePath);
 
+    const resIDs = await readCSV(filePath);
+    console.log(resIDs);
+
+    //console.log(resIDs);
+    //images = [];
+    //images.push('/images/VE1_4/R_1GC6mVOXXCVavLK_1.png');
     res.json(images);
   } catch (error) {
     console.error('Failed to generate image paths:', error);
-    res.status(500).send('Server error');
+    res.status(500).send('Server error!');
   }
 });
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
-
