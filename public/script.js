@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function displayImage(imageData) {
   const container = document.getElementById("imageContainer");
   console.log("image" + imageData.original);
-  const specificImageSrc = imageData.specific ? imageData.specific : imageData.original; // Use specific image if available
-  container.innerHTML = `<img src="${specificImageSrc}" alt="Image"> <img src="${imageData.original}" alt="Image">`;
+  const specificImageSrc = imageData.specific ? imageData.specific : imageData.original; 
+  container.innerHTML = `<img src="${specificImageSrc}" alt="Image" width="200" height="200"> <img src="${imageData.original}" alt="Image" width="200" height="200">`;
 }
+
