@@ -114,3 +114,37 @@ app.get('/api/images', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+
+
+// // database
+
+// const { Pool } = require('pg');
+
+// const pool = new Pool({
+//   user: 'survey_zjns_user',
+//   host: 'dpg-cn0n8q0cmk4c73df2kh0-a',
+//   database: 'survey_zjns',
+//   password: 'nZt3rWMibksMphLRdkJvKVtTRCO9iaUS',
+//   port: 5432, // default port for postgres
+// });
+
+// app.post('/submit-slider-values', async (req, res) => {
+//   const { vividness, original, transform } = req.body;
+
+//   const query = 'INSERT INTO slider_values (vividness, original, transform) VALUES ($1, $2, $3)';
+
+//   try {
+//     const client = await pool.connect();
+
+//     try {
+//       await client.query(query, [vividness, original, transform]);
+
+//       res.send('Slider values saved successfully.');
+//     } finally {
+//       client.release();
+//     }
+//   } catch (error) {
+//     res.status(500).send('Error saving data to the database');
+//     console.error('Error executing query', error.stack);
+//   }
+// });
