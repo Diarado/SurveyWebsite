@@ -5,6 +5,11 @@ const path = require('path');
 const csv = require('csv-parser');
 const app = express();
 const PORT = 3000;
+app.use(express.json());
+
+const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+
+
 
 // read CSV and return an array of resIDs
 async function readCSV(filePath) {
@@ -55,6 +60,7 @@ async function generateImagePaths() {
   let images = [];
 
   const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
+  console.log(filePath);
   const resIDs = await readCSV(filePath);
   for (let folder of folders) {
     const folderPath = path.join(__dirname, 'public', 'images', folder);
@@ -116,6 +122,20 @@ app.listen(PORT, () => {
 });
 
 
+
+
+
+
+
+// app.get('api/items',(req,res) => {
+//   res.send('sending items from DB')
+// })
+
+// app.post('api/items',(req,res) => {
+//   res.status(201).send('sent the new data to DB')
+// })
+
+
 // // database
 
 // const { Pool } = require('pg');
@@ -146,5 +166,66 @@ app.listen(PORT, () => {
 //   } catch (error) {
 //     res.status(500).send('Error saving data to the database');
 //     console.error('Error executing query', error.stack);
+//   }
+// });
+
+
+
+
+
+
+
+
+//Set up the CSV writer
+
+// const csvWriter = createCsvWriter({
+//   path: path.join(__dirname, 'public', 'data', 'surveydata.csv'), // Make sure this path is correct
+//   append: true, // This will append records instead of overwriting the file
+//   header: [
+//     { id: 'vividness', title: 'VIVIDNESS' },
+//     { id: 'original', title: 'ORIGINAL' },
+//     { id: 'transform', title: 'TRANSFORM' }
+//   ]
+// });
+// console.log(csvWriter);
+
+
+// // Data to be inserted
+// const data = [
+//   {
+//     vividness: 1,
+//     original: 1,
+//     transform: 1
+//   }
+// ];
+
+// // Insert the data into the CSV file
+// csvWriter.writeRecords(data)
+//   .then(() => {
+//     console.log('Data was appended successfully into the file');
+//   })
+//   .catch(err => {
+//     console.error('An error occurred:', err);
+//   });
+
+// app.post('/api/submit-slider-values', async (req, res) => { // Corrected the route here
+//   // Extract slider values from the request body
+//   const { vividness, original, transform } = req.body;
+
+//   // Create a record object matching the CSV writer headers
+//   const record = [
+//     { vividness, original, transform }
+//   ];
+
+//   try {
+//     // Write the record to the CSV file
+//     await csvWriter.writeRecords(record);
+
+//     // If no error, send a success message to the client
+//     res.send('Slider values saved successfully to CSV.');
+//   } catch (error) {
+//     // If an error occurs, send the error to the client
+//     res.status(500).send('Error saving data to the CSV file');
+//     console.error('Error writing to CSV file', error);
 //   }
 // });
