@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('nextImage').addEventListener('click', function () {
 
-    console.log('clicked');
 
     currentIndex = (currentIndex + 1) % imagePaths.length;
     displayImage(imagePaths[currentIndex]);
@@ -47,6 +46,20 @@ document.addEventListener("DOMContentLoaded", function() {
     // });
   });
 
+  // Listen for criteria button changes
+  document.getElementById('VividnessButton').addEventListener('click', function () {
+    displayPdf('vividness');
+  });
+
+  document.getElementById('OriginalButton').addEventListener('click', function () {
+    displayPdf('original');
+  });
+
+  document.getElementById('TransformButton').addEventListener('click', function () {
+    displayPdf('transform');
+  });
+
+
 });
 
 function resetSliders() {
@@ -63,3 +76,26 @@ function displayImage(imageData) {
   container.innerHTML = `<img src="${specificImageSrc}" alt="Image" width="400" height="400"> <img src="${imageData.original}" alt="Image" width="400" height="400">`;
 }
 
+
+//function to display grading criteria
+function displayPdf(sliderName) {
+  const pdfUrls = {
+    vividness: './grading_criteria/vividness.pdf', 
+    original: './grading_criteria/originality.pdf', 
+    transform: './grading_criteria/transfromation.pdf' 
+  };
+
+  console.log(pdfUrls);
+
+  const pdfContainer = document.getElementById("pdfContainer") || createPdfContainer();
+  pdfContainer.innerHTML = `<iframe src="${pdfUrls[sliderName]}" style="width:700px; height:1000px;" frameborder="0"></iframe>`;
+  console.log('pdf updated')
+}
+
+// Helper function to create a container for the PDF if it doesn't already exist
+function createPdfContainer() {
+  const container = document.createElement('div');
+  container.id = "pdfContainer";
+  document.body.appendChild(container);
+  return container;
+}
