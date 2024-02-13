@@ -7,8 +7,8 @@ const app = express();
 const PORT = 3000;
 app.use(express.json());
 
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
-
+//const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+app.use(express.static('public')); 
 
 
 // read CSV and return an array of resIDs
@@ -28,30 +28,6 @@ async function filterImagesByPrefix(folderPath, prefix) {
   //console.log("prefix" + prefix);
   const files = await fsp.readdir(folderPath);
   return files.filter(file => file.startsWith(prefix));
-}
-
-// generate image paths
-async function generateImagePaths1() {
-  const folders = ["VE1_4", "VE2_4", "VE3_4", "VE4_4", "VE5_4", "VE6_4", "VE7_4"];
-  let images = [];
-
-  const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
-  const resIDs = await readCSV(filePath);
-  for (let folder of folders) {
-    const folderPath = path.join(__dirname, 'public', 'images', folder);
-    for (let resID of resIDs) {
-      const matchedFiles = await filterImagesByPrefix(folderPath, resID);
-      matchedFiles.forEach(file => images.push(`/images/${folder}/${file}`));
-    }
-  }
-
-  // shuffle 
-  for (let i = images.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1)); 
-    [images[i], images[j]] = [images[j], images[i]]; 
-  }
-
-  return images;
 }
 
 // generate image paths
@@ -97,30 +73,33 @@ async function generateImagePaths() {
 // Serve static files from 'public' directory
 app.use(express.static('public'));
 
-// API endpoint to fetch image paths
-app.get('/api/images', async (req, res) => {
+/// API endpoint to fetch specific image paths based on set number
+app.get('/api/images/:set', async (req, res) => {
   try {
-    images = await generateImagePaths();
-    const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
-    console.log(filePath);
+      const setNumber = parseInt(req.params.set, 10);
+      const imagesPerSet = 7;
+      const images = await generateImagePaths(); // generate all possible image paths
 
-    const resIDs = await readCSV(filePath);
-    console.log(resIDs);
+      // calculate the slice of images to return based on the set number
+      const startIndex = (setNumber - 1) * imagesPerSet;
+      const endIndex = startIndex + imagesPerSet;
+      const selectedImages = images.slice(startIndex, endIndex);
 
-    //console.log(resIDs);
-    //images = [];
-    //images.push('/images/VE1_4/R_1GC6mVOXXCVavLK_1.png');
-    res.json(images);
+      res.json(selectedImages);
   } catch (error) {
-    console.error('Failed to generate image paths:', error);
-    res.status(500).send('Server error!');
+      console.error('Failed to generate image paths:', error);
+      res.status(500).send('Server error!');
   }
+});
+
+// catch-all route to serve index.html for any non-API requests
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
-
 
 
 

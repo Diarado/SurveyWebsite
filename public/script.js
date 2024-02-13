@@ -2,17 +2,21 @@ document.addEventListener("DOMContentLoaded", function() {
   let imagePaths = [];
   let currentIndex = 0;
 
-  console.log('Script started.'); 
+  // to extract set number from URL path
+  const setNumberMatch = window.location.pathname.match(/\/(\d+)/);
+  const setNumber = setNumberMatch ? setNumberMatch[1] : 1;
 
-  fetch('/api/images')
+  fetch(`/api/images/${setNumber}`)
       .then(response => response.json())
       .then(data => {
           imagePaths = data;
-          displayImage(imagePaths[currentIndex]);
-      });
-
-
-
+          if (imagePaths.length > 0) {
+              displayImage(imagePaths[currentIndex]);
+          } else {
+              console.log('No images found for this set.');
+          }
+      })
+      .catch(error => console.error('Error fetching images:', error));
 
   document.getElementById('nextImage').addEventListener('click', function () {
 
@@ -22,28 +26,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     resetSliders();
 
-    // var vividness = document.getElementById('vividnessSlider').value;
-    // var original = document.getElementById('originalSlider').value;
-    // var transform = document.getElementById('transformSlider').value;
-
-    // console.log('value get');
-  
-    // // Send the data to the server using the Fetch API
-    // fetch('/api/submit-slider-values', {
-    //   method: 'POST', // Using POST method for sending data
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify({ vividness: vividness, original: original, transform: transform }),
-    // })
-    // .then(response => response.json())
-    // .then(data => {
-    //   console.log('Success:', data);
-    //   // Optionally, you can reset the sliders here if needed or handle any UI updates
-    // })
-    // .catch((error) => {
-    //   console.error('Error:', error);
-    // });
+    if (currentIndex < imagePaths.length - 1) {
+          currentIndex++;
+          displayImage(imagePaths[currentIndex]);
+      } else {
+          showThankYouMessage();
+      }
   });
 
   // Listen for criteria button changes
@@ -60,20 +48,13 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 
+  // });
+  
 });
-
-function resetSliders() {
-  document.getElementById('vividnessSlider').value = 3; // Resetting the slider to the middle value
-  document.getElementById('originalSlider').value = 3; // Resetting the slider to the middle value
-  document.getElementById('transformSlider').value = 3; // Resetting the slider to the middle value
-}
-
 
 function displayImage(imageData) {
   const container = document.getElementById("imageContainer");
-  console.log("image" + imageData.original);
-  const specificImageSrc = imageData.specific ? imageData.specific : imageData.original; 
-  container.innerHTML = `<img src="${specificImageSrc}" alt="Image" width="400" height="400"> <img src="${imageData.original}" alt="Image" width="400" height="400">`;
+  container.innerHTML = `<img src="${imageData.specific ? imageData.specific : imageData.original}" alt="Image" width="400" height="400"> <img src="${imageData.original}" alt="Image" width="400" height="400">`;
 }
 
 
@@ -98,4 +79,16 @@ function createPdfContainer() {
   container.id = "pdfContainer";
   document.body.appendChild(container);
   return container;
+
+}
+function showThankYouMessage() {
+  const appContent = document.body; 
+  appContent.innerHTML = '<h1>Thank You for participating!</h1><p>You can now close this window.</p>';
+  appContent.innerHTML += '<button onclick="window.close();">Close Window</button>';
+}
+
+function resetSliders() {
+  document.getElementById('vividnessSlider').value = 3;
+  document.getElementById('originalSlider').value = 3;
+  document.getElementById('transformSlider').value = 3;
 }
