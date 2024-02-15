@@ -60,14 +60,29 @@ async function generateImagePaths() {
       });
     }
   }
+  
 
   // shuffle 
+  const rng = LCG(12345); 
   for (let i = images.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1)); 
-    [images[i], images[j]] = [images[j], images[i]]; 
+    const j = Math.floor(rng() * (i + 1));
+    [images[i], images[j]] = [images[j], images[i]];
   }
 
   return images;
+}
+
+function LCG(seed) {
+  const a = 1664525;
+  const c = 1013904223;
+  const m = 2 ** 32;
+
+  let state = seed ? seed : Math.floor(Math.random() * m);
+
+  return function() {
+    state = (a * state + c) % m;
+    return state / m;
+  };
 }
 
 // Serve static files from 'public' directory
