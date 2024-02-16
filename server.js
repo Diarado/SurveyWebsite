@@ -88,24 +88,37 @@ function LCG(seed) {
 // Serve static files from 'public' directory
 app.use(express.static('public'));
 
-/// API endpoint to fetch specific image paths based on set number
-app.get('/api/images/:set', async (req, res) => {
-  try {
-      const setNumber = parseInt(req.params.set, 10);
-      const imagesPerSet = 7;
-      const images = await generateImagePaths(); // generate all possible image paths
+function hashProIDtoSetNum(pidHex, totalSets) { 
+    const pidDecimal = parseInt(pidHex, 16);
+    
+    return (pidDecimal % totalSets) + 1; 
+}
 
-      // calculate the slice of images to return based on the set number
-      const startIndex = (setNumber - 1) * imagesPerSet;
-      const endIndex = startIndex + imagesPerSet;
-      const selectedImages = images.slice(startIndex, endIndex);
+app.get('/api/images', async (req, res) => {
+    try {
+        const prolificPID = req.query.PROLIFIC_PID; 
+        const totalSets = images.length / 7; 
 
-      res.json(selectedImages);
-  } catch (error) {
-      console.error('Failed to generate image paths:', error);
-      res.status(500).send('Server error!');
-  }
+        // hash the PID to get a set number
+        const setNumber = hashProIDtoSetNum(prolificPID, totalSets);
+
+        const imagesPerSet = 7;
+        const images = await generateImagePaths(); 
+        
+        
+        const startIndex = (setNumber - 1) * imagesPerSet;
+        const endIndex = startIndex + imagesPerSet;
+        const selectedImages = images.slice(startIndex, endIndex);
+
+        res.json(selectedImages);
+    } catch (error) {
+        console.error('Failed to generate image paths:', error);
+        res.status(500).send('Server error!');
+    }
 });
+
+// Assuming your generateImagePaths function and other necessary setup are correctly implemented
+
 
 // catch-all route to serve index.html for any non-API requests
 app.get('*', (req, res) => {
