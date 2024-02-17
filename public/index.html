@@ -12,6 +12,10 @@
     <!-- Image will be inserted here by JavaScript -->
 </div>
 
+<div>
+  <p> Use this link below to submit your answers! </p>
+  <p>https://cornell.ca1.qualtrics.com/jfe/form/SV_8q87dpeZzOYdDi6</p>
+</div>
 
 <div id="sliders">
     <label for="vividnessSlider">Vividness</label>
@@ -86,11 +90,14 @@
     // Reference to your Firebase project and the database
     var database = firebase.database();
 
+    var vividness_value = document.getElementById('vividnessSlider').value;
+
     // Data to save
-    var userData = {
+    var User = {
     username: "newUser",
     email: "newuser@example.com",
-    profile_picture: "newUserProfilePic.jpg"
+    profile_picture: "newUserProfilePic.jpg",
+    vividness: vividness_value
     };
 
     // Creating a unique key for each user

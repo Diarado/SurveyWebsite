@@ -32,6 +32,37 @@ document.addEventListener("DOMContentLoaded", function() {
       } else {
           showThankYouMessage();
       }
+
+    // Reference to your Firebase project and the database
+    var database = firebase.database();
+
+    var vividness_value = document.getElementById('vividnessSlider').value;
+
+    // Data to save
+    var Value = {
+    username: "newUser",
+    email: "newuser@example.com",
+    profile_picture: "newUserProfilePic.jpg",
+    vividness: vividness_value
+    };
+
+    // Creating a unique key for each user
+    var userId = firebase.database().ref().child('users').push().key;
+
+    // Writing data to the specified user's ID under the users collection
+    firebase.database().ref('users/' + userId).set(userData, function(error) {
+    if (error) {
+        // The write failed...
+        console.log("Data could not be saved." + error);
+    } else {
+        // Data saved successfully!
+        console.log("Data saved successfully.");
+    }
+    });
+    
+
+
+
   });
 
   // Listen for criteria button changes
