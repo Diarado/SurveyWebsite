@@ -88,34 +88,35 @@ function LCG(seed) {
 // Serve static files from 'public' directory
 app.use(express.static('public'));
 
-function hashProIDtoSetNum(pidHex, totalSets) { 
-    const pidDecimal = parseInt(pidHex, 16);
+function hashProIDtoSetNum(pidDec, totalSets) { 
+    //const pidDecimal = parseInt(pidHex, 16);
     
-    return (pidDecimal % totalSets) + 1; 
+    return (pidDec % totalSets) + 1; 
 }
 
 app.get('/api/images', async (req, res) => {
-    try {
-        const prolificPID = req.query.PROLIFIC_PID; 
-        const totalSets = images.length / 7; 
+  try {
+      // Assuming PROLIFIC_PID is passed as a query parameter and should be parsed from hexadecimal
+      const prolificPID = parseInt(req.query.PROLIFIC_PID, 16);
+      
+      const images = await generateImagePaths();
+      const imagesPerSet = 7; 
+      const totalSets = Math.floor(images.length / imagesPerSet); // Ensure totalSets is an integer
 
-        // hash the PID to get a set number
-        const setNumber = hashProIDtoSetNum(prolificPID, totalSets);
+      // hash the PID to get a set number
+      const setNumber = hashProIDtoSetNum(prolificPID, totalSets);
+      
+      const startIndex = (setNumber - 1) * imagesPerSet;
+      const endIndex = startIndex + imagesPerSet;
+      const selectedImages = images.slice(startIndex, endIndex);
 
-        const imagesPerSet = 7;
-        const images = await generateImagePaths(); 
-        
-        
-        const startIndex = (setNumber - 1) * imagesPerSet;
-        const endIndex = startIndex + imagesPerSet;
-        const selectedImages = images.slice(startIndex, endIndex);
-
-        res.json(selectedImages);
-    } catch (error) {
-        console.error('Failed to generate image paths:', error);
-        res.status(500).send('Server error!');
-    }
+      res.json(selectedImages);
+  } catch (error) {
+      console.error('Failed to generate image paths:', error);
+      res.status(500).send('Server error!');
+  }
 });
+
 
 // Assuming your generateImagePaths function and other necessary setup are correctly implemented
 
