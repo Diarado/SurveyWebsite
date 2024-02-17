@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
       showThankYouMessage();
     }
 
-<<<<<<< HEAD
 //==========================================================
     // // Reference to your Firebase project and the database
     // var database = firebase.database();
@@ -60,29 +59,6 @@ document.addEventListener("DOMContentLoaded", function() {
 //==========================================================
 
 
-=======
-    // Assuming Firebase is correctly initialized and available
-    var database = firebase.database();
-    var vividness_value = document.getElementById('vividnessSlider').value;
-    var userData = {
-      username: "newUser",
-      email: "newuser@example.com",
-      profile_picture : "newUserProfilePic.jpg",
-      vividness: vividness_value
-    };
-
-    // Creating a unique key for each user
-    var userId = firebase.database().ref().child('users').push().key;
-
-    // Writing data to Firebase
-    firebase.database().ref('users/' + userId).set(userData, function(error) {
-      if (error) {
-        console.log("Data could not be saved." + error);
-      } else {
-        console.log("Data saved successfully.");
-      }
-    });
->>>>>>> 190395f56176c13d3f3bb709cb1db09c71dc5dc0
   });
 
   // Listen for criteria button changes
