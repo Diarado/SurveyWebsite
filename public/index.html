@@ -8,32 +8,38 @@
 </head>
 <body>
 
+<div id ="displayInput"></div>
+
 <div id="imageContainer">
     <!-- Image will be inserted here by JavaScript -->
 </div>
 
-<div>
-  <p> Use this link below to submit your answers! </p>
+<div id="instruction">
+  <p class = "inst_h1"> Click the link below to go to the survey. Answer questions and submit the survey.  </p>
   <a href="https://cornell.ca1.qualtrics.com/jfe/form/SV_8q87dpeZzOYdDi6">https://cornell.ca1.qualtrics.com/jfe/form/SV_8q87dpeZzOYdDi6</a>
 
 </div>
 
 <div id="sliders">
-    <label for="vividnessSlider">Vividness</label>
-    <input type="range" id="vividnessSlider" name="vividness" min="1" max="5" value="3">
-    <button id="VividnessButton">Show Vividness criteria</button>
+    <div id ="vividnessSliderDiv">
+      <label class="label" for="vividnessSlider">Vividness</label>
+      <input type="range" id="vividnessSlider" name="vividness" min="1" max="5" value="3">
+      <button id="VividnessButton">Show Vividness criteria</button>
+    </div>
+    
+    <div id ="originalSliderDiv">
+      <label for="originalSlider">Original</label>
+      <input type="range" id="originalSlider" name="original" min="1" max="5" value="3">
+      <button id="OriginalButton">Show Original criteria</button>
+    </div>
+    
+    <div id ="transformSliderDiv">
+      <label for="transformSlider">Transform</label>
+      <input type="range" id="transformSlider" name="transform" min="1" max="5" value="3">
+      <button id="TransformButton">Show Transform criteria</button>
+    </div>
 
-  
-    <label for="originalSlider">Original</label>
-    <input type="range" id="originalSlider" name="original" min="1" max="5" value="3">
-    <button id="OriginalButton">Show Original criteria</button>
-
-  
-    <label for="transformSlider">Transform</label>
-    <input type="range" id="transformSlider" name="transform" min="1" max="5" value="3">
-    <button id="TransformButton">Show Transform criteria</button>
-
-  </div>
+</div>
 
 <div id="pdfContainer" style="position: absolute; right: 30px; top: 30px;"></div>
   
@@ -43,78 +49,97 @@
 <script src="script.js"></script>
 
 
-<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDbmasMkVmn333tlHokVd2FWelcalzpDb8",
-    authDomain: "imageevaluation-897c8.firebaseapp.com",
-    projectId: "imageevaluation-897c8",
-    storageBucket: "imageevaluation-897c8.appspot.com",
-    messagingSenderId: "76850818566",
-    appId: "1:76850818566:web:5a3849c16deae45d0add87",
-    measurementId: "G-F2EDCY11Y6"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
-
-
-
 <script type="module">
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+  import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
   // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
 
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
-    apiKey: "AIzaSyDbmasMkVmn333tlHokVd2FWelcalzpDb8",
-    authDomain: "imageevaluation-897c8.firebaseapp.com",
-    projectId: "imageevaluation-897c8",
-    storageBucket: "imageevaluation-897c8.appspot.com",
-    messagingSenderId: "76850818566",
-    appId: "1:76850818566:web:5a3849c16deae45d0add87",
-    measurementId: "G-F2EDCY11Y6"
+    apiKey: "AIzaSyAXNN7TE_8-HIdR75kqQ47imZhrg3Qtfks",
+    authDomain: "imageeval-dd6e8.firebaseapp.com",
+    databaseURL: "https://imageeval-dd6e8-default-rtdb.firebaseio.com",
+    projectId: "imageeval-dd6e8",
+    storageBucket: "imageeval-dd6e8.appspot.com",
+    messagingSenderId: "238433835181",
+    appId: "1:238433835181:web:ca3ce01a2ad81408894e24",
+    measurementId: "G-5B424981D1"
   };
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
-</script>
+  const database = getDatabase(app);
 
 
-<script>
-    // Reference to your Firebase project and the database
-    var database = firebase.database();
 
-    var vividness_value = document.getElementById('vividnessSlider').value;
-    console.log(vividness_value)
 
-    // Data to save
-    var User = {
-    username: "newUser",
-    email: "newuser@example.com",
-    profile_picture: "newUserProfilePic.jpg"
-    };
 
-    // Creating a unique key for each user
-    var userId = firebase.database().ref().child('users').push().key;
 
-    // Writing data to the specified user's ID under the users collection
-    firebase.database().ref('users/' + userId).set(userData, function(error) {
-    if (error) {
-        // The write failed...
-        console.log("Data could not be saved." + error);
-    } else {
-        // Data saved successfully!
+
+  // Assuming you have an element with ID 'vividnessSlider' in your HTML
+  document.addEventListener('DOMContentLoaded', function() {
+
+    var userInput = prompt("Please enter your Prolific ID:", "Your ID");
+            if (userInput != null && userInput !== "") {
+                document.getElementById("displayInput").innerHTML =
+                "Hello " + userInput + "! Welcome to our study!";
+            }
+
+
+
+    set(ref(database, 'test/' + 'example'), { hello: 'world' })
+      .then(() => console.log("Simple data saved successfully."))
+      .catch((error) => console.log("Failed to save simple data.", error));
+
+
+    var saveUserDataButton = document.getElementById('nextImage'); // Use the 'Next Image' button to trigger user data save
+    saveUserDataButton.addEventListener('click', function() {
+      var vividness_value = document.getElementById('vividnessSlider').value;
+      var original_value = document.getElementById('originalSlider').value;
+      var transform_value = document.getElementById('transformSlider').value;
+
+      console.log(vividness_value, original_value, transform_value);
+
+      var userData = {
+        username: "newUser",
+        email: "newuser@example.com",
+        profile_picture: "newUserProfilePic.jpg",
+        scores: {
+          vividness: vividness_value,
+          original: original_value,
+          transform: transform_value
+        }
+      };
+
+      console.log(userData)
+
+      var userId = push(ref(database, 'users')).key;
+
+      console.log(userId)
+
+    
+
+      set(ref(database, 'users/' + userId), userData)
+      .then(() => {
         console.log("Data saved successfully.");
-    }
+      })
+      .catch((error) => {
+        console.log("Data could not be saved." + error);
+      });
+
+
+
+    
+
+
     });
 
+  });
 </script>
 
 
