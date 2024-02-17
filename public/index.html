@@ -92,13 +92,13 @@
     var database = firebase.database();
 
     var vividness_value = document.getElementById('vividnessSlider').value;
+    console.log(vividness_value)
 
     // Data to save
     var User = {
     username: "newUser",
     email: "newuser@example.com",
-    profile_picture: "newUserProfilePic.jpg",
-    vividness: vividness_value
+    profile_picture: "newUserProfilePic.jpg"
     };
 
     // Creating a unique key for each user

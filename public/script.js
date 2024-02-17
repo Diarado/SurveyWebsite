@@ -1,4 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
+
+
+
+
+
+
+
   let imagePaths = [];
   let currentIndex = 0;
 
