@@ -2,6 +2,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
+
 .image-item {
   margin: 20px 0;
 }
@@ -16,15 +18,29 @@ body {
   margin-top: 10px;
 }
 
+#top{
+  position: fixed;
+  top:0px;
+  margin-top: 10px;
+  width: 100%;
+ 
+
+}
+
+#imageContainer{
+  width: 50%;
+}
+
 #sliders{
 
   width: 50%;
-  margin-top: 50px;
+  margin-top: 420px;
+  background-color:rgb(248, 248, 248);
 }
 
 #instruction{
-  width: 100;
-  height: 10%;
+  width: 50%;
+  height:100px ;
   padding: 30px;
 
   background-color: aliceblue;
@@ -36,10 +52,92 @@ body {
   font-weight: 400;
 }
 
+
 #vividnessSliderDiv{
+  height: 100px;
+  margin-bottom: 10px;
+  background-color:rgb(206, 228, 240);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the children (slider and markers) horizontally */
   width: 100%;
+  box-sizing: border-box;
 }
 
-.vividnessSlider{
-  font-weight: 500;
+#originalSliderDiv{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color:rgb(238, 195, 195);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the children (slider and markers) horizontally */
+  width: 100%;
+  box-sizing: border-box;
 }
+
+#transformSliderDiv{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color:rgb(241, 238, 197);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the children (slider and markers) horizontally */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.label{
+  font-weight: 700;
+  font-size: large;
+}
+
+.definitionBox{
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+
+.definition{
+ margin-right: 15px;
+}
+
+
+input[type="range"] {
+  width: 80%; /* Make the slider span the full width */
+  margin: 0; /* Remove margin to align with the parent's edges */
+
+}
+
+.likert-markers {
+  display: flex;
+  justify-content: space-between; /* This will ensure the markers are evenly spaced and aligned with the slider's ends */
+  list-style-type: none;
+  margin: 10px 0 0 0; /* Adjust the margin to position the markers right below the slider */
+  padding: 0;
+  width: 80%; /* Ensure the markers container matches the slider's width */
+}
+
+.likert-markers li {
+  text-align: center;
+  /* Remove flex-grow as we want explicit control over the first and last items */
+}
+
+/* Additional CSS to ensure first and last markers align exactly with the slider ends */
+.likert-markers li:first-child, .likert-markers li:last-child {
+  transform: translateX(0%); /* No translation needed for first and last */
+}
+
+.likert-markers li:not(:first-child):not(:last-child) {
+  /* Optionally adjust for the middle markers if needed */
+}
+
+
+
+
+

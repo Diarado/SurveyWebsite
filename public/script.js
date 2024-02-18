@@ -72,8 +72,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function displayImage(imageData) {
   const container = document.getElementById("imageContainer");
-  container.innerHTML = `<img src="${imageData.specific || imageData.original}" alt="Image" style="width:400px; height:400px;">` +
-    `<img src="${imageData.original}" alt="Image" style="width:400px; height:400px;">`;
+  container.innerHTML = `<img src="${imageData.specific || imageData.original}" alt="Image" style="width:50%; height:auto;">` +
+    `<img src="${imageData.original}" alt="Image" style="width:50%; height:auto;">`;
 }
 
 function displayPdf(sliderName) {
