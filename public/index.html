@@ -30,8 +30,8 @@
     <div id="vividnessSliderDiv">
       <label class="label" for="vividnessSlider">Vividness</label>
       <div class="definitionBox">
-        <span class="definition"> Degree of visualization and elaboration of mental images generated</span> <button
-          id="VividnessButton">Show Vividness criteria</button>
+        <span class="definition"> Degree of visualization and elaboration of mental images generated</span>
+        <button id="VividnessButton">Show Vividness criteria</button>
       </div>
       <input type="range" id="vividnessSlider" name="vividness" min="1" max="5" value="3">
       <ul class="likert-markers">
@@ -46,15 +46,34 @@
 
     <div id="originalSliderDiv">
       <label class="label" for="originalSlider">Originality</label>
-      <p>Novelty of the mental images generated</p>
+      <div class="definitionBox">
+        <span class="definition">Novelty of the mental images generated</span>
+        <button id="OriginalButton">Show Original criteria</button>
+      </div>
       <input type="range" id="originalSlider" name="original" min="1" max="5" value="3">
-      <button id="OriginalButton">Show Original criteria</button>
+      <ul class="likert-markers">
+        <li>0</li>
+        <li>0.5</li>
+        <li>1</li>
+        <li>1.5</li>
+        <li>2</li>
+      </ul>
     </div>
 
     <div id="transformSliderDiv">
       <label class="label" for="transformSlider">Transformation</label>
+      <div class="definitionBox">
+        <span class="definition">placeholder definition of Transformation</span>
+        <button id="TransformButton">Show Transform criteria</button>
+      </div>
       <input type="range" id="transformSlider" name="transform" min="1" max="5" value="3">
-      <button id="TransformButton">Show Transform criteria</button>
+      <ul class="likert-markers">
+        <li>0</li>
+        <li>0.5</li>
+        <li>1</li>
+        <li>1.5</li>
+        <li>2</li>
+      </ul>
     </div>
 
   </div>
@@ -143,7 +162,7 @@
             console.log("Data could not be saved." + error);
           });
 
-          resetSliders();
+        resetSliders();
       });
     });
 
