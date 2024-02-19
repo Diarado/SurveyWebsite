@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (currentIndex < imagePaths.length - 1) {
       currentIndex++;
       displayImage(imagePaths[currentIndex]);
-
+      // resetSliders();
     } else {
       showThankYouMessage();
     }
