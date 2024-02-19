@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ['VividnessButton', 'OriginalButton', 'TransformButton'].forEach(buttonId => {
     document.getElementById(buttonId).addEventListener('click', function () {
       const criterion = buttonId.replace('Button', '').toLowerCase();
+      console.log(criterion);
       displayPdf(criterion);
     });
   });
