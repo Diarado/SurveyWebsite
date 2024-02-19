@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   let imagePaths = [];
   let currentIndex = 0;
 
@@ -23,12 +23,12 @@ document.addEventListener("DOMContentLoaded", function() {
     if (currentIndex < imagePaths.length - 1) {
       currentIndex++;
       displayImage(imagePaths[currentIndex]);
-      resetSliders();
+
     } else {
       showThankYouMessage();
     }
 
-//==========================================================
+    //==========================================================
     // // Reference to your Firebase project and the database
     // var database = firebase.database();
 
@@ -55,8 +55,8 @@ document.addEventListener("DOMContentLoaded", function() {
     //     console.log("Data saved successfully.");
     // }
     // });
-    
-//==========================================================
+
+    //==========================================================
 
 
   });
@@ -78,9 +78,9 @@ function displayImage(imageData) {
 
 function displayPdf(sliderName) {
   const pdfUrls = {
-    vividness: './grading_criteria/vividness.pdf', 
-    original: './grading_criteria/originality.pdf', 
-    transform: './grading_criteria/transformation.pdf' 
+    vividness: './grading_criteria/vividness.pdf',
+    original: './grading_criteria/originality.pdf',
+    transform: './grading_criteria/transformation.pdf'
   };
 
   const pdfContainer = document.getElementById("pdfContainer") || createPdfContainer();
@@ -95,7 +95,7 @@ function createPdfContainer() {
 }
 
 function showThankYouMessage() {
-  const appContent = document.body; 
+  const appContent = document.body;
   appContent.innerHTML = '<h1>Thank You for participating!</h1><p>You can now close this window.</p>';
   appContent.innerHTML += '<button onclick="window.close();">Close Window</button>';
 }
