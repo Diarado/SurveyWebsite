@@ -2,6 +2,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
+#displayInput{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
 
 
 .image-item {
