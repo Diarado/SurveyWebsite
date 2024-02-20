@@ -119,7 +119,7 @@
       const data = await response.json();
       imageNames = data.map(image => image.original.split('/').pop());
     }
-    // console.log('image name: '+ imageNames[imageIndex]);
+
 
     //R_2P6iSLEd2ScTZZk_1.png
     //R_8UZ7Fnnrk0SVAwp_3.png
@@ -130,13 +130,13 @@
     // we find matching column that scores title for VE1
     //get title
     fetchImageNames();
-    
+    console.log('image name: ' + imageNames[imageIndex]);
 
     //VE1_5 : Visual Element 1 image title
 
 
 
-    document.addEventListener('DOMContentLoaded',  function () {
+    document.addEventListener('DOMContentLoaded', function () {
       // await fetchImageNames();
 
       var userInput = prompt("Please enter your Prolific ID:", "Your ID");
@@ -182,6 +182,11 @@
 
         imageIndex = (imageIndex + 1) % imageNames.length;
         console.log(imageIndex);
+
+        const imageName = imageNames[imageIndex];
+        const title = imageName.slice(0, -6); // Remove the last 6 characters
+
+        console.log('title: ' + title);
 
         resetSliders();
       });
