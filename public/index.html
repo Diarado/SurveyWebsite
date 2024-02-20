@@ -129,14 +129,15 @@
     // if the image is VE1,2..7
     // we find matching column that scores title for VE1
     //get title
-
+    fetchImageNames();
+    
 
     //VE1_5 : Visual Element 1 image title
 
 
 
-    document.addEventListener('DOMContentLoaded', async function () {
-      await fetchImageNames();
+    document.addEventListener('DOMContentLoaded',  function () {
+      // await fetchImageNames();
 
       var userInput = prompt("Please enter your Prolific ID:", "Your ID");
       if (userInput != null && userInput !== "") {
