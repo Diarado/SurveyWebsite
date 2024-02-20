@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.static('public')); 
 
 
-// read CSV and return an array of resIDs
+// read CSV and return an array of resID
 async function readCSV(filePath) {
   const resIDs = [];
   const stream = fs.createReadStream(filePath).pipe(csv());
@@ -23,6 +23,27 @@ async function readCSV(filePath) {
   return resIDs;
 }
 
+// read CSV and return an array of array of title corresponding to resID
+// ie. [[VE1_5,...VE7_5], [VE1_5,...VE7_5]]
+async function readCSVt(filePath) {
+  const titles = [];
+  const stream = fs.createReadStream(filePath).pipe(csv());
+  let cnt = 0;
+  for await (const row of stream) {
+    cnt++;
+    const titleRow = [];
+    if (cnt > 2){
+      for(let i = 1; i <= 7; i++) {
+        const nm = `VE${i}_5`; 
+        titleRow.push(row[nm]); 
+      }
+      titles.push(titleRow); 
+    }
+    
+  }
+
+  return titles;
+}
 // filter images by prefix
 async function filterImagesByPrefix(folderPath, prefix) {
   //console.log("prefix" + prefix);
@@ -36,26 +57,54 @@ async function generateImagePaths() {
   let images = [];
 
   const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
-  console.log(filePath);
+  //console.log(filePath);
   const resIDs = await readCSV(filePath);
+  console.log(resIDs);
+  const titless = await readCSVt(filePath);
+  console.log(titless);
   for (let folder of folders) {
     const folderPath = path.join(__dirname, 'public', 'images', folder);
-    for (let resID of resIDs) {
+    for (let i = 0; i < resIDs.length; i++) {
+      const resID = resIDs[i];
+      const titles = titless[i];
       const matchedFiles = await filterImagesByPrefix(folderPath, resID);
       matchedFiles.forEach(file => {
         // assign specific image based on folder name
         let specificImagePath = "";
-        if(folder == "VE1_4") specificImagePath = `/images/1.png`;
-        else if(folder == "VE2_4") specificImagePath = `/images/2.png`
-        else if(folder == "VE3_4") specificImagePath = `/images/3.png`
-        else if(folder == "VE4_4") specificImagePath = `/images/4.png`
-        else if(folder == "VE5_4") specificImagePath = `/images/5.png`
-        else if(folder == "VE6_4") specificImagePath = `/images/6.png`
-        else specificImagePath = `/images/7.png`
+        let title = "";
+        if(folder == "VE1_4") {
+          specificImagePath = `/images/1.png`;
+          title = titles[0];
+        }
+        else if(folder == "VE2_4") {
+          specificImagePath = `/images/2.png`;
+          title = titles[1];
+        }
+        else if(folder == "VE3_4") {
+          specificImagePath = `/images/3.png`;
+          title = titles[2];
+        }
+        else if(folder == "VE4_4") {
+          specificImagePath = `/images/4.png`;
+          title = titles[3];
+        }
+        else if(folder == "VE5_4") {
+          specificImagePath = `/images/5.png`;
+          title = titles[4];
+        }
+        else if(folder == "VE6_4") {
+          specificImagePath = `/images/6.png`;
+          title = titles[5];
+        }
+        else {
+          specificImagePath = `/images/7.png`;
+          title = titles[6];
+        }
         
         images.push({
           original: `/images/${folder}/${file}`,
-          specific: specificImagePath
+          specific: specificImagePath,
+          title: title
         });
       });
     }
@@ -100,6 +149,7 @@ app.get('/api/images', async (req, res) => {
       const prolificPID = parseInt(req.query.PROLIFIC_PID, 16);
       
       const images = await generateImagePaths();
+      
       const imagesPerSet = 7; 
       const totalSets = Math.floor(images.length / imagesPerSet); // Ensure totalSets is an integer
 
