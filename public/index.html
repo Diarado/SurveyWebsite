@@ -112,14 +112,22 @@
     const analytics = getAnalytics(app);
     const database = getDatabase(app);
 
+    let imageIndex = 0;
+    let imageNames = [];
 
-
-
+    async function fetchImageNames() {
+      const response = await fetch('http://localhost:3000/api/images/?PROLIFIC_PID=1234455');
+      const data = await response.json();
+      imageNames = data.map(image => image.original.split('/').pop());
+    }
+    console.log(imageNames);
 
 
 
     // Assuming you have an element with ID 'vividnessSlider' in your HTML
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', async function () {
+      await fetchImageNames();
+
       var userInput = prompt("Please enter your Prolific ID:", "Your ID");
       if (userInput != null && userInput !== "") {
         document.getElementById("displayInput").innerHTML = "Hello " + userInput + "! Welcome to our study!";
@@ -140,7 +148,7 @@
         var userData = {
           username: userInput,
           email: "newuser@example.com",
-          profile_picture: 'specificImagePath',
+          profile_picture: imageNames[imageIndex] || 'default.jpg',
           scores: {
             vividness: vividness_value,
             original: original_value,
@@ -148,7 +156,7 @@
           }
         };
 
-        console.log(userData);
+        console.log("image name: " + imageNames[imageIndex]);
 
         var userId = push(ref(database, 'users')).key;
 
@@ -161,6 +169,8 @@
           .catch((error) => {
             console.log("Data could not be saved." + error);
           });
+
+        imageIndex = (imageIndex + 1) % imageNames.length;
 
         resetSliders();
       });
