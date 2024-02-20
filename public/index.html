@@ -115,11 +115,11 @@
     let imageNames = [];
 
     async function fetchImageNames() {
-      const response = await fetch('http://localhost:3000/api/images/?PROLIFIC_PID=1234455');
+      const response = await fetch('/api/images/?PROLIFIC_PID=1234455');
       const data = await response.json();
       imageNames = data.map(image => image.original.split('/').pop());
     }
-    console.log(imageNames);
+    // console.log('image name: '+ imageNames[imageIndex]);
 
     //R_2P6iSLEd2ScTZZk_1.png
     //R_8UZ7Fnnrk0SVAwp_3.png
@@ -157,7 +157,7 @@
 
         var userData = {
           username: userInput,
-          profile_picture: imageNames[imageIndex] || 'default.jpg',
+          profile_picture: imageNames[imageIndex] || 'default.png',
           scores: {
             vividness: vividness_value,
             original: original_value,
@@ -180,6 +180,7 @@
           });
 
         imageIndex = (imageIndex + 1) % imageNames.length;
+        console.log(imageIndex);
 
         resetSliders();
       });
