@@ -121,21 +121,6 @@
     }
 
 
-    //R_2P6iSLEd2ScTZZk_1.png
-    //R_8UZ7Fnnrk0SVAwp_3.png
-    // ResponseId + filename user used when they submitted.
-    // R_8UZ7Fnnrk0SVAwp    _3
-    // go to dat.csv file and go to the row that matches R_8UZ7Fnnrk0SVAwp
-    // if the image is VE1,2..7
-    // we find matching column that scores title for VE1
-    //get title
-    fetchImageNames();
-    console.log('image name: ' + imageNames[imageIndex]);
-
-    //VE1_5 : Visual Element 1 image title
-
-
-
     document.addEventListener('DOMContentLoaded', function () {
       // await fetchImageNames();
 
@@ -182,14 +167,7 @@
 
         imageIndex = (imageIndex + 1) % imageNames.length;
         console.log(imageIndex);
-
-        const imageName = imageNames[imageIndex];
-        const title = imageName.slice(0, -6); // Remove the last 6 characters
-
-        console.log('title: ' + title);
-
         
-
         resetSliders();
       });
     });
