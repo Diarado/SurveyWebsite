@@ -59,9 +59,9 @@ async function generateImagePaths() {
   const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
   //console.log(filePath);
   const resIDs = await readCSV(filePath);
-  console.log(resIDs);
+  //console.log(resIDs);
   const titless = await readCSVt(filePath);
-  console.log(titless);
+  //console.log(titless);
   for (let folder of folders) {
     const folderPath = path.join(__dirname, 'public', 'images', folder);
     for (let i = 0; i < resIDs.length; i++) {
@@ -137,8 +137,7 @@ function LCG(seed) {
 // Serve static files from 'public' directory
 app.use(express.static('public'));
 
-function hashProIDtoSetNum(pidDec, totalSets) { 
-    //const pidDecimal = parseInt(pidHex, 16);
+function hashProIDtoSetNum(pidDec, totalSets) {  
     
     return (pidDec % totalSets) + 1; 
 }
@@ -167,10 +166,6 @@ app.get('/api/images', async (req, res) => {
   }
 });
 
-
-// Assuming your generateImagePaths function and other necessary setup are correctly implemented
-
-
 // catch-all route to serve index.html for any non-API requests
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
@@ -182,108 +177,3 @@ app.listen(PORT, () => {
 
 
 
-
-
-
-// app.get('api/items',(req,res) => {
-//   res.send('sending items from DB')
-// })
-
-// app.post('api/items',(req,res) => {
-//   res.status(201).send('sent the new data to DB')
-// })
-
-
-// // database
-
-// const { Pool } = require('pg');
-
-// const pool = new Pool({
-//   user: 'survey_zjns_user',
-//   host: 'dpg-cn0n8q0cmk4c73df2kh0-a',
-//   database: 'survey_zjns',
-//   password: 'nZt3rWMibksMphLRdkJvKVtTRCO9iaUS',
-//   port: 5432, // default port for postgres
-// });
-
-// app.post('/submit-slider-values', async (req, res) => {
-//   const { vividness, original, transform } = req.body;
-
-//   const query = 'INSERT INTO slider_values (vividness, original, transform) VALUES ($1, $2, $3)';
-
-//   try {
-//     const client = await pool.connect();
-
-//     try {
-//       await client.query(query, [vividness, original, transform]);
-
-//       res.send('Slider values saved successfully.');
-//     } finally {
-//       client.release();
-//     }
-//   } catch (error) {
-//     res.status(500).send('Error saving data to the database');
-//     console.error('Error executing query', error.stack);
-//   }
-// });
-
-
-
-
-
-
-
-
-//Set up the CSV writer
-
-// const csvWriter = createCsvWriter({
-//   path: path.join(__dirname, 'public', 'data', 'surveydata.csv'), // Make sure this path is correct
-//   append: true, // This will append records instead of overwriting the file
-//   header: [
-//     { id: 'vividness', title: 'VIVIDNESS' },
-//     { id: 'original', title: 'ORIGINAL' },
-//     { id: 'transform', title: 'TRANSFORM' }
-//   ]
-// });
-// console.log(csvWriter);
-
-
-// // Data to be inserted
-// const data = [
-//   {
-//     vividness: 1,
-//     original: 1,
-//     transform: 1
-//   }
-// ];
-
-// // Insert the data into the CSV file
-// csvWriter.writeRecords(data)
-//   .then(() => {
-//     console.log('Data was appended successfully into the file');
-//   })
-//   .catch(err => {
-//     console.error('An error occurred:', err);
-//   });
-
-// app.post('/api/submit-slider-values', async (req, res) => { // Corrected the route here
-//   // Extract slider values from the request body
-//   const { vividness, original, transform } = req.body;
-
-//   // Create a record object matching the CSV writer headers
-//   const record = [
-//     { vividness, original, transform }
-//   ];
-
-//   try {
-//     // Write the record to the CSV file
-//     await csvWriter.writeRecords(record);
-
-//     // If no error, send a success message to the client
-//     res.send('Slider values saved successfully to CSV.');
-//   } catch (error) {
-//     // If an error occurs, send the error to the client
-//     res.status(500).send('Error saving data to the CSV file');
-//     console.error('Error writing to CSV file', error);
-//   }
-// });
