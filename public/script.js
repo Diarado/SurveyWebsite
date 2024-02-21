@@ -44,14 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
 function displayImage(imageData) {
   const container = document.getElementById("imageContainer");
   container.innerHTML = `
-    <div class="image-wrapper">
-      <img src="${imageData.specific || imageData.original}" alt="Specific Image" style="width:50%; height:auto;">
-    </div>
-    <div class="image-wrapper">
-      <img src="${imageData.original}" alt="Original Image" style="width:50%; height:auto;">
-      <div class="title">${imageData.title || ''}</div>
-    </div>
-  `;
+      <img src="${imageData.specific || imageData.original}" alt="Specific Image" style="width:50%; height:auto;">`+
+      `<img src="${imageData.original}" alt="Original Image" style="width:50%; height:auto;">`+
+      `<div class="title">${imageData.title || 'placeholder'}`;
+      console.log('title: '+imageData.title);
 }
 
 

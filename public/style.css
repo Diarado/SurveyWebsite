@@ -143,8 +143,3 @@ input[type="range"] {
 .likert-markers li:not(:first-child):not(:last-child) {
   /* Optionally adjust for the middle markers if needed */
 }
-
-
-
-
-
