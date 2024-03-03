@@ -59,7 +59,7 @@ function displayPdf(sliderName) {
   };
 
   const pdfContainer = document.getElementById("pdfContainer") || createPdfContainer();
-  pdfContainer.innerHTML = `<iframe src="${pdfUrls[sliderName]}" style="width:690px; height:760px;" frameborder="0"></iframe>`;
+  pdfContainer.innerHTML = `<iframe src="${pdfUrls[sliderName]}" style="width:100%; height:100%;" frameborder="0"></iframe>`;
 }
 
 function createPdfContainer() {
