@@ -24,49 +24,54 @@
         <span class="close">&times;</span>
         <p>Here are your 6 steps instructions.</p>
         <p class="numbering">1</p>
-        <p class="textinstruction"> Review the original visual element (left) and the drawing (right). 
-          The drawing was drawn based on the visual element on the left. Review the title of the drawing 
+        <p class="textinstruction"> Review the original visual element (left) and the drawing (right).
+          The drawing was drawn based on the visual element on the left. Review the title of the drawing
           named by the creator below the two images. Scroll horizontally if the title is long.
         </p>
-        <img  class="imageinstruction" src="./instruction/instruction1.png" alt="instruction1">
-        <hr >
+        <img class="imageinstruction" src="./instruction/instruction1.png" alt="instruction1">
+        <hr>
         <p class="numbering">2</p>
-        <p class="textinstruction"> Under drawings, there will be three criteria: 1.Vividness, 2.Originality, and 3.Transformation. 
-          Each criterion has a slider on a scale of 0 to 2. 
+        <p class="textinstruction"> Under drawings, there will be three criteria: 1.Vividness, 2.Originality, and
+          3.Transformation.
+          Each criterion has a slider on a scale of 0 to 2.
         </p>
-        <img  class="imageinstruction" src="./instruction/instruction2.png" alt="instruction2">
-        <hr >
+        <img class="imageinstruction" src="./instruction/instruction2.png" alt="instruction2">
+        <hr>
 
         <p class="numbering">3</p>
-        <p class="textinstruction"> Start evaluating the 'Vividness' of the image. 
-          A evaluation guide pdf will appear on the right side if you click the 'Show Vividness criteria' button. 
-          Read the definition and examples drawings in the pdf then give a vividness score for the drawing (Forest goddess wathicng over ducks). 
-          Although the guide in the pdf categorized example drawings based on scores 0,1 and 2. You are allowed to 
+        <p class="textinstruction"> Start evaluating the 'Vividness' of the image.
+          A evaluation guide pdf will appear on the right side if you click the 'Show Vividness criteria' button.
+          Read the definition and examples drawings in the pdf then give a vividness score for the drawing (Forest
+          goddess wathicng over ducks).
+          Although the guide in the pdf categorized example drawings based on scores 0,1 and 2. You are allowed to
           give a score inbetwwen those numbers. For instance, if you think the vividness of the drawing is
           between 0 and 1, you can choose 0.5.
         </p>
-        <img  class="imageinstruction" src="./instruction/instruction3.png" alt="instruction3">
-        <hr >
+        <img class="imageinstruction" src="./instruction/instruction3.png" alt="instruction3">
+        <hr>
 
         <p class="numbering">4</p>
-        <p class="textinstruction">Repeat the process mentioned above for 'Originality' and 'Transformation.' 
-          You need to open the corresponding evaluation guide for each. 
-          For instance, click the 'Show Original criteria' button when evaluating the originality. 
-          When evaluating the transformation, click the 'Show Transform criteria' button to pull the right evaluation guidelines pdf.
+        <p class="textinstruction">Repeat the process mentioned above for 'Originality' and 'Transformation.'
+          You need to open the corresponding evaluation guide for each.
+          For instance, click the 'Show Original criteria' button when evaluating the originality.
+          When evaluating the transformation, click the 'Show Transform criteria' button to pull the right evaluation
+          guidelines pdf.
         </p>
-        <hr >
+        <hr>
         <p class="numbering">5</p>
-        <p class="textinstruction">Once you give a score for each criterion, click the 'next' button at the bottom of the page. It will show you another image. Evaluate seven images in total, and then the study ends.
+        <p class="textinstruction">Once you give a score for each criterion, click the 'next' button at the bottom of
+          the page. It will show you another image. Evaluate seven images in total, and then the study ends.
 
 
         </p>
-       <hr >
+        <hr>
         <p class="numbering">6</p>
-        <p class="textinstruction"> At the end, you will see a message: 'Thank you for participating.' Then close this window and go back to the Qualtrics survey to receive your code.  </p>
+        <p class="textinstruction"> At the end, you will see a message: 'Thank you for participating.' Then close this
+          window and go back to the Qualtrics survey to receive your code. </p>
         <!-- Example video embedded from YouTube -->
         <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
       </div>
-    
+
     </div>
 
 
@@ -173,28 +178,33 @@
     let imageIndex = 0;
     let imageNames = [];
 
+    const params = new URLSearchParams(window.location.search);
+    const prolificPID = params.get('PROLIFIC_PID') || 'defaultPID';
+
     async function fetchImageNames() {
-      const response = await fetch('/api/images/?PROLIFIC_PID=1234455');
+      const response = await fetch(`/api/images?PROLIFIC_PID=${prolificPID}`);
       const data = await response.json();
       imageNames = data.map(image => image.original.split('/').pop());
     }
 
+    fetchImageNames();
+
 
     document.addEventListener('DOMContentLoaded', function () {
-      
+
 
       let userInput = "";
 
-      while(userInput === null || userInput.trim() === "" || userInput === "Your ID") {
-          userInput = prompt("Please enter your correct Prolific ID. We use this ID to compensate participants.", "Your ID");
-          
-          if(userInput !== null && userInput.trim() !== "" && userInput !== "Your ID") {
-              // Input is not null or empty, break the loop
-              document.getElementById("displayInput").innerHTML = "Hello " + userInput + "! Welcome to our study!";
-              break;
-          } else {
-              alert("You must enter your Prolific ID to continue.");
-          }
+      while (userInput === null || userInput.trim() === "" || userInput === "Your ID") {
+        userInput = prompt("Please enter your correct Prolific ID. We use this ID to compensate participants.", "Your ID");
+
+        if (userInput !== null && userInput.trim() !== "" && userInput !== "Your ID") {
+          // Input is not null or empty, break the loop
+          document.getElementById("displayInput").innerHTML = "Hello " + userInput + "! Welcome to our study!";
+          break;
+        } else {
+          alert("You must enter your Prolific ID to continue.");
+        }
       }
 
       // Use userInput as needed here
@@ -202,7 +212,7 @@
 
 
 
-            // Get the modal
+      // Get the modal
       var modal = document.getElementById("myModal");
 
       // Get the button that opens the modal
@@ -212,17 +222,17 @@
       var span = document.getElementsByClassName("close")[0];
 
       // When the user clicks the button, open the modal 
-      btn.onclick = function() {
+      btn.onclick = function () {
         modal.style.display = "block";
       }
 
       // When the user clicks on <span> (x), close the modal
-      span.onclick = function() {
+      span.onclick = function () {
         modal.style.display = "none";
       }
 
       // Also close the modal if the user clicks anywhere outside of it
-      window.onclick = function(event) {
+      window.onclick = function (event) {
         if (event.target == modal) {
           modal.style.display = "none";
         }
@@ -232,18 +242,18 @@
 
 
 
-   
+
       set(ref(database, 'test/' + 'example'), { hello: 'world' })
         .then(() => console.log("Simple data saved successfully."))
         .catch((error) => console.log("Failed to save simple data.", error));
 
       var saveUserDataButton = document.getElementById('nextImage');
-      saveUserDataButton.addEventListener('click', async function () {
+
+
+      saveUserDataButton.addEventListener('click', function () {
         var vividness_value = document.getElementById('vividnessSlider').value;
         var original_value = document.getElementById('originalSlider').value;
         var transform_value = document.getElementById('transformSlider').value;
-
-        await fetchImageNames();
 
         console.log(vividness_value, original_value, transform_value);
 
@@ -274,7 +284,7 @@
 
         imageIndex = (imageIndex + 1) % imageNames.length;
         console.log(imageIndex);
-        
+
         resetSliders();
       });
     });
