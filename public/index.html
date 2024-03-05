@@ -10,6 +10,8 @@
 
 <body>
 
+  <div id="over"></div>
+
   <div id="top">
     <div id="displayInput"></div>
     <div id="tutorialDiv">
@@ -241,12 +243,6 @@
 
 
 
-
-
-      set(ref(database, 'test/' + 'example'), { hello: 'world' })
-        .then(() => console.log("Simple data saved successfully."))
-        .catch((error) => console.log("Failed to save simple data.", error));
-
       var saveUserDataButton = document.getElementById('nextImage');
 
 
@@ -258,7 +254,7 @@
         console.log(vividness_value, original_value, transform_value);
 
         var userData = {
-          userID: userInput,
+          userProlificID: userInput,
           image: imageNames[imageIndex] || 'default.png',
           scores: {
             vividness: vividness_value,
@@ -270,11 +266,13 @@
         console.log(imageNames);
         console.log("image name: " + imageNames[imageIndex]);
 
-        var userId = push(ref(database, 'users')).key;
+        // var userId = push(ref(database, 'users')).key;
 
-        console.log(userId);
+        // console.log(userId);
 
-        set(ref(database, 'users/' + userInput), userData)
+        //const userDataRef = ref(database, `users/${inputID_received}/rating/${conversationID}`);
+
+        set(ref(database, 'users/' + userInput +'/'+ (imageIndex+1) ), userData)
           .then(() => {
             console.log("Data saved successfully.");
           })

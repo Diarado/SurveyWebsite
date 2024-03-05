@@ -70,9 +70,18 @@ function createPdfContainer() {
 }
 
 function showThankYouMessage() {
-  const appContent = document.body;
-  appContent.innerHTML = '<h1>Thank You for participating!</h1><p>You can now close this window.</p>';
-  appContent.innerHTML += '<button onclick="window.close();">Close Window</button>';
+  // const appContent = document.body;
+  const appContent = document.getElementById("over");
+  appContent.innerHTML = '<h1>Thank You for participating!</h1><p>You need to go back to the Qualtrics survey to receive the code.</p><p>You can now close this window.</p>' 
+  const top = document.getElementById("top");
+  const sliders = document.getElementById("sliders");
+  const nextbutton = document.getElementById("nextImage");
+
+  top.classList.add('hide');
+  sliders.classList.add('hide');
+  nextbutton.classList.add('hide');
+ 
+  // appContent.innerHTML += '<button onclick="window.close();">Close Window</button>';
 }
 
 function resetSliders() {
