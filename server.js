@@ -51,17 +51,36 @@ async function filterImagesByPrefix(folderPath, prefix) {
   return files.filter(file => file.startsWith(prefix));
 }
 
-// generate image paths
+// Read image evaluation counts
+async function readImageCounts() {
+  try {
+    const data = await fsp.readFile(path.join(__dirname, 'imageCounts.json'), 'utf8');
+    return JSON.parse(data);
+  } catch (error) {
+    console.error('Error reading image counts:', error);
+    return {};
+  }
+}
+
+// Write image evaluation counts
+async function writeImageCounts(counts) {
+  try {
+    await fsp.writeFile(path.join(__dirname, 'imageCounts.json'), JSON.stringify(counts, null, 2));
+  } catch (error) {
+    console.error('Error writing image counts:', error);
+  }
+}
+
+// Existing generateImagePaths function modified to include image count tracking and sorting
 async function generateImagePaths() {
   const folders = ["VE1_4", "VE2_4", "VE3_4", "VE4_4", "VE5_4", "VE6_4", "VE7_4"];
   let images = [];
 
   const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
-  //console.log(filePath);
   const resIDs = await readCSV(filePath);
-  //console.log(resIDs);
   const titless = await readCSVt(filePath);
-  //console.log(titless);
+  const imageCounts = await readImageCounts();
+
   for (let folder of folders) {
     const folderPath = path.join(__dirname, 'public', 'images', folder);
     for (let i = 0; i < resIDs.length; i++) {
@@ -69,47 +88,26 @@ async function generateImagePaths() {
       const titles = titless[i];
       const matchedFiles = await filterImagesByPrefix(folderPath, resID);
       matchedFiles.forEach(file => {
-        // assign specific image based on folder name
-        let specificImagePath = "";
-        let title = "";
-        if(folder == "VE1_4") {
-          specificImagePath = `/images/1.png`;
-          title = titles[0];
-        }
-        else if(folder == "VE2_4") {
-          specificImagePath = `/images/2.png`;
-          title = titles[1];
-        }
-        else if(folder == "VE3_4") {
-          specificImagePath = `/images/3.png`;
-          title = titles[2];
-        }
-        else if(folder == "VE4_4") {
-          specificImagePath = `/images/4.png`;
-          title = titles[3];
-        }
-        else if(folder == "VE5_4") {
-          specificImagePath = `/images/5.png`;
-          title = titles[4];
-        }
-        else if(folder == "VE6_4") {
-          specificImagePath = `/images/6.png`;
-          title = titles[5];
-        }
-        else {
-          specificImagePath = `/images/7.png`;
-          title = titles[6];
-        }
-        
+        let specificImagePath = `/images/${parseInt(folder.split('_')[1]) - 4}.png`;
+        let title = titles[parseInt(folder.split('_')[1]) - 4];
+
         images.push({
           original: `/images/${folder}/${file}`,
           specific: specificImagePath,
-          title: title
+          title: title,
+          count: imageCounts[`/images/${folder}/${file}`] || 0
         });
       });
     }
   }
-  
+
+  // Sort images by count and update the counts
+  images.sort((a, b) => a.count - b.count);
+  images.forEach(image => {
+    imageCounts[image.original] = (imageCounts[image.original] || 0) + 1;
+  });
+
+  await writeImageCounts(imageCounts);
 
   // shuffle 
   const rng = LCG(12345); 
@@ -144,27 +142,45 @@ function hashProIDtoSetNum(pidDec, totalSets) {
 
 app.get('/api/images', async (req, res) => {
   try {
-      // Assuming PROLIFIC_PID is passed as a query parameter and should be parsed from hexadecimal
+      
       const prolificPID = parseInt(req.query.PROLIFIC_PID, 16);
       
-      const images = await generateImagePaths();
-      
-      const imagesPerSet = 7; 
-      const totalSets = Math.floor(images.length / imagesPerSet); // Ensure totalSets is an integer
+      let images = await generateImagePaths();
 
-      // hash the PID to get a set number
+      // Read the current image evaluation counts
+      const imageCounts = await readImageCounts();
+
+      // Shuffle images based on evaluation counts
+      images = images.map(image => ({
+        ...image,
+        count: imageCounts[image.original] || 0
+      })).sort((a, b) => a.count - b.count);
+
+      // Calculate how many images to send and total sets
+      const imagesPerSet = 7; 
+      const totalSets = Math.floor(images.length / imagesPerSet); 
+
+      // Hash the PID to get a set number
       const setNumber = hashProIDtoSetNum(prolificPID, totalSets);
       
       const startIndex = (setNumber - 1) * imagesPerSet;
       const endIndex = startIndex + imagesPerSet;
       const selectedImages = images.slice(startIndex, endIndex);
 
+      // Update the counts for the selected images
+      selectedImages.forEach(image => {
+        imageCounts[image.original] = (imageCounts[image.original] || 0) + 1;
+      });
+      await writeImageCounts(imageCounts);
+
+      // Send the selected images
       res.json(selectedImages);
   } catch (error) {
       console.error('Failed to generate image paths:', error);
       res.status(500).send('Server error!');
   }
 });
+
 
 // catch-all route to serve index.html for any non-API requests
 app.get('*', (req, res) => {
