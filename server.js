@@ -8,13 +8,14 @@ const PORT = 3000;
 app.use(express.json());
 
 
-// daye: the lateste
+
 //const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 app.use(express.static('public')); 
 
 
 // read CSV and return an array of resID
 async function readCSV(filePath) {
+  const test = 'daye';
   const resIDs = [];
   const stream = fs.createReadStream(filePath).pipe(csv());
   let cnt = 0;
