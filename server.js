@@ -51,7 +51,25 @@ async function filterImagesByPrefix(folderPath, prefix) {
   return files.filter(file => file.startsWith(prefix));
 }
 
-// generate image paths
+// Read image evaluation counts
+async function readImageCounts() {
+  try {
+    const data = await fsp.readFile(path.join(__dirname, 'imageCounts.json'), 'utf8');
+    return JSON.parse(data);
+  } catch (error) {
+    console.error('Error reading image counts:', error);
+    return {};
+  }
+}
+
+// Write image evaluation counts
+async function writeImageCounts(counts) {
+  try {
+    await fsp.writeFile(path.join(__dirname, 'imageCounts.json'), JSON.stringify(counts, null, 2));
+  } catch (error) {
+    console.error('Error writing image counts:', error);
+  }
+}
 async function generateImagePaths() {
   const folders = ["VE1_4", "VE2_4", "VE3_4", "VE4_4", "VE5_4", "VE6_4", "VE7_4"];
   let images = [];
@@ -120,6 +138,45 @@ async function generateImagePaths() {
 
   return images;
 }
+// Existing generateImagePaths function modified to include image count tracking and sorting
+async function generateImagePaths2() {
+  const folders = ["VE1_4", "VE2_4", "VE3_4", "VE4_4", "VE5_4", "VE6_4", "VE7_4"];
+  let images = [];
+
+  const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
+  const resIDs = await readCSV(filePath);
+  const titles = await readCSVt(filePath);
+
+  for (let folder of folders) {
+    const folderIndex = parseInt(folder.split('_')[1]) - 4;
+    const folderPath = path.join(__dirname, 'public', 'images', folder);
+    for (let i = 0; i < resIDs.length; i++) {
+      const resID = resIDs[i];
+      const matchedFiles = await filterImagesByPrefix(folderPath, resID);
+      matchedFiles.forEach(file => {
+        let specificImagePath = `/images/${folderIndex + 1}.png`; // Ensures correct image mapping
+        let title = titles[i][folderIndex]; // Aligns titles with specific images
+
+        images.push({
+          original: `/images/${folder}/${file}`,
+          specific: specificImagePath,
+          title: title
+        });
+      });
+    }
+  }
+
+  // Shuffle images to randomize output
+  const rng = LCG(12345); 
+  for (let i = images.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [images[i], images[j]] = [images[j], images[i]];
+  }
+
+  return images;
+}
+
+
 
 function LCG(seed) {
   const a = 1664525;
@@ -142,6 +199,26 @@ function hashProIDtoSetNum(pidDec, totalSets) {
     return (pidDec % totalSets) + 1; 
 }
 
+/*app.get('/api/images', async (req, res) => {
+  try {
+      const prolificPID = parseInt(req.query.PROLIFIC_PID, 16);
+      const images = await generateImagePaths();
+      
+      const imagesPerSet = 7; 
+      const totalSets = Math.floor(images.length / imagesPerSet); // Calculate total sets
+
+      const setNumber = hashProIDtoSetNum(prolificPID, totalSets); // Hash PID to set number
+      
+      const startIndex = (setNumber - 1) * imagesPerSet;
+      const endIndex = startIndex + imagesPerSet;
+      const selectedImages = images.slice(startIndex, endIndex);
+
+      res.json(selectedImages);
+  } catch (error) {
+      console.error('Failed to generate image paths:', error);
+      res.status(500).send('Server error!');
+  }
+});*/
 app.get('/api/images', async (req, res) => {
   try {
       // Assuming PROLIFIC_PID is passed as a query parameter and should be parsed from hexadecimal
@@ -165,6 +242,7 @@ app.get('/api/images', async (req, res) => {
       res.status(500).send('Server error!');
   }
 });
+
 
 // catch-all route to serve index.html for any non-API requests
 app.get('*', (req, res) => {
