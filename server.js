@@ -86,6 +86,7 @@ async function generateImagePaths() {
   for (let folder of folders) {
     const folderPath = path.join(__dirname, 'public', 'images', folder);
     for (let i = 0; i < resIDs.length; i++) {
+      const daye = 'why this if else part is not updated?'
       const resID = resIDs[i];
       const titles = titless[i];
       const matchedFiles = await filterImagesByPrefix(folderPath, resID);
