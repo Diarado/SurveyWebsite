@@ -48,7 +48,7 @@ async function readCSVt(filePath) {
 }
 // filter images by prefix
 async function filterImagesByPrefix(folderPath, prefix) {
-  //console.log("prefix" + prefix);
+  console.log("prefix" + prefix); // prefix is respondID
   const files = await fsp.readdir(folderPath);
   return files.filter(file => file.startsWith(prefix));
 }
@@ -86,15 +86,15 @@ async function generateImagePaths() {
     let images = [];
   
     const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
-    const resIDs = await readCSV(filePath);
-    const titles = await readCSVt(filePath);
+    const resIDs = await readCSV(filePath); // Respond IDs in the list [R_4HSAV9DsD7kAcSZ, ...]
+    const titles = await readCSVt(filePath);// [[title1,title2,...title7][title1,title2...]] pusehd by row
   
     for (let folder of folders) {
-      const folderIndex = parseInt(folder.split('_')[1]) - 4;
+      const folderIndex = parseInt(folder.split('_')[1]) - 4; // this is 0 (4-4)
       const folderPath = path.join(__dirname, 'public', 'images', folder);
       for (let i = 0; i < resIDs.length; i++) {
         const resID = resIDs[i];
-        const matchedFiles = await filterImagesByPrefix(folderPath, resID);
+        const matchedFiles = await filterImagesByPrefix(folderPath, resID);// finding 7 images made by resID
         matchedFiles.forEach(file => {
           let specificImagePath = `/images/${folderIndex + 1}.png`; // Ensures correct image mapping
           let title = titles[i][folderIndex]; // Aligns titles with specific images
