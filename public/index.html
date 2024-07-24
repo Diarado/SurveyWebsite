@@ -186,7 +186,7 @@
     async function fetchImageNames() {
       const response = await fetch(`/api/images?PROLIFIC_PID=${prolificPID}`);
       const data = await response.json();
-      imageNames = data.map(image => image.original.split('/').pop());
+      imageNames = data.map(image => image.userdrawn.split('/').pop());
     }
 
     fetchImageNames();

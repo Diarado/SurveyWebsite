@@ -48,7 +48,7 @@ async function readCSVt(filePath) {
 }
 // filter images by prefix
 async function filterImagesByPrefix(folderPath, prefix) {
-  console.log("prefix" + prefix); // prefix is respondID
+  // console.log("prefix" + prefix); // prefix is respondID
   const files = await fsp.readdir(folderPath);
   return files.filter(file => file.startsWith(prefix));
 }
@@ -89,27 +89,33 @@ async function generateImagePaths() {
     const resIDs = await readCSV(filePath); // Respond IDs in the list [R_4HSAV9DsD7kAcSZ, ...]
     const titles = await readCSVt(filePath);// [[title1,title2,...title7][title1,title2...]] pusehd by row
   
-    for (let folder of folders) {
-      const folderIndex = parseInt(folder.split('_')[1]) - 4; // this is 0 (4-4)
+    for (let [index, folder] of folders.entries()) {
+      const folderIndex = index;
       const folderPath = path.join(__dirname, 'public', 'images', folder);
       for (let i = 0; i < resIDs.length; i++) {
         const resID = resIDs[i];
         const matchedFiles = await filterImagesByPrefix(folderPath, resID);// finding 7 images made by resID
         matchedFiles.forEach(file => {
-          let specificImagePath = `/images/${folderIndex + 1}.png`; // Ensures correct image mapping
+  //         let specificImagePath = `/images/${folderIndex + 1}.png`; // Ensures correct image mapping
+
+          let originalImagePath = `/images/${folderIndex + 1}.png`; // Ensures correct image mapping
           let title = titles[i][folderIndex]; // Aligns titles with specific images
   
           images.push({
-            original: `/images/${folder}/${file}`,
-            specific: specificImagePath,
+  //           original: `/images/${folder}/${file}`,
+  //           specific: originalImagePath,
+            original: originalImagePath,
+            userdrawn: `/images/${folder}/${file}`,
             title: title
           });
         });
       }
     }
   
-    // Shuffle images to randomize output
-    const rng = LCG(12345); 
+    // console.log(images) // this is every image [ { original: '/images/3.png', userdrawn: '/images/VE3_4/R_2iQEpAvThRh1RuV_3.png', title: 'Car going over a speed bump'},{},...300ish]
+    
+    // Shuffle images to randomize output
+    const rng = LCG(12345); //random seed
     for (let i = images.length - 1; i > 0; i--) {
       const j = Math.floor(rng() * (i + 1));
       [images[i], images[j]] = [images[j], images[i]];
@@ -152,11 +158,12 @@ app.get('/api/images', async (req, res) => {
       // Shuffle images based on evaluation counts
       images = images.map(image => ({
         ...image,
-        count: imageCounts[image.original] || 0
+        count: imageCounts[image.userdrawn] || 0
       })).sort((a, b) => a.count - b.count);
 
       // Calculate how many images to send and total sets
-      const imagesPerSet = 7; 
+      const imagesPerSet = 28; 
+      console.log(images.length)
       const totalSets = Math.floor(images.length / imagesPerSet); 
 
       // Hash the PID to get a set number
@@ -168,7 +175,7 @@ app.get('/api/images', async (req, res) => {
 
       // Update the counts for the selected images
       selectedImages.forEach(image => {
-        imageCounts[image.original] = (imageCounts[image.original] || 0) + 1;
+        imageCounts[image.userdrawn] = (imageCounts[image.userdrawn] || 0) + 1;
       });
       await writeImageCounts(imageCounts);
 
