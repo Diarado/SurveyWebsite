@@ -8,6 +8,51 @@ const PORT = 3000;
 app.use(express.json());
 
 
+const { initializeApp} = require("firebase/app");
+const { getDatabase,ref,onValue,get } = require("firebase/database");
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAXNN7TE_8-HIdR75kqQ47imZhrg3Qtfks",
+  authDomain: "imageeval-dd6e8.firebaseapp.com",
+  databaseURL: "https://imageeval-dd6e8-default-rtdb.firebaseio.com",
+  projectId: "imageeval-dd6e8",
+  storageBucket: "imageeval-dd6e8.appspot.com",
+  messagingSenderId: "238433835181",
+  appId: "1:238433835181:web:ca3ce01a2ad81408894e24",
+  measurementId: "G-5B424981D1"
+};
+
+// Initialize Firebase
+const app_ = initializeApp(firebaseConfig);
+const database = getDatabase(app_);
+
+const dbref = ref(database);
+
+
+
+
+
+
+
+
+
+
+
+
+
+// dbref.then('value', (snapshot) => {
+//   console.log(snapshot.val());
+// }, (errorObject) => {
+//   console.log('The read failed: ' + errorObject.name);
+// });
+
+
+
+
+
+
 
 //const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 app.use(express.static('public')); 
@@ -46,6 +91,37 @@ async function readCSVt(filePath) {
 
   return titles;
 }
+
+
+
+async function readCSVmentalImage(filePath) {
+  const selected_mentalimages = [];
+  const stream = fs.createReadStream(filePath).pipe(csv());
+  let cnt = 0;
+  for await (const row of stream) {
+    cnt++;
+    const mtImgRow = [];
+    if (cnt > 2){
+      for(let i = 1; i <= 7; i++) {
+        const nm = `VE${i}_2`; 
+        mtImgRow.push(row[nm]); 
+      }
+      selected_mentalimages.push(mtImgRow); 
+    }
+    
+  }
+
+  return selected_mentalimages;
+}
+
+
+
+
+
+
+
+
+
 // filter images by prefix
 async function filterImagesByPrefix(folderPath, prefix) {
   // console.log("prefix" + prefix); // prefix is respondID
@@ -74,7 +150,7 @@ async function readImageCounts() {
       // Make sure the directory exists
       const filePath = path.join(__dirname, 'imageCounts.json');
       await fsp.writeFile(filePath, JSON.stringify(counts, null, 2));
-      console.log(`Successfully wrote to ${filePath}`);
+      // console.log(`Successfully wrote to ${filePath}`);
     } catch (error) {
       console.error('Error writing image counts:', error);
     }
@@ -88,6 +164,7 @@ async function generateImagePaths() {
     const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
     const resIDs = await readCSV(filePath); // Respond IDs in the list [R_4HSAV9DsD7kAcSZ, ...]
     const titles = await readCSVt(filePath);// [[title1,title2,...title7][title1,title2...]] pusehd by row
+    const selected_mental_image = await readCSVmentalImage(filePath);
   
     for (let [index, folder] of folders.entries()) {
       const folderIndex = index;
@@ -96,17 +173,19 @@ async function generateImagePaths() {
         const resID = resIDs[i];
         const matchedFiles = await filterImagesByPrefix(folderPath, resID);// finding 7 images made by resID
         matchedFiles.forEach(file => {
-  //         let specificImagePath = `/images/${folderIndex + 1}.png`; // Ensures correct image mapping
 
           let originalImagePath = `/images/${folderIndex + 1}.png`; // Ensures correct image mapping
           let title = titles[i][folderIndex]; // Aligns titles with specific images
+          let mentalImg = selected_mental_image[i][folderIndex]; // Aligns titles with specific images
   
           images.push({
   //           original: `/images/${folder}/${file}`,
   //           specific: originalImagePath,
             original: originalImagePath,
             userdrawn: `/images/${folder}/${file}`,
-            title: title
+            filename: file,
+            title: title,
+            mentalImg: mentalImg
           });
         });
       }
@@ -137,12 +216,15 @@ function LCG(seed) {
   };
 }
 
+
+
 // Serve static files from 'public' directory
 app.use(express.static('public'));
 
 function hashProIDtoSetNum(pidDec, totalSets) {  
     
-    return (pidDec % totalSets) + 1; 
+    // return (pidDec % totalSets) + 1; 
+    return (pidDec%(totalSets/3))+1;
 }
 
 app.get('/api/images', async (req, res) => {
@@ -152,32 +234,71 @@ app.get('/api/images', async (req, res) => {
 
       let images = await generateImagePaths();
 
-      // Read the current image evaluation counts
-      const imageCounts = await readImageCounts();
+      let snapshot = await get(dbref)
 
-      // Shuffle images based on evaluation counts
-      images = images.map(image => ({
-        ...image,
-        count: imageCounts[image.userdrawn] || 0
-      })).sort((a, b) => a.count - b.count);
+
+
+      // console.log(snapshot)
+      // onValue(dbref,(snapshot) => {
+      // console.log(snapshot.val());
+        let db = snapshot.val()["users"]
+        const imagecount = {}
+        for (user in db){
+          let evaluations = db[user] // 35 image evaluations image:, scores:{},userProlificID:  by each user
+          for(evaluation of evaluations){
+            if (evaluation){
+              let image = evaluation['image']
+              // console.log(evaluation)
+              
+              if (!(image in imagecount)){
+                imagecount[image] = 0
+              } 
+              imagecount[image]++         
+              }
+            }
+          } 
+        // console.log(imagecount)
+      
+        images = images.map(image => ({
+          ...image,
+          count: imagecount[image.filename] || 0
+        })).sort((a, b) => a.count - b.count);
+      
+        // console.log(JSON.stringify(images, null, 4))
+       
+
+      // }, (errorObject) => {
+      //   console.log('The read failed: ' + errorObject.name);
+      // })
+
+      // // Read the current image evaluation counts
+      // const imageCounts = await readImageCounts();
+
+      // // Shuffle images based on evaluation counts
+      // images = images.map(image => ({
+      //   ...image,
+      //   count: imageCounts[image.userdrawn] || 0
+      // })).sort((a, b) => a.count - b.count);
 
       // Calculate how many images to send and total sets
-      const imagesPerSet = 28; 
-      console.log(images.length)
+      const imagesPerSet = 35; 
+      // console.log(images.length)
       const totalSets = Math.floor(images.length / imagesPerSet); 
 
       // Hash the PID to get a set number
       const setNumber = hashProIDtoSetNum(prolificPID, totalSets);
 
-      const startIndex = (setNumber - 1) * imagesPerSet;
+      // const startIndex = (setNumber - 1) * imagesPerSet;
+
+      let startIndex = Math.floor(((prolificPID % 4) / 4) * (images.length-imagesPerSet-1) / 3.0)
       const endIndex = startIndex + imagesPerSet;
       const selectedImages = images.slice(startIndex, endIndex);
 
       // Update the counts for the selected images
-      selectedImages.forEach(image => {
-        imageCounts[image.userdrawn] = (imageCounts[image.userdrawn] || 0) + 1;
-      });
-      await writeImageCounts(imageCounts);
+      // selectedImages.forEach(image => {
+      //   imageCounts[image.userdrawn] = (imageCounts[image.userdrawn] || 0) + 1;
+      // });
+      // await writeImageCounts(imageCounts);
 
       // Send the selected images
       res.json(selectedImages);
@@ -187,13 +308,68 @@ app.get('/api/images', async (req, res) => {
   }
 });
 
+
+
+app.get('/api/status', async (req, res)=> {
+
+  let images = await generateImagePaths();
+
+
+
+  let snapshot = await get(dbref)
+      // console.log(snapshot)
+      // onValue(dbref,(snapshot) => {
+      // console.log(snapshot.val());
+        let db = snapshot.val()["users"]
+        const imagecount = {}
+        for (user in db){
+          let evaluations = db[user] // 35 image evaluations image:, scores:{},userProlificID:  by each user
+          for(evaluation of evaluations){
+            if (evaluation){
+              let image = evaluation['image']
+              // console.log(evaluation)
+              
+              if (!(image in imagecount)){
+                imagecount[image] = 0
+              } 
+              imagecount[image]++         
+              }
+            }
+          } 
+        // console.log(imagecount)
+
+        images = images.map(image => ({
+          name: image.filename,
+          count: imagecount[image.filename] || 0
+        })).sort((a, b) => a.count - b.count);
+      
+        res.json(images);
+})
+
+
+
+
+
 // catch-all route to serve index.html for any non-API requests
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+
 
 

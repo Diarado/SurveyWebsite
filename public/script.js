@@ -46,7 +46,8 @@ function displayImage(imageData) {
   container.innerHTML =
     `<img src="${imageData.original}" alt="Original Image" style="width:50%; height:auto;">` +
     `<img src="${imageData.userdrawn}" alt="User drawn image" style="width:50%; height:auto;">` +
-    `<div class="title">${"Title: " + imageData.title || 'placeholder'}</div>`;
+    `<div class="mentalImg">${"<strong>Selected mental image:</strong>" + imageData.mentalImg || 'placeholder'}</div>`+
+    `<div class="title">${"<strong>Title:</strong> " + imageData.title || 'placeholder'}</div>`;
   // console.log('title: ' + imageData.title);
 }
 

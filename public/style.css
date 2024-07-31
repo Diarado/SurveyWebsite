@@ -45,12 +45,27 @@ body {
   font-size: 20px; 
   max-width: 100%; 
   overflow: auto;
-  white-space: nowrap;
+
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 40px;
   margin-top: 20px;
 }
+
+
+.mentalImg{
+
+  text-align: center;
+  font-size: 15px; 
+  max-width: 100%; 
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
 
 #sliders{
 
