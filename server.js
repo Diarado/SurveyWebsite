@@ -171,23 +171,31 @@ async function generateImagePaths() {
       const folderPath = path.join(__dirname, 'public', 'images', folder);
       for (let i = 0; i < resIDs.length; i++) {
         const resID = resIDs[i];
-        const matchedFiles = await filterImagesByPrefix(folderPath, resID);// finding 7 images made by resID
-        matchedFiles.forEach(file => {
 
-          let originalImagePath = `/images/${folderIndex + 1}.png`; // Ensures correct image mapping
-          let title = titles[i][folderIndex]; // Aligns titles with specific images
-          let mentalImg = selected_mental_image[i][folderIndex]; // Aligns titles with specific images
+        if (["R_8CHzbhc4JOBRLV5", "R_4EXsi7EL6HEfhqV", "R_64wIzqV3gaB8jg5","R_2gR9TZkBpOxnHXn","R_1xYwybmsBKXYG1i","R_3w1stHdOBj2sfU1","R_2X0QOil3OprDtr2"].includes(resID)) {
+          const matchedFiles = await filterImagesByPrefix(folderPath, resID);// finding 7 images made by resID
+          matchedFiles.forEach(file => {
   
-          images.push({
-  //           original: `/images/${folder}/${file}`,
-  //           specific: originalImagePath,
-            original: originalImagePath,
-            userdrawn: `/images/${folder}/${file}`,
-            filename: file,
-            title: title,
-            mentalImg: mentalImg
-          });
-        });
+            let originalImagePath = `/images/${folderIndex + 1}.png`; // Ensures correct image mapping
+            let title = titles[i][folderIndex]; // Aligns titles with specific images
+            let mentalImg = selected_mental_image[i][folderIndex]; // Aligns titles with specific images
+    
+            images.push({
+    //           original: `/images/${folder}/${file}`,
+    //           specific: originalImagePath,
+              original: originalImagePath,
+              userdrawn: `/images/${folder}/${file}`,
+              filename: file,
+              title: title,
+              mentalImg: mentalImg
+            });
+            // console.log("++++++++")
+            // console.log(images.length)
+          });// Your code here
+
+
+        }
+       
       }
     }
   
@@ -235,7 +243,8 @@ app.get('/api/images', async (req, res) => {
       let images = await generateImagePaths();
 
       let snapshot = await get(dbref)
-
+      // console.log("++++++++")
+      // console.log(images.length)
 
 
       // console.log(snapshot)
@@ -264,6 +273,9 @@ app.get('/api/images', async (req, res) => {
           count: imagecount[image.filename] || 0
         })).sort((a, b) => a.count - b.count);
       
+
+        // console.log("======")
+        // console.log(images.length) // 322
         // console.log(JSON.stringify(images, null, 4))
        
 
@@ -343,6 +355,10 @@ app.get('/api/status', async (req, res)=> {
           count: imagecount[image.filename] || 0
         })).sort((a, b) => a.count - b.count);
       
+
+        // console.log("====")
+        // console.log(images.length)
+        // console.log(images)
         res.json(images);
 })
 
