@@ -65,10 +65,47 @@ async function readCSV(filePath) {
   let cnt = 0;
   for await (const row of stream) {
     cnt++;
-    if (cnt > 2) resIDs.push(row.ResponseId);
+    if (cnt > 2 ){
+      if (row.Finished === 'TRUE'){
+        // console.log(row.Finished)
+        // console.log(typeof row.Finished)
+        resIDs.push(row.ResponseId);  //ResponseId is column name
+      }
+     
+    } 
+      
   }
   return resIDs;
 }
+
+
+
+
+async function readCSVPID(filePath) {
+  const PIDs = [];
+  const stream = fs.createReadStream(filePath).pipe(csv());
+  
+  let cnt = 0;
+  for await (const row of stream) {
+    // console.log(row)
+    cnt++;
+    if (cnt > 2 ){
+      if (row.Finished === 'TRUE'){
+        // console.log(row.Finished)
+        // console.log(typeof row.Finished)
+        PIDs.push(row.PROLIFIC_PID);  //ResponseId is column name
+      }
+     
+    } 
+      
+  }
+  return PIDs;
+}
+
+
+
+
+
 
 // read CSV and return an array of array of title corresponding to resID
 // ie. [[VE1_5,...VE7_5], [VE1_5,...VE7_5]]
@@ -79,9 +116,10 @@ async function readCSVt(filePath) {
   for await (const row of stream) {
     cnt++;
     const titleRow = [];
-    if (cnt > 2){
+    if (cnt > 2 && row.Finished === 'TRUE'){
       for(let i = 1; i <= 7; i++) {
-        const nm = `VE${i}_5`; 
+        // const nm = `VE${i}_5`; //condition1
+        const nm = `VE${i}_6`; //condition2
         titleRow.push(row[nm]); 
       }
       titles.push(titleRow); 
@@ -101,9 +139,10 @@ async function readCSVmentalImage(filePath) {
   for await (const row of stream) {
     cnt++;
     const mtImgRow = [];
-    if (cnt > 2){
+    if (cnt > 2 && row.Finished === 'TRUE'){
       for(let i = 1; i <= 7; i++) {
-        const nm = `VE${i}_2`; 
+        // const nm = `VE${i}_2`; // for condition1
+        const nm = `VE${i}_4`; // for condition2
         mtImgRow.push(row[nm]); 
       }
       selected_mentalimages.push(mtImgRow); 
@@ -155,25 +194,151 @@ async function readImageCounts() {
       console.error('Error writing image counts:', error);
     }
   }
+
+
+  async function ImageNameChangeFolder(filePath){
+    //change image file names in the folers
+    const files = await fsp.readdir(filePath);
+    // console.log("+++++++")
+  
+    let foldernumber = filePath.slice(-3, -2);
+    // console.log(typeof foldernumber)
+    // console.log(files)
+
+    files.forEach(file => {
+      // const filePath = path.join(folderPath_condition2, file);
+      const fileExt = path.extname(file);
+      const baseName = path.basename(file, fileExt);
+
+      let imageNum = baseName.split('_').slice(2).join('_');
+      let submissionID = baseName.split('_').slice(0, 2).join('_');
+  
+      // console.log(baseName)
+      // console.log(imageNum)
+      // console.log(submissionID)
+
+      if (foldernumber =='1' && baseName!= '.DS_Store'){
+        const newName = `${submissionID + '_'+foldernumber + fileExt}`;
+        // console.log(`oldname: ${baseName}`);
+        // console.log(`newname: ${submissionID + '_'+foldernumber + fileExt}`);
+        const oldPath = path.join(filePath, file);
+        const newPath = path.join(filePath, newName);
+
+        fs.renameSync(oldPath, newPath);     
+      }
+
+      if (foldernumber =='2' && baseName!= '.DS_Store'){
+        const newName = `${submissionID + '_'+foldernumber + fileExt}`;
+        // console.log(`oldname: ${baseName}`);
+        // console.log(`newname: ${submissionID + '_'+foldernumber + fileExt}`);
+        const oldPath = path.join(filePath, file);
+        const newPath = path.join(filePath, newName);
+
+        fs.renameSync(oldPath, newPath);     
+      }
+
+      if (foldernumber =='3' && baseName!= '.DS_Store'){
+        const newName = `${submissionID + '_'+foldernumber + fileExt}`;
+        // console.log(`oldname: ${baseName}`);
+        // console.log(`newname: ${submissionID + '_'+foldernumber + fileExt}`);
+        const oldPath = path.join(filePath, file);
+        const newPath = path.join(filePath, newName);
+
+        fs.renameSync(oldPath, newPath);     
+      }
+
+      if (foldernumber =='4' && baseName!= '.DS_Store'){
+        const newName = `${submissionID + '_'+foldernumber + fileExt}`;
+        // console.log(`oldname: ${baseName}`);
+        // console.log(`newname: ${submissionID + '_'+foldernumber + fileExt}`);
+        const oldPath = path.join(filePath, file);
+        const newPath = path.join(filePath, newName);
+
+        fs.renameSync(oldPath, newPath);     
+      }
+
+      
+      if (foldernumber =='5' && baseName!= '.DS_Store'){
+        const newName = `${submissionID + '_'+foldernumber + fileExt}`;
+        // console.log(`oldname: ${baseName}`);
+        // console.log(`newname: ${submissionID + '_'+foldernumber + fileExt}`);
+        const oldPath = path.join(filePath, file);
+        const newPath = path.join(filePath, newName);
+
+        fs.renameSync(oldPath, newPath);     
+      }
+
+      if (foldernumber =='6' && baseName!= '.DS_Store'){
+        const newName = `${submissionID + '_'+foldernumber + fileExt}`;
+        // console.log(`oldname: ${baseName}`);
+        // console.log(`newname: ${submissionID + '_'+foldernumber + fileExt}`);
+        const oldPath = path.join(filePath, file);
+        const newPath = path.join(filePath, newName);
+
+        fs.renameSync(oldPath, newPath);     
+      }
+
+      if (foldernumber =='7' && baseName!= '.DS_Store'){
+        const newName = `${submissionID + '_'+foldernumber + fileExt}`;
+        // console.log(`oldname: ${baseName}`);
+        // console.log(`newname: ${submissionID + '_'+foldernumber + fileExt}`);
+        const oldPath = path.join(filePath, file);
+        const newPath = path.join(filePath, newName);
+
+        fs.renameSync(oldPath, newPath);     
+      }
+
+
+
+    })
+
+  }
+
   
 
 async function generateImagePaths() {
     const folders = ["VE1_4", "VE2_4", "VE3_4", "VE4_4", "VE5_4", "VE6_4", "VE7_4"];
+    const folders_condition2 = ["VE1_5", "VE2_5", "VE3_5", "VE4_5", "VE5_5", "VE6_5", "VE7_5"];
     let images = [];
   
     const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
-    const resIDs = await readCSV(filePath); // Respond IDs in the list [R_4HSAV9DsD7kAcSZ, ...]
-    const titles = await readCSVt(filePath);// [[title1,title2,...title7][title1,title2...]] pusehd by row
-    const selected_mental_image = await readCSVmentalImage(filePath);
+    const filePath_condition2 = path.join(__dirname, 'public', 'data', 'data2.csv');
+
+    //change filepath to switch between condition 1 and 2
+    const resIDs = await readCSV(filePath_condition2); // Respond IDs in the list [R_4HSAV9DsD7kAcSZ, ...]
+    const PIDs = await readCSVPID(filePath_condition2);
+    // console.log("resIDs")  
+    // console.log(PIDs)
+    // console.log(PIDs.length)
+    const titles = await readCSVt(filePath_condition2);// [[title1,title2,...title7][title1,title2...]] pusehd by row
+    const selected_mental_image = await readCSVmentalImage(filePath_condition2);
+
+
+    
+
+    //change image names in the csv 
+
+    
+
   
-    for (let [index, folder] of folders.entries()) {
+    for (let [index, folder] of folders_condition2.entries()) {
+      // console.log(folder)
       const folderIndex = index;
       const folderPath = path.join(__dirname, 'public', 'images', folder);
-      for (let i = 0; i < resIDs.length; i++) {
-        const resID = resIDs[i];
+      const folderPath_condition2 = path.join(__dirname, 'public', 'images_condition2', folder);
 
-        if (["R_8CHzbhc4JOBRLV5", "R_4EXsi7EL6HEfhqV", "R_64wIzqV3gaB8jg5","R_2gR9TZkBpOxnHXn","R_1xYwybmsBKXYG1i","R_3w1stHdOBj2sfU1","R_2X0QOil3OprDtr2"].includes(resID)) {
-          const matchedFiles = await filterImagesByPrefix(folderPath, resID);// finding 7 images made by resID
+      ImageNameChangeFolder(folderPath_condition2);
+
+
+      for (let i = 0; i < resIDs.length; i++) {
+        
+        const resID = resIDs[i];
+        
+        // if (["R_8CHzbhc4JOBRLV5", "R_4EXsi7EL6HEfhqV", "R_64wIzqV3gaB8jg5","R_2gR9TZkBpOxnHXn","R_1xYwybmsBKXYG1i","R_3w1stHdOBj2sfU1","R_2X0QOil3OprDtr2"].includes(resID)) {
+        const matchedFiles = await filterImagesByPrefix(folderPath_condition2, resID);// finding 7 images made by resID
+
+        // console.log(matchedFiles)
+          // change folderPath to switch conditions
           matchedFiles.forEach(file => {
   
             let originalImagePath = `/images/${folderIndex + 1}.png`; // Ensures correct image mapping
@@ -184,7 +349,8 @@ async function generateImagePaths() {
     //           original: `/images/${folder}/${file}`,
     //           specific: originalImagePath,
               original: originalImagePath,
-              userdrawn: `/images/${folder}/${file}`,
+    //           userdrawn: `/images/${folder}/${file}`,// condition1
+              userdrawn: `/images_condition2/${folder}/${file}`, //condition2
               filename: file,
               title: title,
               mentalImg: mentalImg
@@ -194,7 +360,7 @@ async function generateImagePaths() {
           });// Your code here
 
 
-        }
+        // }
        
       }
     }
