@@ -1,0 +1,437 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Consent Form,Prolific ID,Q66,Q66_4_TEXT,C1,C2,C3,C4,C5,C5_12_TEXT,C6_1,C7_1,C8_1,VE1_1,VE1_2,VE1_3,VE1_4,VE1_5_Id,VE1_5_Name,VE1_5_Size,VE1_5_Type,VE1_6,VE2_1,VE2_2,VE2_3,VE2_4,VE2_5_Id,VE2_5_Name,VE2_5_Size,VE2_5_Type,VE2_6,VE3_1,VE3_2,VE3_3,VE3_4,VE3_5_Id,VE3_5_Name,VE3_5_Size,VE3_5_Type,VE3_6,VE4_1,VE4_2,VE4_3,VE4_4,VE4_5_Id,VE4_5_Name,VE4_5_Size,VE4_5_Type,VE4_6,VE5_1,VE5_2,VE5_3,VE5_4,VE5_5_Id,VE5_5_Name,VE5_5_Size,VE5_5_Type,VE5_6,VE6_1,VE6_2,VE6_3,VE6_4,VE6_5_Id,VE6_5_Name,VE6_5_Size,VE6_5_Type,VE6_6,VE7_1,VE7_2,VE7_3,VE7_4,VE7_5_Id,VE7_5_Name,VE7_5_Size,VE7_5_Type,VE7_6,Q49,Q53_1,Q55,Q55_4_TEXT,Q47,Q58,Q59,Q60,PROLIFIC_PID
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"Informed Consent Form     
+
+ 
+
+Purpose of Study   The goal of this research is to find out how text-based generative language models, such as ChatGPT, and Text-to-Image Generation Models, such as Dall-E, take different roles in visual imagery creativity. Furthermore, we intend to discover the limitations of each method and ways to overcome them.
+
+ 
+
+Procedures Essentially, we will ask participants to complete the following drawing task. It does not require fancy drawing skills.
+
+
+	We will provide seven kinds of different unfinished abstract simple lines (e.g., spiral lines). 
+	Then, we will ask participants to ideate many mental images that are related to such shapes. For example, from a spiral shape, you might produce snails, sea shells, dizziness, etc. We will encourage participants to produce as many mental images as possible without using synonyms. 
+	Once you finish ideating mental images, then you will choose one mental image and then use that to finish the drawing in the most creative way.
+	You will be asked to work with AI during this process.
+
+ 
+
+Participant Requirements To participate in this interview, you should be proficient in English, and aged over 18 years old.
+
+ 
+
+Risks and Benefits With respect to benefits, the interview might help the participants to experience state-of-the-art generative AI models.  This might help them to understand modern AI technologies better. Generative AI models are not perfect, therefore there is a risk of generating unwanted content that might irritate participants. However, this risk is low since our drawing task does not involve any violent content.
+
+ 
+
+Voluntary Participation And Right To Withdraw Participation in this interview is voluntary, and you can decide to withdraw at any time without any penalty. 
+
+ 
+
+Compensation If you willingly participate in the interview, you will earn a $18.
+
+ 
+
+Privacy and Confidentiality The only identifying information based on your participation in this interview will be your information provided via Prolific. We note that this could be linked to your offline self, so you might consider this before deciding to participate in the interview. The identifiable information will not be shared with anyone outside the research team and will only be used for research purposes.
+
+ 
+
+Contact Information If you have any questions or concerns regarding your rights as a subject in this interview, you may contact the Institutional Review Board (IRB) for Human Participants at 607-255-5138 or access their website at http://www.irb.cornell.edu. You may also report your concerns or complaints anonymously through Ethicspoint online at www.hotline.cornell.edu or by calling toll free at 1-866-293-3077. Ethicspoint is an independent organization that serves as a liaison between the University and the person bringing the complaint so that anonymity can be ensured. You will be given a copy of this form to keep for your records.
+
+ 
+
+Statement of Consent By saying yes, you indicate that you are 18 years of age or older, that you voluntarily agree to participate in this interview, and that you understand the information in this consent form. You have not waived any legal rights you otherwise would have as a participant in this interview.","What is your Prolific ID?  
+Please note that this response should auto-fill with the correct ID.","What device are you using now to answer this survey?  
+
+You must answer the survey using the desktop. If you are using another device, please return the survey. - Selected Choice","What device are you using now to answer this survey?  
+
+You must answer the survey using the desktop. If you are using another device, please return the survey. - Other - Text",Have you ever used large language model such as ChatGPT?,Have you ever used any kind of AI art generator such as Dall-E or Stable diffusion?,How often do you engage in any kind of drawing activities?,What kind of drawing activity do you engage in? For what purposes and what do you usually draw?,"Do you possess visual art-related university-level degrees, or are you currently pursuing them? (e.g., visual communication design, graphic design, fine art, films, etc.) - Selected Choice","Do you possess visual art-related university-level degrees, or are you currently pursuing them? (e.g., visual communication design, graphic design, fine art, films, etc.) - Other - Text","On a scale of 1 to 7, with 1 being a beginner and 7 being an expert, how would you rate your overall artistic skill level? - Overall artisticl skill","On a scale of 1 to 7, with 1 being a not creative at all and 7 being an extremely creative, how would you rate your overall creativity? - Overall creativity","On a scale of 1 to 7, with 1 being a not confident at all and 7 being an extremely confident, how would you rate your confidence in creating visual art? - Click to write Choice 1","Q-1 Here, write down all mental images that you developed on your own without help of AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.","Instruction
+
+Interacting with AI
+
+_________________________________________
+
+Now, you will be asked to work with generative AI to create ideas together. 
+
+1. Watch  this video  very carefully to understand how to proceed. 
+
+2. Open this link, which gives you access to generative AI.  
+
+3. Prompt AI using an example prompt
+
+Example prompt: What does this drawing remind you of? Give me a list of things that resemble this shape.
+
+4. Evaluate AI answers
+
+5. Make your own prompt and prompt AI freely to get more ideas. 
+
+6. Copy and paste AI-suggested items in the below text box (Q-2)
+
+_________________________________________
+
+
+
+  
+
+Q-2 Here, write down all mental images that you developed with AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.",Q-3 Do you think your prompting strategy was successful? What was your strategy behind designing your own prompt to induce more helpful answers from AI?,"Q-4 Among the list of mental images you developed with or without AI, take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Id","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Name","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Size","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Type",Q-6 Write down what your drawing represents. Give it a title.,"Q-1 Here, write down all mental images that you developed on your own without help of AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.","Instruction
+
+Interacting with AI
+
+_________________________________________
+
+Now, you will be asked to work with generative AI to create ideas together. 
+
+1. Watch  this video  very carefully to understand how to proceed. 
+
+2. Open this link, which gives you access to generative AI.  
+
+3. Prompt AI using an example prompt
+
+Example prompt: What does this drawing remind you of? Give me a list of things that resemble this shape.
+
+4. Evaluate AI answers
+
+5. Make your own prompt and prompt AI freely to get more ideas. 
+
+6. Copy and paste AI-suggested items in the below text box (Q-2)
+
+_________________________________________
+
+
+
+  
+
+Q-2 Here, write down all mental images that you developed with AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.",Q-3 Do you think your prompting strategy was successful? What was your strategy behind designing your own prompt to induce more helpful answers from AI?,"Q-4 Among the list of mental images you developed with or without AI, take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Id","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Name","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Size","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Type",Q-6 Write down what your drawing represents. Give it a title.,"Q-1 Here, write down all mental images that you developed on your own without help of AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.","Instruction
+
+Interacting with AI
+
+_________________________________________
+
+Now, you will be asked to work with generative AI to create ideas together. 
+
+1. Watch  this video  very carefully to understand how to proceed. 
+
+2. Open this link, which gives you access to generative AI.  
+
+3. Prompt AI using an example prompt
+
+Example prompt: What does this drawing remind you of? Give me a list of things that resemble this shape.
+
+4. Evaluate AI answers
+
+5. Make your own prompt and prompt AI freely to get more ideas. 
+
+6. Copy and paste AI-suggested items in the below text box (Q-2)
+
+_________________________________________
+
+
+
+  
+
+Q-2 Here, write down all mental images that you developed with AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.",Q-3 Do you think your prompting strategy was successful? What was your strategy behind designing your own prompt to induce more helpful answers from AI?,"Q-4 Among the list of mental images you developed with or without AI, take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Id","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Name","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Size","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Type",Q-6 Write down what your drawing represents. Give it a title.,"Q-1 Here, write down all mental images that you developed on your own without help of AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.","Instruction
+
+Interacting with AI
+
+_________________________________________
+
+Now, you will be asked to work with generative AI to create ideas together. 
+
+1. Watch  this video  very carefully to understand how to proceed. 
+
+2. Open this link, which gives you access to generative AI.  
+
+3. Prompt AI using an example prompt
+
+Example prompt: What does this drawing remind you of? Give me a list of things that resemble this shape.
+
+4. Evaluate AI answers
+
+5. Make your own prompt and prompt AI freely to get more ideas. 
+
+6. Copy and paste AI-suggested items in the below text box (Q-2)
+
+_________________________________________
+
+
+
+  
+
+Q-2 Here, write down all mental images that you developed with AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.",Q-3 Do you think your prompting strategy was successful? What was your strategy behind designing your own prompt to induce more helpful answers from AI?,"Q-4 Among the list of mental images you developed with or without AI, take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Id","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Name","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Size","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Type",Q-6 Write down what your drawing represents. Give it a title.,"Q-1 Here, write down all mental images that you developed on your own without help of AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.","Instruction
+
+Interacting with AI
+
+_________________________________________
+
+Now, you will be asked to work with generative AI to create ideas together. 
+
+1. Watch  this video  very carefully to understand how to proceed. 
+
+2. Open this link, which gives you access to generative AI.  
+
+3. Prompt AI using an example prompt
+
+Example prompt: What does this drawing remind you of? Give me a list of things that resemble this shape.
+
+4. Evaluate AI answers
+
+5. Make your own prompt and prompt AI freely to get more ideas. 
+
+6. Copy and paste AI-suggested items in the below text box (Q-2)
+
+_________________________________________
+
+
+
+  
+
+Q-2 Here, write down all mental images that you developed with AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.",Q-3 Do you think your prompting strategy was successful? What was your strategy behind designing your own prompt to induce more helpful answers from AI?,"Q-4 Among the list of mental images you developed with or without AI, take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Id","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Name","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Size","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Type",Q-6 Write down what your drawing represents. Give it a title.,"Q-1 Here, write down all mental images that you developed on your own without help of AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.","Instruction
+
+Interacting with AI
+
+_________________________________________
+
+Now, you will be asked to work with generative AI to create ideas together. 
+
+1. Watch  this video  very carefully to understand how to proceed. 
+
+2. Open this link, which gives you access to generative AI.  
+
+3. Prompt AI using an example prompt
+
+Example prompt: What does this drawing remind you of? Give me a list of things that resemble this shape.
+
+4. Evaluate AI answers
+
+5. Make your own prompt and prompt AI freely to get more ideas. 
+
+6. Copy and paste AI-suggested items in the below text box (Q-2)
+
+_________________________________________
+
+
+
+  
+
+Q-2 Here, write down all mental images that you developed with AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.",Q-3 Do you think your prompting strategy was successful? What was your strategy behind designing your own prompt to induce more helpful answers from AI?,"Q-4 Among the list of mental images you developed with or without AI, take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Id","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Name","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Size","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Type",Q-6 Write down what your drawing represents. Give it a title.,"Q-1 Here, write down all mental images that you developed on your own without help of AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.","Instruction
+
+Interacting with AI
+
+_________________________________________
+
+Now, you will be asked to work with generative AI to create ideas together. 
+
+1. Watch  this video  very carefully to understand how to proceed. 
+
+2. Open this link, which gives you access to generative AI.  
+
+3. Prompt AI using an example prompt
+
+Example prompt: What does this drawing remind you of? Give me a list of things that resemble this shape.
+
+4. Evaluate AI answers
+
+5. Make your own prompt and prompt AI freely to get more ideas. 
+
+6. Copy and paste AI-suggested items in the below text box (Q-2)
+
+_________________________________________
+
+
+
+  
+
+Q-2 Here, write down all mental images that you developed with AI. 
+
+Important! Separate your answers using a comma ( , ) without a space.",Q-3 Do you think your prompting strategy was successful? What was your strategy behind designing your own prompt to induce more helpful answers from AI?,"Q-4 Among the list of mental images you developed with or without AI, take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Id","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Name","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Size","Q-5 Once you finish the drawing, please upload your final image using the Choose File button below. 
+
+Important!! We only accept PNG format. - Type",Q-6 Write down what your drawing represents. Give it a title.,What was your strategy of trying to be creative?,"On a scale from 1 to 7 ( 1: Not at all, 7:  Extremely helpful ),
+how helpful was AI in assisting you with the creative mental image drawing task? You can give score based on the overall helpfulness. - 1","In your opinion, why do you think AI was helpful? - Selected Choice","In your opinion, why do you think AI was helpful? - Others - Text","If you find AI helpful, why? If not, why not? Use detailed examples and reasons to elaborate your answer.","Why do you think getting inspiration from AI different from getting inspiration from other sources such as search engine, book, novel, friends etc?",What was the challenge when interacting with AI?,Choose the right answer about making a screenshot of visual element.,PROLIFIC_PID
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID182""}","{""ImportId"":""QID2_TEXT""}","{""ImportId"":""QID193""}","{""ImportId"":""QID193_4_TEXT""}","{""ImportId"":""QID127""}","{""ImportId"":""QID128""}","{""ImportId"":""QID142""}","{""ImportId"":""QID136_TEXT""}","{""ImportId"":""QID132""}","{""ImportId"":""QID132_12_TEXT""}","{""ImportId"":""QID129_4""}","{""ImportId"":""QID133_11""}","{""ImportId"":""QID134_11""}","{""ImportId"":""QID154_TEXT""}","{""ImportId"":""QID166_TEXT""}","{""ImportId"":""QID152_TEXT""}","{""ImportId"":""QID11_TEXT""}","{""ImportId"":""QID30_FILE_ID""}","{""ImportId"":""QID30_FILE_NAME""}","{""ImportId"":""QID30_FILE_SIZE""}","{""ImportId"":""QID30_FILE_TYPE""}","{""ImportId"":""QID164_TEXT""}","{""ImportId"":""QID199_TEXT""}","{""ImportId"":""QID200_TEXT""}","{""ImportId"":""QID201_TEXT""}","{""ImportId"":""QID202_TEXT""}","{""ImportId"":""QID204_FILE_ID""}","{""ImportId"":""QID204_FILE_NAME""}","{""ImportId"":""QID204_FILE_SIZE""}","{""ImportId"":""QID204_FILE_TYPE""}","{""ImportId"":""QID205_TEXT""}","{""ImportId"":""QID208_TEXT""}","{""ImportId"":""QID209_TEXT""}","{""ImportId"":""QID210_TEXT""}","{""ImportId"":""QID211_TEXT""}","{""ImportId"":""QID213_FILE_ID""}","{""ImportId"":""QID213_FILE_NAME""}","{""ImportId"":""QID213_FILE_SIZE""}","{""ImportId"":""QID213_FILE_TYPE""}","{""ImportId"":""QID214_TEXT""}","{""ImportId"":""QID217_TEXT""}","{""ImportId"":""QID218_TEXT""}","{""ImportId"":""QID219_TEXT""}","{""ImportId"":""QID220_TEXT""}","{""ImportId"":""QID222_FILE_ID""}","{""ImportId"":""QID222_FILE_NAME""}","{""ImportId"":""QID222_FILE_SIZE""}","{""ImportId"":""QID222_FILE_TYPE""}","{""ImportId"":""QID223_TEXT""}","{""ImportId"":""QID226_TEXT""}","{""ImportId"":""QID227_TEXT""}","{""ImportId"":""QID228_TEXT""}","{""ImportId"":""QID229_TEXT""}","{""ImportId"":""QID231_FILE_ID""}","{""ImportId"":""QID231_FILE_NAME""}","{""ImportId"":""QID231_FILE_SIZE""}","{""ImportId"":""QID231_FILE_TYPE""}","{""ImportId"":""QID232_TEXT""}","{""ImportId"":""QID235_TEXT""}","{""ImportId"":""QID236_TEXT""}","{""ImportId"":""QID237_TEXT""}","{""ImportId"":""QID238_TEXT""}","{""ImportId"":""QID240_FILE_ID""}","{""ImportId"":""QID240_FILE_NAME""}","{""ImportId"":""QID240_FILE_SIZE""}","{""ImportId"":""QID240_FILE_TYPE""}","{""ImportId"":""QID241_TEXT""}","{""ImportId"":""QID244_TEXT""}","{""ImportId"":""QID245_TEXT""}","{""ImportId"":""QID246_TEXT""}","{""ImportId"":""QID247_TEXT""}","{""ImportId"":""QID249_FILE_ID""}","{""ImportId"":""QID249_FILE_NAME""}","{""ImportId"":""QID249_FILE_SIZE""}","{""ImportId"":""QID249_FILE_TYPE""}","{""ImportId"":""QID250_TEXT""}","{""ImportId"":""QID49_TEXT""}","{""ImportId"":""QID53_1""}","{""ImportId"":""QID55""}","{""ImportId"":""QID55_4_TEXT""}","{""ImportId"":""QID47_TEXT""}","{""ImportId"":""QID58_TEXT""}","{""ImportId"":""QID59_TEXT""}","{""ImportId"":""QID60""}","{""ImportId"":""PROLIFIC_PID""}"
+8/22/24 21:54,8/22/24 23:25,IP Address,*******,100,5404,TRUE,8/22/24 23:25,R_6qPyCDhSrKe7WG8,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",666293e1581f90e370ce741c,Desktop,,Yes,Yes,A few times a year,Casual,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,5,2,"me on a map,tent,direction,handstand","The letter 'A' in a stylized or abstract font,
+A simplified representation of a mountain with the sun or moon rising or setting behind it,
+A basic teepee or tent icon.
+The symbol for an A-frame structure in architectural drawings,
+A stylized representation of a pine tree,
+An arrowhead pointing upwards with a point of reference or location indicator below it,
+A minimalist Christmas tree with a single ornament,
+An abstract person with arms raised in a V shape,",No Ai could not help,A simplified representation of a mountain with the sun or moon rising or setting behind it,F_1jTe1e78jJWTuh5,1.png,45924,image/png,Sunrise from the peaks,"pole with weights at the ends,clock hands,axis","An abstract portrayal of human interaction, where the dots represent individuals and the line is the invisible bond of communication or relationship between them,The beginning strokes of a constellation map, with the dots as stars and the line hinting at the outline of a larger, unseen constellation.",I just wanted the Ai to give unique ideas.,"An abstract portrayal of human interaction, where the dots represent individuals and the line is the invisible bond of communication or relationship between them",F_qD6N5ACZ7O7ZuaB,2.png,31935,image/png,The Stages Of Human Connection,"Closed eye,arc,sunset","A setting or rising sun at the horizon,A minimalist representation of a bridge over water,A partially submerged submarine or whale in the ocean",I don't think my strategy worked. I asked for more minimalist ideas but it came up short.,I like my idea of a sunset.,F_24HMkljVOzziTeP,3.png,32539,image/png,Sunset on a summer evening.,"flag,stairs,road,ladder","A stylized depiction of a ladder or steps seen from the side, with the varying lengths suggesting perspective,An abstract representation of the mathematical symbol for ""equal"" or ""minus"" if you consider the middle line as a main reference",Yes I like the idea it gave me.,"Imagine these lines as the steps of a mystical floating staircase, leading to an invisible realm hovering above. Each step represents a different stage of enlightenment, growing longer as one ascends, suggesting that with each step, the journey becomes more substantial and profound",F_2y4uwd40PSZM31G,4.png,38799,image/png,The Stairs To Enlightenment,"dancer,skipping,celebrating","A stylized bird in flight, with the upper line as its wings and the lower line as its tail,
+A minimalist representation of a tree, where the top line is the canopy and the lower line is the trunk,
+An abstract human figure with raised arms, as in a dance or celebration,
+A road fork or path split, suggesting a choice or divergence,
+A simplistic facial profile with the top line hinting at a nose and the bottom line as a chin,
+A boomerang in mid-flight,
+The outline of a mountain with a path leading up",Yes. I like the abstract ideas,a minimalist waltz on a canvas of emptiness,F_3fKamIZpoQImD2g,5.png,49304,image/png,A dance of emptiness,"An eye that is sideways,waist,arms,magnets,capsule","A Cosmic Phenomenon,A pair of curved tusks or horn,wings",I tried to tell the AI to be more creative and in-depth.,A Cosmic Phenomenon,F_3fqIYi9besBGReZ,6.png,44260,image/png,A Cosmic Warp,"Worm with a baby worm on it's back,sitting on a weird chair","A stylized bird in flight, with its wings in a gliding position,
+A minimalistic representation of a mountain range with a peak and a valley,
+A ribbon gently floating in the air after being tossed,
+An abstract symbol for infinity or a sideways figure-eight,
+Two fish swimming closely together, creating a yin-yang pattern,
+A simplified drawing of ocean waves or a calm sea,
+A pair of dancing figures, with the lines representing their intertwined arms,
+A piece of lightweight fabric, such as silk or chiffon, caught in a breeze",I think it could have been more creative.,Worm and Baby wormD,F_2320ozZQ5n1qdKD,7.png,39181,image/png,A mother worm with her baby,I just tried to tell the AI to try being more abstract and creative.,6,It helped me to think outside of the box and develop mental images that I have not thought of.,,"I think AI helps give new ideas to people that get stuck on certain tasks or ideas. If someone needs inspiration, ideas or answers they can just ask and get a response in seconds. Rather than trying to find them from reading a book or relying on a search engine.",Getting inspiration is more convenient and quicker with AI than with the other options.,Some of the prompts I used seemed to make the AI get stuck or confused.,Take a screenshot of the visual element with the rectangular frame around it.,666293e1581f90e370ce741c
+8/22/24 21:57,8/22/24 23:30,IP Address,*******,100,5610,TRUE,8/22/24 23:30,R_4OLzKnfpyYGjcR3,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",66be99e652f75ee867997f3a,Desktop,,No,No,Monthly,I doodle some random things for fun.,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,5,6,5,"the letter A,an eye looking down,pyramid,pacman eating a dot","A simplified representation of a Christmas tree with a single ornament.,The letter 'A' with a period, perhaps denoting an abbreviation or an initial.,A stylized representation of a mountain peak with the sun or moon directly below it.,A diagrammatic representation of a warning sign with a focal point or location marked.,An abstract artistic representation of a person with arms raised and head represented by the dot.,A minimalistic depiction of an arrowhead pointing upwards, with the dot serving as a point of reference.,A conceptual design,Once upon a time in a vast, serene valley, there stood a solitary mountain with a peak that pierced the sky. At the base of the mountain, there was a small, tranquil pond that mirrored the sky above and the mountain's grand silhouette.
+
+The mountain, named Aleron, was known to be the oldest being in the valley, its slopes covered in ancient trees and its crevices home to countless creatures. The pond, which the locals called Serene Dot, was a source of life, its waters pure and teeming with fish.
+
+Legend had it that Aleron was not always just a mountain, but a great warrior turned to stone by a powerful enchantress as punishment for his hubris. Serene Dot was said to",Yes. I asked the AI to tell me a story about what the drawing is trying to depict and it gave me a detailed story. ,A stylized representation of a mountain peak with the sun or moon directly below it.,F_1FQFVQA9KbDH8HU,1.png,25899,image/png,A sign that designate an eye wash station. ,"An emoji,constellation,morse code,route on a map","A simplified or abstract representation of a clock's hand pointing at certain hours.,A minimalistic depiction of a barbell without the weights.,A straight-line segment from a geometric perspective.A stylized representation of a connect-the-dots puzzle where only two dots are present.,A Morse code symbol, if one imagines the line as a dash and the dots as, well, dots.,A very basic constellation diagram, reminiscent of how simple constellations are depicted in astronomy.,A symbolic or abstract representation of a connection or a link between two points,The drawing you've shared is quite abstract and minimalistic, consisting of two dots and a line. This could be interpreted as a very simplified representation of a face. If we use our imagination and interpret the line as a mouth and the dots as eyes, it could suggest a neutral or indifferent emotion, given the lack of a smile or frown. However, emotions are complex and this representation is very open to interpretation. Some might see it as a contemplative or pensive face, while others might see it as expressionless due to the simplicity of the features.",Yes. I asked the AI to imagine the drawing as a face and tell me the emotions it represents. And the AI gave an accurate description. ,A minimalistic depiction of a barbell without the weights.,F_1JL71lX66cQqS9c,2.png,28166,image/png,A monster dancing to some music. ,"sunset,sunrise,sleepy eye,road bump,hill","A bridge over a river or a road.,A minimalist depiction of a sunset or sunrise where the line is the horizon and the arc is the sun.,An eyebrow and a closed eyelid in a stylized, abstract face.,A simple seesaw or teeter-totter on a playground.,The profile of a hill or a small mountain.,A basic representation of a scale, with the arc as a balancing arm.,A skateboard ramp or a half-pipe seen from the side.,The arch of a,The drawing you've provided is quite minimalistic, featuring what seems to be a semi-circular shape above a horizontal line. It could represent either a sunrise or a sunset depending on the context or the viewer's interpretation.
+
+If we want to consider it as a sunrise, you can imagine the sky gradually brightening with soft shades of pink and orange spreading across the horizon. Birds might start to chirp, and the world slowly comes to life as the warmth of the sun's rays begins to touch the landscape.
+
+On the other hand, if we interpret it as a sunset, you could envision the sky painted with intense hues of red, purple, and gold as the sun descends. The day is winding down, and the environment is bathing in",Yes. I asked the AI to interpret whether the image present sunset or sunrise. The AI instead gave me suggestions how to add to the image to make it more suggestive. ,A skateboard ramp or a half-pipe seen from the side.,F_3g6qER5t61qyHnT,3.png,36290,image/png,Close up of a woman's face. ,"vents,grates,lake,sunset,ladder,steps,shelves","A minimalist representation of a traditional family, with the longest line representing a parent and the shorter lines representing children.,The early stages of an abstract art piece or a sculpture, where the lines serve as a fundamental concept for further development.,A simplified depiction of musical notes on a staff, with the lines representing rests or pauses of different durations.,A graphic representation of data, like a very simplified bar graph without labels or axes, showcasing different values.,The beginning of a timeline or a sequence, with each line representing a different event or period.,A stylized formation of,Stack of books,Shelving,Cutlery tray,Musical staff lines,Drawer handles",I think my prompt was successful. The AI gave me very vague and abstract ideas so I asked the AI to list me daily objects that resemble the drawing. ,Cutlery tray,F_D2JZpeQXYEC3KcF,4.png,20943,image/png,"A scene of the beach during sunset, with a beach towel, a bucket and an umbrella. ","flower,body,cross,antenna,dancer,roads","A simplified depiction of a constellation in the night sky.,A minimalist representation of a clock's hand pointing at specific hours.,A diagram showing a bond between two atoms in a molecule.,The visual representation of a musical note, like a quarter note or an eighth note, with the stem and head.,The concept of a connection or a link between two points, such as in networking or relationships.,A very abstract and basic representation of a person standing with,A Simplistic Clock Hand,A Miniature Golf Course,A Morse Code Message,A Musical Note",I was unsuccessful initially when I asked the AI to elaborate on of the the answers and an error was produced. I then asked fore more ideas which was more successful only the AI had given me a few repeats. ,A Miniature Golf Course,F_UKDt1ZomvWBX9D3,5.png,46629,image/png,A stick figure of a cheerleader holding pom-poms. ,"bracket,femal genital,melon,opening,eye","A pair of parentheses laid on their sides.,The outline of a vase or urn when the negative space between the lines is considered.,A simplified or abstract representation of a human embrace or hug.,The curves of a musical instrument, such as a lyre or harp.,The top view of a pair of headphones or earpieces.,The wings of a butterfly or other insect when viewed from above.,The silhouette of an eye, with the curves representing the upper and lower eyelids.,A minimalist representation of a crescent moon, one on each side.,The drawing you've provided shows two curved lines arranged in a way that they almost form a circle but don't quite connect. If we imagine this as a road sign, it could be interpreted in a creative or symbolic way because it is not a standard traffic sign.
+
+One possible interpretation could be that the sign is indicating a road that comes close to forming a loop but doesn't fully connect, suggesting a roundabout ahead with an unusual shape or perhaps a warning about a U-turn or a road that curves back on itself. It could also imply that the road ahead may have a continuous curve, indicating to motorists that they should be prepared for a series of bends or a winding path.
+
+Another creative interpretation might be that it symbolizes an incomplete journey or route",Yes. I asked the AI to treat the drawing as a road signa and what it could be telling the motorist and the AI gave some decent suggestions. ,A simplified or abstract representation of a human embrace or hug.,F_21nNRvH6pGdd9vx,6.png,34454,image/png,A vase set on a table. ,"pasta,mouth,waves,","A stylized infinity symbol or a lazy eight.,A ribbon fluttering in the wind.,A minimalistic representation of a wave or two waves intersecting.,A pair of mustaches laid side by side or a single mustache with a modern twist.,A simplified depiction of a DNA double helix.,An artistic interpretation of a racetrack or a winding road.,Two snakes facing each other, as seen from above.,The silhouette of a sand dune or a rolling hill.,A calligraphic brushstroke in an Eastern style of painting or writing,Noodles or Spaghetti,Sliced Olives,Slices of Fruit",Yes. The AI understood my prompt to narrow down the answers to food but gave fairly generic and abstract answers. ,A simplified depiction of a DNA double helix.,F_1FM6LQdwMBG8F9W,7.png,27890,image/png,A hand doing the OK sign. ,I tend to abandon the first few obvious ideas that came to mind and spend some time to let the ideas develop. I try to think of unconventional perspective. ,6,It helped me to think outside of the box and develop mental images that I have not thought of.,,"I think AI is helpful in the brainstorming phase when it can provide a few ideas to jump off from. It is helpful when I have a creative block. 
+I am often stuck in the initial phase of the creating process where there's either too much freedom or no ideas some to mind. The AI would be useful in giving me a bunch of different ideas where I can either eliminate or elaborate on. ",I can prompt the AI further to give me specific ideas. Search engine and books are good source of inspiration but sometimes it is too hard to look for specific ideas. ,It can give very abstract and vague answers unless the prompting was just right. ,Take a screenshot of the visual element with the rectangular frame around it.,66be99e652f75ee867997f3a
+8/22/24 21:53,8/22/24 23:48,IP Address,*******,100,6909,TRUE,8/22/24 23:48,R_1kESL3mWfkcPf3Z,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",5fbdc4f0784d3f225d8d96d1,Desktop,,No,No,Rarely,Doodling,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,1,3,1,"Pen,torpedo,dunce cap,arrow head,archeology dig","A stylized version of the Eiffel Tower with a point at the top and a focal point below,An arrow pointing upwards, with the dot representing a starting point or origin.",I asked the Ai to provide more details for a suggestion I came up with,An arrowhead uncovered at an archeology dig site,F_b88rRgEcdHcRJwB,1.png,40384,image/png,Exciting find at the dig site,"unimpressed emoji,a person crying in a pool of their own tears,catapult,","A simplistic representation of a constellation, with the dots as stars and the line indicating a connection or pattern between them,A stick figure in a very abstract form, with the line as the body and the dots as the head and feet",I asked the AI to develop an idea I had generated on my own,A person crying in a pool of their own tears after having dropped their dinner,F_25u2ASTqTiy9wMz,2.png,58906,image/png,It's been a rough week,"A setting sun,lion king,a sleepy eye, a keyhole,a hill, a pimple","A simplistic representation of a sunset or sunrise, where the curved line is the sun partially visible on the horizon,A classic ""sad"" emoticon, with the curved line representing a frown.",I asked the AI to pick one of its own suggestions and improve upon the visual details to produce a more vivid image.,"Imagine the curved line as the sun, its lower half just touching the horizon. The horizon is a dark silhouette of a distant mountain range, adding depth to the scene. Above the sun, the sky transitions from a warm golden hue near the horizon to a soft pink and then a deep purple as you look higher, indicating the fading light as day transitions to night or vice versa.  The sun itself is a brilliant orange, with faint rays of light emanating outward, suggesting the powerful glow that can only be witnessed at these magical times of day.",F_XZejvthOol4FHzj,3.png,29704,image/png,classical drawing of ocean sunset,"Highway,river,racing stripes,running track,swords that are engaged together,laser fire,a polygraph read out","A minimalist representation of musical notes on a staff,Musical Notes on a Staff: Envision the lines as strings of a celestial harp, each varying in thickness representing a different cosmic frequency or vibration, playing the music of the spheres",I asked the model to provide me with more details to create a more evocative image.,"Musical Notes on a Staff: Envision the lines as strings of a celestial harp, each varying in thickness representing a different cosmic frequency or vibration, playing the music of the spheres.",F_2VJGwMPujgtCTIh,4.png,52154,image/png,Celestial Harp,"flower,wine glass,person picking their nose,cat,mouse,a bomb with a fuse",A bent twig or a young plant sprouting and bending towards the light,I asked the Ai to build upon one of its suggestions by adding further detail to the image description.,"The image depicts a minimalist interpretation of a natural form, characterized by a single, slender line that curves and forks gracefully into two ends. One might imagine this line as a delicate twig or a sprout, its form arcing with supple flexibility towards an unseen source of light, emblematic of growth and the pursuit of life-sustaining elements. The simplicity of the line drawing allows for a multitude of interpretations, where the gentle curve suggests the natural tendency of plants to phototropism, bending and reaching for the optimal light to thrive. With its unadorned elegance, the image evokes a sense of tranquility and the subtle, underlying vitality inherent in nature's design.",F_3DbXOTS50FFAugw,5.png,37936,image/png,DON'T DO IT MISTER CAT,"egg,lamp,eye,flame,bug,body,grenade,dog","The graceful arc of a dancer's arms as they perform an expressive ballet move,The mysterious gateways to a fantastical realm, slightly ajar and inviting the curious to peek through,The subtle contours of a mystical rune, part of an ancient language used in enchantments and spells,The wings of a butterfly or other insect when the wings are closed","This time I asked for more creative examples, including the suggestions from the previous prompts.","The mysterious gateways to a fantastical realm, slightly ajar and inviting the curious to peek through",F_eFZPR0VAVMxb9ip,6.png,39817,image/png,A gateway that leads to a land of fantasy,"modern art chair,two people having sex,a high heel,violin,map of two lakes connected by a strait","A calligraphic brushstroke, evoking the art of ink painting or calligraphy,Two leaves overlapping or being blown together in the breeze.",I took one of the suggestions the model provided and asked it to improve upon the visual details.,"The image showcases a single, elegant brushstroke centered on a crisp white background. The stroke is bold and fluid, with a variation in width that suggests it was made by a traditional calligraphy brush, its bristles saturated with rich, black ink. The sweeping curve of the line is reminiscent of the dynamic movements found in Asian ink painting, embodying a sense of grace and controlled energy. The tapered ends of the stroke indicate a deliberate start and a swift, yet precise lift-off, which is characteristic of skilled brushwork.  As the line undulates, it conveys a serene balance between motion and stillness, reminiscent of a gentle wave or a supple branch swaying in the wind. Despite its simplicity, the brushstroke carries a profound aesthetic",F_20SF858Ai3W9WLH,7.png,42378,image/png,child attemptting calligraphy,"I compared my ideas to he suggestions provided by the AI. Then I picked the idea I liked the most and asked the AI to expand upon the visual details, seeing if they could add to my imagination.",6,It helped me to visualize the image more vividly with more details.,,"The AI was most helpful when helping me visualize the image more detail by providing a more complete description of the image. It was less helpful in generating descriptions of the image itself, where sometimes the suggestions would be incomplete. For example it would suggest :The letter 'A' accompanied by a period, perhaps symbolizing the.""",They suggestions provided by the AI tend to be impoverished at first. It tends to require precise instructions and cannot intuit what the user wants from vague descriptions and ideas.,Providing specific enough instructions to guide the AI to produce a suggestion that would fit my request.,Take a screenshot of the visual element with the rectangular frame around it.,5fbdc4f0784d3f225d8d96d1
+8/22/24 22:04,8/23/24 0:03,IP Address,*******,100,7164,TRUE,8/23/24 0:03,R_6viBekp7Yal9EzE,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",660ec220a427ade0e85a7605,Desktop,,Yes,Yes,A few times a year,To fuse different ideas or concepts together in various art styles. Purpose is self entertainment.,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,5,6,5,"Tent Camping Icon,icon for mountain,pointy rock for piercing,tunnel at the base of a mountain","An uppercase letter 'A',A stylized Eiffel Tower,A metronome indicator,A pencil tip,A road sign indicating caution or an upward direction","Very successful. Unlike the previous drawing, the concise answers weren't too short.",Tent Camping Icon,F_3yIzGKG11hSkbVT,1.png,73290,image/png,"Title: ""Tent Camp at night"". It represents a camping trip with 2 other friends in a dark night.","a magician wand,a diagram of gravitational pull between 2 masses,morse code message","Clock hand,Divining rod,Antenna,Pointer stick","Yes like the previous illustrations, making it ask short answers works very effectively even if it is very short results here.",Clock hand,F_3fPkatUowcykU2C,2.png,28662,image/png,"Title: ""Clock for time"". It is a simple representation of a classic clock with 3 dials.","A sleeping eye,a symbol for mountain and lakes,a road speed bump,the trajectory of an object being thrown across","Sunset or sunrise over the horizon,Archway,Bridge,A flipped-over bowl,A crescent moon on its back",Great AI results as the others. One limitation is the amount of results it generates is always capped at 7.,A sleeping eye,F_1drSPe6STgpSTAJ,3.png,64293,image/png,"Title: ""The sleeping man"". It represents a middle aged man's sleeping eye up close.","menu button,three levels or floors,three parallel lines,modern minimalistic art,rudimentary icon for a road,chinese character for 3","An aerial view of three minimalist piers jutting into a calm sea,A simplified skyline with varying heights of buildings,The beginning of a musical staff awaiting the addition of notes,A modernist take on a river with three separate streams,A stylized representation of the varying lengths of shadows cast by objects at different times of the day,The progress bars on a download screen, with each","I think it was successful. The strategy is to focus on eliminating what the AI fails to comprehend. For instance, seeing that the AI generates long responses, it is important to guide it with the next prompt to make short answers.",A simplified skyline with varying heights of buildings,F_eEtUeTjyXSMGyul,4.png,67248,image/png,"It represents a city skyline of 3 levels, elevated by a mountain or simply with natural building height. It is slightly inspired by the waterfront of Seattle. My title for it would be ""City of 3 horizons"". Best name I could come up with anyway.","A man waving hi,a man hitting a voleyball,minimalistic corporate logo,a thread poking someone's eye lid.","Dancing figure,Calligraphy stroke,Tree branch,Archery bow,River bend","Similarly to the previous one, making the AI generate short and concise prompts seems to work more efficiently for creativity",a man hitting a voleyball,F_1QyMAfQ89CQvreI,5.png,52563,image/png,"Title would be ""The winning shot"". It represents a player in the middle of a game of volleyball about to smack a game ending shot.","Keyboard symbols of paranthesis,converging projectiles,a tunnel passageway ","Horseshoe magnet,Ear outlines,Bent pipes or tubes,Ribbon edges","Similar prompt strategy as the previous one but it required an additional re-run of the prompt to generate enough ideas I deem ""accurate"" to the illustration.",Bent pipes or tubes,F_Zk4zLaHbaFN1GoN,6.png,59732,image/png,"Title: ""Winding pipes"". It depicts a series of winding pipes endlessly looping around like a maze","A long lost Egyptian amulet symbol,man using finger to wipe off tear from his eye,the waves of the ocean minimalistic art","Minimalist mountain range,Wind icon or symbol,A pair of dancing figures,Ribbon mid-twirl","The prompting strategy was successful. The key is to guide the AI into going straight to the point, similar to spit-balling ideas allowing for better ideas.",A long lost Egyptian amulet symbol,F_XgPSyafbilTtMNb,7.png,55819,image/png,"It represents an amulet found fully intact and put on display or illustrated with a special symbol on the top of it. Title: ""Amulet of Power""",Making the AI generate short responses instead of having it spew out long explanations for its creative idea,6,It helped me to think outside of the box and develop mental images that I have not thought of.,,"AI in general is a very useful tool that can provide helpful indications and answers to questions that may not necessarily have direct responses online. For instance, AI can accelerate the learning process by showing you examples and how it responds to questions similar to a professor. For art, it is less helpful in teaching but more so in inspiring like with this survey.","AI is different becomes it to some extent is a plagiarized calculated summary of things that can be found online and only online. Thus, it is technically similar to searching online but done faster.","While some words may seem obvious to us, the AI interprets things differently. For instance the word ""Short"" can be interpreted very differently depending on who you ask, including the AI.",Take a screenshot of the visual element with the rectangular frame around it.,660ec220a427ade0e85a7605
+8/22/24 22:44,8/23/24 0:36,IP Address,*******,100,6765,TRUE,8/23/24 0:37,R_5hxglRFLh6NCcHn,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",665f165cd6055520ff40fd23,Desktop,,Yes,Yes,Weekly,AI generating art to visualise story writing ideas ,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,5,3,"a tent,a piece of freshly made pie,the top view of a skyscraper","A simplistic representation of a pine tree and a falling pine cone or seed,A mountain peak with the sun or moon positioned directly below the summit,A simplified version of the Eiffel Tower with a point at the top and the Champ de Mars below,A simplistic representation of a campfire with a single ember floating away from the flames,An abstract illustration of a shark fin above water with a curious fish approaching from below","Yes, I asked for non geometric ideas, and that gave me some good ones. ",An abstract illustration of a shark fin above water with a curious fish approaching from below,F_CZUO5FGogWiE9UZ,1.png,25012,image/png,Swim with care,"a gymnast's baton,two points on a map that will never meet,an eel swimming through the water electrifying things","A simplified or abstract representation of a clock's hand pointing at a specific time,A stylized depiction of a barbell,A metaphor for a path or journey from one place to another,hese dots are actually two adventurous planets that have pulled out their interplanetary jump rope and are about to start a game that defies gravity and spacetime, with the line being the rope they're swinging","Very, nice imagination","hese dots are actually two adventurous planets that have pulled out their interplanetary jump rope and are about to start a game that defies gravity and spacetime, with the line being the rope they're swinging",F_2dGv2paqLfSaX9c,2.png,27646,image/png,When giants play. ,"a man lying on a bed,a woman about to give birth,a child bringing a cookie to it's mouth,a watermelon on a cutting board","A minimalist representation of a bridge over a river,An abstract representation of a sunset or sunrise, where the upper curve is the sun partially visible,A simplified architectural feature such as an archway or dome",No.  I asked for three or four ideas and it gave me two rather uninspiring ideas only. ,a child bringing a cookie to it's mouth ,F_0r2bFY20EN4UOXv,3.png,24400,image/png,The thief,"railway tracks,cars going down a highway,the inside of an oven,writer's block,a bookcase","The stripes on a military uniform indicating rank,The lines on a notebook or ruled paper,A minimalist representation of a ladder","No, I asked for four ideas, it only gave me two, and they weren't particularly dreamy. ",railway tracks,F_2TuxKhkq2Y4kPLf,4.png,19095,image/png,Speed Train,"it's a woman playing the harp,the nose of a dolphin,a piece of apple pie,the lid of a pot,a garden gnome,a coat hanger,a throw pillow,a magnifying glass,flames of a fire,a cat arching it's back.","
+    A stylized bird in flight, with one wing raised higher than the other,A tree branch with a couple of twigs or offshoots,A person's profile with an exaggerated nose,A simplistic representation of a mountain with a path or road leading up to the peak,An abstract or minimalist depiction of a dancer with one arm lifted upwards,A boomerang in mid-flight with a curved trajectory,A bent over sapling or young plant affected by wind,A Chinese character or a symbol from
+","not particularly.  The AI's initial list made me want to confine our ideas to the natural world, but it only gave two suggestions, while I was hoping for more.  I should have specified that I wanted a certain number like at least six. ",a harp,F_1QGbxFKrCppNBlW,5.png,24600,image/png,Woman playing harp ,"the eye of sauron,a large person squeezing through a small space,the narrowing field of view as you are driving,a cat as she lies on her favorite chair,a canoe making it's way along a winding stream. ","
+    A pair of parentheses opened towards each other,The silhouette of a vase or urn when the lines are viewed as mirroring each other,The curved horns of a bull or ram when seen from the front,A minimalist representation of a magnet.
+    The start of a heart shape that hasn't been completed,A stylized letter ""C"" facing another in reverse, like a logo,The outline of a human face, abstractly represented by the curves as the edges of the face,An abstract representation of an embrace, with two figures leaning towards,A Portal to Another Dimension
+","Yes, I think by specifying to think outside the box, it gave me better, less obvious ideas.  ",a portal to another dimension,F_1M4mkAYu0iY5nBq,6.png,39378,image/png,The portal gateway,"a flowing river,heat coming from an opened oven door,steam rising from a bath,a pile of shirts on the floor,two hands locked together","A stylized bird in flight, its wings elegantly curved mid-flap,A ribbon gracefully floating in the air, captured at the moment it folds over itself,A ribbon gracefully floating in the air, captured at the moment it folds over itself,Envision the line as a delicate swing hanging from the crescent moon. A gentle, ethereal figure is swinging on it, with stardust trailing behind, as they swoop through the velvety night sky sprinkled with stars","Yes, the more specific I am with the AI, the better the response I feel I get.  ","Envision the line as a delicate swing hanging from the crescent moon. A gentle, ethereal figure is swinging on , with stardust trailing behind, as they swoop through the velvety night sky sprinkled with stars",F_wUh6ZFbw3c3PWZb,7.png,25587,image/png,The Dreamer,I just tried to let my mind wander and think of things in the natural world in a creative way,5,It helped me to think outside of the box and develop mental images that I have not thought of.,,"Sometimes the AI did not obey my prompts, like I'd ask for four suggestions, and it gave me two. Or it was not overly creative.   but when the prompts were clear, and I was more specific, it was helpful, even creative in a way I am not. ","I think AI helps you refine your own ideas better, whereas others might muddy the waters more. Sometimes you need help clarifying your own ideas, you don't necessarily want others ideas, just your own, but better. ","Being specific enough, knowing how to formulate good prompts. Knowing how to exactly converse with AI is not necessarily an intuitive thing.  I find it takes practice to get out of it what you really want. ",Take a screenshot of the visual element with the rectangular frame around it.,665f165cd6055520ff40fd23
+8/22/24 21:54,8/23/24 0:43,IP Address,*******,100,10092,TRUE,8/23/24 0:43,R_32l98AqJfptScRr,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",6634179b2abbe693393fb48a,Desktop,,Yes,Yes,Rarely,When I am bored and nothing else to do,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,1,5,2,"a teepee hit,steep mountain,party hat,conehead,pyramid with entrance.","A stylized representation of a Christmas tree with a single ornament,A mountain peak with the sun or moon hanging low in the sky,An arrowhead pointing upwards,A simplified depiction of a person with a triangular body (the triangle) and head (the dot),A road sign indicating a caution point or a point of interest ahead,An abstract representation of a pine tree,A minimalist version of the Eiffel Tower",yes. i asked for follow up strategies for things to add after the original idea,pyramid ,F_2PdHlJ6PgRuYBe5,1.png,47134,image/png,3 pyramids of Giza with the biggest in front with onlookers and a camel waiting,"sideways non expression emoji,pole vault,tree falling over,map of a flight path. ","A simplified or abstract representation of a constellation,A minimalistic depiction of a barbell,A stylized musical note, like a whole note with a line connecting it to another note or a rest,A straight route or path between two locations on a map,A symbolism for connection or link between two points or ideas,A representation of a bond in a molecular structure, such as a hydrogen molecule (H2),A conceptual drawing of a tightrope between two points,A simplistic representation of a seesaw in balance.","yes. This one gave even more ideas for me to use than the all the previous ones. 
+
+IMPORTANT INFO: I mislabeled a previous upload as number 2 when it was supposed to be number 3. I will have to upload this one as the real2.png and please use my previous upload 2.png for the drawing of image 3",flight path on a map,F_SZuYAYqlEdD1tQZ,2.png,41237,image/png,world map with a flight path between 2 islands in the atlantic ocean,"car window,eyeball,eyelid,part of a hieroglyphic character,part of a hill that you could use as a jump ramp on a bike,sunset","A minimalist representation of a sunset or sunrise at the horizon,A stylized, simple smile, with the curved line as a smiling mouth and the straight line as a baseline,An abstract depiction of a hill or mountain with a flat foreground,The profile of a bridge over a calm river,A basic seesaw or teeter-totter in a playground setting,A simplified boat or canoe on water,A traditional Japanese Torii gate",yes. I gave it a prompt to help me with ideas if it was the start of a simple drawing that only uses black.,sunset on the horizon,F_273j4KoBcDklJmF,3.png,42010,image/png,sunset on the beach with people relaxing and clouds and birds in the air,"highway,stairs,blank music sheet,part of a mask,part of a helmet of a sci-fi character,guitar strings","The lines could represent music staff lines, and you could draw a treble clef on the left with notes to create a snippet of a musical score,Imagine these lines as the beginnings of blueprints for a building. You could expand upon them to outline the floors of a skyscraper or the steps of a grand staircase.The lines could be the distant horizon over a calm sea. You can draw a setting sun above the lines and a tranquil beach scene with palm trees and seashells below,A minimalistic representation of a family, with each line representing a family member of different heights,An artist's initial sketching of a horizon with varying layers of landscape, such as fields or distant hills.
+The concept of inequality or uneven distribution, as the lines have different lengths,A simplified bar chart without labels",Yes. I think my prompt was more helpful because I asked for it to give me ideas of what the image would be if it was the starting of a drawing. ,part of a helmet of a sci-fi character,F_tX5CqinvEWxHklP,4.png,32156,image/png,Helmet of a futuristic space explorer With strange symbols and antennas,"weird letter T,a person dancing,starting of a stick figure getting pushed through the air,part of a Chinese character","A simplistic representation of a tree or plant with two branches,A stylized or abstract bird in flight, with the lines representing wings,A road forking in two different directions, symbolizing a choice or decision point,The profile of a face with a prominent nose and a receding chin,A simplified representation of a dancer with arms extended,A minimalistic mountain peak with a path diverging around it,An abstract sculpture or piece of modern art,The letter ""Y"" in a unique and artistic font,A slingshot",Yes. This gpt response came up with the most amount of usable answers in my opinion. ,A simplified representation of a dancer with arms extended.,F_3en1rc3sOOHuryA,5.png,39516,image/png,Two stick figure type dancers on stage in front of a judges panel. ,"a fat man,a bug,a boat.a plate,ufo","A pair of parentheses that are not fully closed,The silhouette of a vase or urn,The outline of a human face, focusing on the sides of the cheeks,The curved horns of a ram or other horned animal,The shape of a magnetic field around a bar magnet,The wings of a butterfly or moth, viewed from the top,The open jaws of an animal, perhaps a cartoon shark or some other creature,A pair of earphones lying on a surface,The abstract form of a human.",yes. It helped me with more detail ideas,cat,F_1MX2GY7TT53QTh5,6.png,46086,image/png,cat laying down with a mouse sneaking in the backround to get some cheese,"someone flying,spaghetti,water waves,clouds in the air","A stylized bird in flight, with its wings swept back gracefully,A ribbon swirling in the air or a piece of fabric caught in a gentle breeze,A minimalist representation of a mountain range with a peak and a valley,An abstract symbol, perhaps part of a unique and artistic logoThe curves of a musical note, like a fluid, dynamic eighth note or treble clef,A simplified depiction of a wave crashing or rolling in the ocean,The silhouette of a sand dune shaped by the wind",yes. it was hard to think of many ideas on my own with this particular shape.,bird in flight,F_3DXuXFtodZhzefv,7.png,38829,image/png,birds in flight in the sky with the sun in the background and a far away city under them,To think of out of the box answer as to what the shapes could be a part of. I also used chatGPT to help with follow up to some ideas of things to add to the drawings. ,5,It helped me to visualize the image more vividly with more details.,,AI is helpful in so many ways. It has become an everyday tool in my life in many different aspects. It provides very concise answers much faster than trying to scroll through a google search filled with ads. AI keeps me company when I just feel like discussing a subject with someone else. AI is not judgemental and I can talk to it about things I would not feel comfortable talking to with another actual person. As far as the helpfulness in ideas for drawing it helped with this project but it is not something I would use it for in my day to day life as I am not very artistic and even with good ideas it is still hard for me to do the actual drawings.,Because you can be very specific and mainly because you can even give it a starting image like we did in this exercise. that is not possible with other methods besides just trying to describe it. ,"mostly getting it to give me ideas that were going to be easy to draw using the rules and the drawing tool given.
+
+IMPORTANT INFO: I originally uploaded 2.png accidently when it was actually the drawing for 3.png. So 2.png is really for 3.png and the real number 2 png was uploaded as real2.png",Take a screenshot of the visual element with the rectangular frame around it.,6634179b2abbe693393fb48a
+8/22/24 21:55,8/23/24 0:51,IP Address,*******,100,10531,TRUE,8/23/24 0:51,R_3rH1jNquzLAjU1u,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",66c51bdd2bb7603a977d652e,Desktop,,Yes,Yes,Weekly,I do engage in Arts and drawing basic shapes to illustrate a concept or idea.,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,6,6,6,"Mountain,Tent,Cone","A simplistic rendition of a pine tree and a falling pine cone,A mountain peak with the sun or moon positioned directly below it,The letter 'A' with a period, denoting an abbreviation or an end of a sentence,A stylized tent with a campfire burning in front of it,A road sign indicating a caution point or a specific location ahead,A representation of a person with a triangular body and a dot for the head,An abstract art piece symbolizing balance and simplicity,A minimalist Christmas",Yes because I prompted AI related mental images pertaining to the V1,A mountain peak with the sun or moon positioned directly below it.,F_2dvhBuDtTm3rcKR,1.png,21144,image/png,"My drawing represents mountains, grasses ,sun and a stream.","baseball bat,cane,cutlass ","A simplified representation of a constellation in the night sky.
+A minimalistic clock's hands pointing at specific times.
+A stylized musical note, such as a quarter note or eighth note.
+The basic shape of a dipole magnet with two poles.
+A symbolic representation of a bond between two atoms in a molecule.
+A stick figure's leg in a very abstract piece of art.
+A representation of a path between two points on a map.
+The starting and endpoints of a journey, with the line depicting",Yes my prompting strategy was successful because i got more detailed answers by the help of AI,A minimalistic clock's hands pointing at specific times.,F_1BYjclh66Bg5NFg,2.png,25406,image/png,"A Clock. The title will be ""My grandfather's clock""","hill,mountain, bridge","A simplified bridge over a river.
+A rising or setting sun behind a horizon line.
+A basic representation of a seesaw.
+The profile of a hill or small mound with a flat foreground.
+A traditional Japanese Torii gate, minus the supporting columns.
+The shape of a classic table lamp with a semi-circular lampshade.
+A stylized eyebrow and eyelid in a very abstract facial drawing.
+A basic geometric representation of a rainbow over land.
+A simplistic boat hull design or a canoe on",Yes it was.,A simplified bridge over a river.,F_1rABmbiVguhZls2,3.png,12856,image/png,"A simple bridge over a river. The title will be "" London Bridge""","A book,bech,table,crossroad symbol,circutes.","The pause symbol on a media player,A simplified representation of a ladder,The stripes on a military or other uniform indicating rank or years of service,A minimalist interpretation of a musical staff with three notes,A set of shelves viewed from the side, without any items on them,The bars of cell signal strength icon on a mobile phone or other device,A stylized modern art piece, focusing on balance and proportion,",My prompting strategy was successful because I gave more useful and detailed information.,A minimalist interpretation of a musical staff with three notes,F_2whvNiZSWldHtNG,4.png,12758,image/png,A minimalist interpretation of a musical staff with three notes,"Tree,Glass of wine, A dancing lady","A stylized, minimalist tree with a curved trunk and a single branch.
+A dancer bending at the waist with one arm stretched upwards.
+An abstract representation of a road splitting into two paths.
+A simplistic drawing of a slingshot,A single petal falling from a flower, caught mid-motion,A person's profile with a prominent nose,A bent-over figure, such as someone picking up something from the ground,A calligraphic brush stroke, hinting at a character from a non-L",yes Prompting strategy was successful because I made mention of successful points to help AI generate accurate answers. ,"A stylized, minimalist tree with a curved trunk and a single branch.",F_2e3UuivphuS6wJK,5.png,22136,image/png,I drew a tree. ,"wine glass , ladies dress.","A pair of parentheses ( ) opened on a page.
+The silhouette of a vase or urn when the space between the lines is perceived as an object.
+The outline of a human face or head, with the curves suggesting the sides of the face.
+The wings of a butterfly or a moth, with the body missing in the center.
+A horseshoe magnet or the magnetic field lines around it.
+The open jaws of a thin, abstract animal or a mythical creature.
+A wine glass.",Yes because I prompted AI to assist me and I was given just the right answers.,A wine glass.,F_ve6NyvVo4GHgypb,6.png,20142,image/png,"A wine being poured in a glass. I will title this ""the perfect wine""","Tree,Woman's face,stream,","A stylized bird in flight,An elegant ribbon floating in the air,A piece of a calligraphic letter or character,A minimalistic representation of a wave,A simplified mountain range silhouette,The profile of a sports car or a sleek modern design,A representation of a musical note, like a stylized eighth note,The path of a dancer's leap or movement in space,A symbol for infinity or dynamics,The outline of a sand dune.",I believe my strategy was successful because AI was able to give me mental images relating to the symbol.,A representation of a musical note,F_3lnslrhpPxODIsh,7.png,16847,image/png,My drawing represents musical notes.,"By the help of AI. It gave me more useful answers and explained them well to my understanding,  generating text and ideas. Below are some of the strategies;
+- Explaining complex concepts simply
+- Providing definitions and explanations
+- Offering suggestions and alternatives",7,It helped me to think outside of the box and develop mental images that I have not thought of.,,"I found AI very helpful because it made me visualize the mental images easily. AI is helpful because it provides instant information, assists with tasks, and enhances productivity. For example, AI-powered tools like myself can generate text, explain complex concepts, and offer suggestions, making it a valuable tool for learning, work, and daily life, saving time and effort",AI is faster and provides detailed explanations.,"At some point, it kept long while providing the answer.",Take a screenshot of the visual element with the rectangular frame around it.,66c51bdd2bb7603a977d652e
+8/22/24 23:55,8/23/24 2:12,IP Address,*******,100,8262,TRUE,8/23/24 2:12,R_3BQkPOqfq0bB92o,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",66af819442fc10bb088169f4,Desktop,,Yes,No,Never,I do not engage in drawing of any kind.,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,1,5,2,"Tippy,point of a star,hat of an elf,arrow,person's nose lying down with a nose ring","A stylized representation of the Eiffel Tower with a person standing underneath,A road sign indicating a caution for falling rocks,An arrowhead with a point indicating a specific location on a treasure map,A stylized representation of a dress or a gown with the dot representing a brooch or decorative element at the neckline.","Yes, because I tend to envision human elements and wanted to see with the AI could come up with that I did not.",Person lying down with a nose ring,F_1ooII56nfbpJHyT,1.png,81835,image/png,Relaxing on a Sunny Day,"Baton for dancing,Face titled to the side,Representation of two connected people,Directions","The visual trajectory of a small meteor with two glowing points where it enters and exits the atmosphere,A representation of a constellation, with stars connected by imagined lines,A single, dew-laden spider's web strand with dewdrops at each end.","Yes, because it gave me ideas for the shape in nature that are not tangible which was part of the intent. The food ideas were too obvious.",Spider web,F_39vYspRLZc12U5X,2.png,62818,image/png,Bugs Found a Web,"A person's legs lying down,A sunset on the horizon,A sunrise on the horizon,A person's belly lying down,An eyelid,A hamburger bun,A person's bicep,A person's calf muscle,Lips of a sad/shocked face","A bridge over a river or a small gap,The profile of a hill or mountain range,A seesaw in a playground, with one side up in the air,The arch of a dolphin jumping out of the water, as seen in a side view,The profile of a sleek, modern chaise lounge chair,A simplistic depiction of a hill with a path leading over it","Considering there were some ideas in the first response that I had already envisioned, I intended to have the tool think further outside the box. I believe this prompting strategy was successful because none of the new answers were in my personal list.",A hamburger bun,F_3Ljx4MaY30I2PzL,3.png,130315,image/png,What it feels like to eat a delicious meal of hamburger and fries after a long day. Title: Burger Love.,"Legs,Road,Shelf,Flag,Stairs,Lips,Ladder,Chimney","Zen Garden: Envision a tranquil Zen garden with three carefully raked sand paths representing the journey to enlightenment,Musical Rests: The lines could represent a set of musical rests in a minimalist sheet music composition, with each line corresponding to a different duration of silence",Yes it was successful because I found the most creative mental image based on the response.,Zen Garden,F_0Pcbg1mWApk62vn,4.png,76667,image/png,Peace in the Backyard Garden,"A person thinking resting their hand on their face,A snowman,A person with a sombrero","A tree branch with a single offshoot,A simplified depiction of a road splitting into two paths,An abstract dancer, with the top curve as the head and arms, and the lower line as the leg extended backward,The tail of a mythical creature in mid-swish,A bent knee and thigh of a runner at the starting blocks",My strategy was to get ideas that were not too complicated as I am struggling to come with many mental images. I believe it was successful.,A snowman,F_30xi3ObPa6OVGuL,5.png,133995,image/png,Christmas Present for Snowman,"Vase of flowers,Bug,A person's head,Statue","The outline of a boat or canoe,The top view of a pair of ballet slippers facing each other,The wings of a bird from a top-down perspective","Yes, because the intent was to avoid the avoid answers and think outside the box. The list include different point of views that I had not considered.",The outline of a boat,F_3CPo0cghwlyUx4o,6.png,73066,image/png,Sailing with the Birds,"Two people embracing,A christmas tree,waves","A simplified line drawing of a bird in flight, with its wings curved upwards mid-flap,The gentle ripples of water as a stone is skipped across the surface of a tranquil pond,","My strategy was to have the list come up with ideas to set a scene, that were descriptive. It was successful.",Christmas Tree,F_12s4FkBbfq3T6Ah,7.png,62325,image/png,Christmas Morning,Trying to have the bot not come up with obvious answers.,5,It helped me to think outside of the box and develop mental images that I have not thought of.,,"I found it helpful because it can help give you a starting point to get creative. Sometimes you have an idea in your mind but need help expanding which AI helps with. Sometimes its not as helpful because the responses were unfinished, such as breaking the text at an illogical point.","Other sources give answers that may be less direct or off topic, such as an article that has nothing to do with the question.",Forgetting to add important details such as to make the response a list.,Take a screenshot of the visual element with the rectangular frame around it.,66af819442fc10bb088169f4

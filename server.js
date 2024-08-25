@@ -302,7 +302,8 @@ async function generateImagePaths() {
     let images = [];
   
     const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
-    const filePath_condition2 = path.join(__dirname, 'public', 'data', 'data2.csv');
+    // const filePath_condition2 = path.join(__dirname, 'public', 'data', 'data2.csv');
+    const filePath_condition2 = path.join(__dirname, 'public', 'data', 'data2_addition(8).csv'); // this is for additional 8 people 56 images 
 
     //change filepath to switch between condition 1 and 2
     const resIDs = await readCSV(filePath_condition2); // Respond IDs in the list [R_4HSAV9DsD7kAcSZ, ...]
@@ -325,7 +326,8 @@ async function generateImagePaths() {
       // console.log(folder)
       const folderIndex = index;
       const folderPath = path.join(__dirname, 'public', 'images', folder);
-      const folderPath_condition2 = path.join(__dirname, 'public', 'images_condition2', folder);
+      // const folderPath_condition2 = path.join(__dirname, 'public', 'images_condition2', folder);
+      const folderPath_condition2 = path.join(__dirname, 'public', 'images_condition2_additional', folder);
 
       ImageNameChangeFolder(folderPath_condition2);
 
@@ -350,10 +352,11 @@ async function generateImagePaths() {
     //           specific: originalImagePath,
               original: originalImagePath,
     //           userdrawn: `/images/${folder}/${file}`,// condition1
-              userdrawn: `/images_condition2/${folder}/${file}`, //condition2
+              // userdrawn: `/images_condition2/${folder}/${file}`, //condition2
+              userdrawn: `/images_condition2_additional/${folder}/${file}`, //condition2_additional
               filename: file,
               title: title,
-              mentalImg: mentalImg
+              mentalImg: mentalImg'
             });
             // console.log("++++++++")
             // console.log(images.length)
