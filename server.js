@@ -118,8 +118,8 @@ async function readCSVt(filePath) {
     const titleRow = [];
     if (cnt > 2 && row.Finished === 'TRUE'){
       for(let i = 1; i <= 7; i++) {
-        // const nm = `VE${i}_5`; //condition1
-        const nm = `VE${i}_6`; //condition2
+        const nm = `VE${i}_5`; //condition1
+        // const nm = `VE${i}_6`; //condition2
         titleRow.push(row[nm]); 
       }
       titles.push(titleRow); 
@@ -141,8 +141,8 @@ async function readCSVmentalImage(filePath) {
     const mtImgRow = [];
     if (cnt > 2 && row.Finished === 'TRUE'){
       for(let i = 1; i <= 7; i++) {
-        // const nm = `VE${i}_2`; // for condition1
-        const nm = `VE${i}_4`; // for condition2
+        const nm = `VE${i}_2`; // for condition1
+        // const nm = `VE${i}_4`; // for condition2
         mtImgRow.push(row[nm]); 
       }
       selected_mentalimages.push(mtImgRow); 
@@ -298,12 +298,15 @@ async function readImageCounts() {
 
 async function generateImagePaths() {
     const folders = ["VE1_4", "VE2_4", "VE3_4", "VE4_4", "VE5_4", "VE6_4", "VE7_4"];
-    const folders_condition2 = ["VE1_5", "VE2_5", "VE3_5", "VE4_5", "VE5_5", "VE6_5", "VE7_5"];
+    // const folders_condition2 = ["VE1_5", "VE2_5", "VE3_5", "VE4_5", "VE5_5", "VE6_5", "VE7_5"];
     let images = [];
   
     const filePath = path.join(__dirname, 'public', 'data', 'dat.csv');
     // const filePath_condition2 = path.join(__dirname, 'public', 'data', 'data2.csv');
-    const filePath_condition2 = path.join(__dirname, 'public', 'data', 'data2_addition(8).csv'); // this is for additional 8 people 56 images 
+    // const filePath_condition2 = path.join(__dirname, 'public', 'data', 'data2_addition(8).csv'); // condition 2 this is for additional 8 people 56 images 
+    const filePath_condition2 = path.join(__dirname, 'public', 'data', 'data1_addition.csv'); // condition 1 this is for additional 10 people 70 images 
+
+
 
     //change filepath to switch between condition 1 and 2
     const resIDs = await readCSV(filePath_condition2); // Respond IDs in the list [R_4HSAV9DsD7kAcSZ, ...]
@@ -322,12 +325,13 @@ async function generateImagePaths() {
     
 
   
-    for (let [index, folder] of folders_condition2.entries()) {
+    for (let [index, folder] of folders.entries()) {
       // console.log(folder)
       const folderIndex = index;
       const folderPath = path.join(__dirname, 'public', 'images', folder);
       // const folderPath_condition2 = path.join(__dirname, 'public', 'images_condition2', folder);
-      const folderPath_condition2 = path.join(__dirname, 'public', 'images_condition2_additional', folder);
+      // const folderPath_condition2 = path.join(__dirname, 'public', 'images_condition2_additional', folder);
+      const folderPath_condition2 = path.join(__dirname, 'public', 'images_condition1_additional', folder);
 
       ImageNameChangeFolder(folderPath_condition2);
 
@@ -353,7 +357,7 @@ async function generateImagePaths() {
               original: originalImagePath,
     //           userdrawn: `/images/${folder}/${file}`,// condition1
               // userdrawn: `/images_condition2/${folder}/${file}`, //condition2
-              userdrawn: `/images_condition2_additional/${folder}/${file}`, //condition2_additional
+              userdrawn: `/images_condition1_additional/${folder}/${file}`, //condition2_additional
               filename: file,
               title: title,
               mentalImg: mentalImg

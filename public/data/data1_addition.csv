@@ -1,0 +1,942 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Q111,Prolific ID,C1,C2,C3,C4,C5,C5_13_TEXT,C6_1,C7_1,C8_1,VE1_1,VE1_2,VE1_4_Id,VE1_4_Name,VE1_4_Size,VE1_4_Type,VE1_5,VE2_1,VE2_2,VE2_4_Id,VE2_4_Name,VE2_4_Size,VE2_4_Type,VE2_5,VE3_1,VE3_2,VE3_4_Id,VE3_4_Name,VE3_4_Size,VE3_4_Type,VE3_5,VE4_1,VE4_2,VE4_4_Id,VE4_4_Name,VE4_4_Size,VE4_4_Type,VE4_5,VE5_1,VE5_2,VE5_4_Id,VE5_4_Name,VE5_4_Size,VE5_4_Type,VE5_5,VE6_1,VE6_2,VE6_4_Id,VE6_4_Name,VE6_4_Size,VE6_4_Type,VE6_5,VE7_1,VE7_2,VE7_4_Id,VE7_4_Name,VE7_4_Size,VE7_4_Type,VE7_5,TXL1_1,TXL2_1,TXL3_1,TXL4_1,TXL5_1,QQ1,QQ2,QQ2_4_TEXT,QQ2_5_TEXT,QQ2_6_TEXT,QQ2_7_TEXT,QQ2_8_TEXT,QQ5,QQ6,QQ6_4_TEXT,QQ6_5_TEXT,QQ6_6_TEXT,QQ7,QQ8,PROLIFIC_PID
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"Informed Consent Form  
+
+ 
+
+Purpose of Study   The goal of this research is to find out how text-based generative language models, such as ChatGPT, and Text-to-Image Generation Models, such as Dall-E, take different roles in visual imagery creativity. Furthermore, we intend to discover the limitations of each method and ways to overcome them. 
+
+ 
+
+Procedures Essentially, we will ask participants to complete the following drawing task. It does not require fancy drawing skills.
+
+
+	We will provide seven kinds of different unfinished abstract simple lines (e.g., spiral lines). 
+	Then we will ask participants to ideate many mental images that are related to such shapes. For example, from a spiral shape, you might produce snails, sea shells, dizziness, etc. We will encourage participants to produce as many mental images as possible without using synonyms. 
+	Once you finish ideating mental images, then you will choose one mental image and then use that to finish the drawing in the most creative way.
+
+ 
+
+Participant Requirements To participate in this interview, you should be proficient in English, and aged over 18 years old.
+
+ 
+
+Risks and Benefits With respect to benefits, the interview might help the participants to experience state-of-the-art generative AI models.  This might help them to understand modern AI technologies better. Generative AI models are not perfect, therefore there is a risk of generating unwanted content that might irritate participants. However, this risk is low since our drawing task does not involve any violent content.
+
+ 
+
+Voluntary Participation And Right To Withdraw Participation in this interview is voluntary, and you can decide to withdraw at any time without any penalty. 
+
+ 
+
+Compensation If you willingly participate in the interview, you will earn a $12/hour. There is 70 minutes time limitation. 
+
+ 
+
+Privacy and Confidentiality The only identifying information based on your participation in this interview will be your information provided via Prolific. We note that this could be linked to your offline self, so you might consider this before deciding to participate in the interview. The identifiable information will not be shared with anyone outside the research team and will only be used for research purposes.
+
+ 
+
+Contact Information If you have any questions or concerns regarding your rights as a subject in this interview, you may contact the Institutional Review Board (IRB) for Human Participants at 607-255-5138 or access their website at http://www.irb.cornell.edu. You may also report your concerns or complaints anonymously through Ethicspoint online at www.hotline.cornell.edu or by calling toll free at 1-866-293-3077. Ethicspoint is an independent organization that serves as a liaison between the University and the person bringing the complaint so that anonymity can be ensured. You will be given a copy of this form to keep for your records.
+
+ 
+
+Statement of Consent By saying yes, you indicate that you are 18 years of age or older, that you voluntarily agree to participate in this interview, and that you understand the information in this consent form. You have not waived any legal rights you otherwise would have as a participant in this interview.","What is your Prolific ID?
+
+Please note that this response should auto-fill with the correct ID",Have you used large language model such as ChatGPT?,Have you ever interacted with any kind of AI art generator such as Dall-E or Stable diffusion?,How often do you engage in any kind of drawing activities?,What kind of drawing activity do you engage in? For what purposes and what do you usually draw?,"Do you possess visual art-related university-level degrees, or are you currently pursuing them? (e.g., visual communication design, graphic design, fine art, films, etc.) - Selected Choice","Do you possess visual art-related university-level degrees, or are you currently pursuing them? (e.g., visual communication design, graphic design, fine art, films, etc.) - Other - Text","On a scale of 1 to 7, with 1 being a beginner and 7 being an expert, how would you rate your overall artistic skill level? - Overall artistic skill level","On a scale of 1 to 7, with 1 being a not creative at all and 7 being an extremely creative, how would you rate your overall creativity? - Overall creativity","On a scale of 1 to 7, with 1 being a not confident at all and 7 being an extremely confident, how would you rate your confidence in creating visual art? - Confidence in creating visual art","1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title.,"1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title.,"1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title.,"1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title..,"1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title.,"1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting guideline
+
+
+	Draw your mental image in a frame, but it's allowed to draw outside of the frame. 
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting guideline
+
+
+	Draw your mental image in a frame, but it's allowed to draw outside of the frame. 
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting guideline
+
+
+	Draw your mental image in a frame, but it's allowed to draw outside of the frame. 
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting guideline
+
+
+	Draw your mental image in a frame, but it's allowed to draw outside of the frame. 
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title..,"1. Write down all your mental images. Important! Separate your answers using a comma ( , ) without a space.","2. Then take the image you like most and bring it back to your mind again. Write down the image that you chose.
+
+For instance, if you came up with a list of mental images, select only one that you think is the most creative.","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Id","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Name","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Size","4. Follow the intructions below to proceed.
+
+
+	Take a screenshot of the visual element, including a rectangular frame around it.
+	
+		If you are using Mac, you can select the image using (Command + Shift + 4)  It would copy the selected image. 
+		If you are using Windows, use the Snipping Tool tool (Windows Key + Shift + S) to select and copy the image.
+	
+	
+	Go to https://excalidraw.com/ and paste the screenshot you took into the board.
+	Draw your mental image as accurately as possible. You have complete freedom of transforming the image and add new elements to it.
+	Your mental image should be focused inside the frame we provided.
+	Remember that what counts is an interesting idea, not how neatly you draw. Use your imagination and be creative! :)
+	Once you finish the drawing, please upload your final image using the Choose file button below. 
+
+
+------------------------------------------
+
+ 
+
+Important! If you do not follow the following formatting guidelines, we can not compensate you.
+
+ 
+Formatting requirements
+
+
+	Use only a drawing tool not others (e.g., circles, lines, etc).
+	You can only use a 'black' color with a stroke width 'thin.'
+	Rotating images is not allowed.
+	Do not cover the original visual element to the extent it is not identifiable.
+	The image file format must be PNG!!! We do not accept anything other than PNG. - Type",5. Write down what your drawing represents. Give it a title.,"On a scale from 1 to 7 ( 1: Very Low, 7:  Very High ),
+
+how mentally demanding was the task? 
+
+
+
+Answer your question based on your experience of developing mental images and drawing mental images. - 1","On a scale from 1 to 7 ( 1: Very Low, 7:  Very High ),
+
+how physically demanding was the task?
+
+
+
+Answer your question based on your experience of developing mental images and drawing mental images. - 1","On a scale from 1 to 7 ( 1: Very Low, 7:  Very High ),
+
+how hurried or rushed was the pace of the task?
+
+
+
+Answer your question based on your experience of developing mental images and drawing mental images. - 1","On a scale from 1 to 7 ( 1: Very Low, 7:  Very High ),
+
+how successful were you in accomplishing what you were asked to do?
+
+
+
+Answer your question based on your experience of developing mental images and drawing mental images. - 1","On a scale from 1 to 7 ( 1: Very Low, 7:  Very High ),
+
+how insecure, discouraged, irritated, stressed, and annoyed were you?
+
+
+
+Answer your question based on your experience of developing mental images and drawing mental images. - 1",What was your strategy of trying to be creative?,"What challenges did you experience while completing the drawing task? Also, please explain why you find it challenging in the text box below after you select an option. You can select multiple options. - Selected Choice","What challenges did you experience while completing the drawing task? Also, please explain why you find it challenging in the text box below after you select an option. You can select multiple options. - Had difficulty developing many mental imageries. - Text","What challenges did you experience while completing the drawing task? Also, please explain why you find it challenging in the text box below after you select an option. You can select multiple options. - Had difficulty developing novel mental imageries. - Text","What challenges did you experience while completing the drawing task? Also, please explain why you find it challenging in the text box below after you select an option. You can select multiple options. - Had difficulty vividly visualizing (drawing) my mental imagery. - Text","What challenges did you experience while completing the drawing task? Also, please explain why you find it challenging in the text box below after you select an option. You can select multiple options. - Had difficulty expanding (transforming) my original mental imagery further to make it more creative. - Text","What challenges did you experience while completing the drawing task? Also, please explain why you find it challenging in the text box below after you select an option. You can select multiple options. - Others - Text",What kind of inspiration do you want to receive to generate more creative visual imagery? From which source and what type? Give us specific examples and reasons why you think such an inspirational source would be helpful. It can be anything.,"What kind of inspiration do you want to receive to generate more creative visual imagery? After choosing options, write why you want to receive that kind of inspiration. - Selected Choice","What kind of inspiration do you want to receive to generate more creative visual imagery? After choosing options, write why you want to receive that kind of inspiration. - textual - Text","What kind of inspiration do you want to receive to generate more creative visual imagery? After choosing options, write why you want to receive that kind of inspiration. - pictorial - Text","What kind of inspiration do you want to receive to generate more creative visual imagery? After choosing options, write why you want to receive that kind of inspiration. - others - Text",If you receive support do you wish to have to get help to generate creative mental imagery more easily? and why?,Choose the right answer about making a screenshot of visual element based on the instruction you got from the survey.,PROLIFIC_PID
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID150""}","{""ImportId"":""QID2_TEXT""}","{""ImportId"":""QID127""}","{""ImportId"":""QID128""}","{""ImportId"":""QID130""}","{""ImportId"":""QID136_TEXT""}","{""ImportId"":""QID132""}","{""ImportId"":""QID132_13_TEXT""}","{""ImportId"":""QID129_4""}","{""ImportId"":""QID133_11""}","{""ImportId"":""QID134_11""}","{""ImportId"":""QID151_TEXT""}","{""ImportId"":""QID152_TEXT""}","{""ImportId"":""QID6_FILE_ID""}","{""ImportId"":""QID6_FILE_NAME""}","{""ImportId"":""QID6_FILE_SIZE""}","{""ImportId"":""QID6_FILE_TYPE""}","{""ImportId"":""QID30_TEXT""}","{""ImportId"":""QID95_TEXT""}","{""ImportId"":""QID96_TEXT""}","{""ImportId"":""QID98_FILE_ID""}","{""ImportId"":""QID98_FILE_NAME""}","{""ImportId"":""QID98_FILE_SIZE""}","{""ImportId"":""QID98_FILE_TYPE""}","{""ImportId"":""QID99_TEXT""}","{""ImportId"":""QID100_TEXT""}","{""ImportId"":""QID102_TEXT""}","{""ImportId"":""QID104_FILE_ID""}","{""ImportId"":""QID104_FILE_NAME""}","{""ImportId"":""QID104_FILE_SIZE""}","{""ImportId"":""QID104_FILE_TYPE""}","{""ImportId"":""QID105_TEXT""}","{""ImportId"":""QID106_TEXT""}","{""ImportId"":""QID107_TEXT""}","{""ImportId"":""QID109_FILE_ID""}","{""ImportId"":""QID109_FILE_NAME""}","{""ImportId"":""QID109_FILE_SIZE""}","{""ImportId"":""QID109_FILE_TYPE""}","{""ImportId"":""QID110_TEXT""}","{""ImportId"":""QID111_TEXT""}","{""ImportId"":""QID113_TEXT""}","{""ImportId"":""QID115_FILE_ID""}","{""ImportId"":""QID115_FILE_NAME""}","{""ImportId"":""QID115_FILE_SIZE""}","{""ImportId"":""QID115_FILE_TYPE""}","{""ImportId"":""QID116_TEXT""}","{""ImportId"":""QID117_TEXT""}","{""ImportId"":""QID118_TEXT""}","{""ImportId"":""QID120_FILE_ID""}","{""ImportId"":""QID120_FILE_NAME""}","{""ImportId"":""QID120_FILE_SIZE""}","{""ImportId"":""QID120_FILE_TYPE""}","{""ImportId"":""QID121_TEXT""}","{""ImportId"":""QID122_TEXT""}","{""ImportId"":""QID123_TEXT""}","{""ImportId"":""QID125_FILE_ID""}","{""ImportId"":""QID125_FILE_NAME""}","{""ImportId"":""QID125_FILE_SIZE""}","{""ImportId"":""QID125_FILE_TYPE""}","{""ImportId"":""QID126_TEXT""}","{""ImportId"":""QID53_1""}","{""ImportId"":""QID139_1""}","{""ImportId"":""QID140_1""}","{""ImportId"":""QID141_1""}","{""ImportId"":""QID142_1""}","{""ImportId"":""QID145_TEXT""}","{""ImportId"":""QID146""}","{""ImportId"":""QID146_4_TEXT""}","{""ImportId"":""QID146_5_TEXT""}","{""ImportId"":""QID146_6_TEXT""}","{""ImportId"":""QID146_7_TEXT""}","{""ImportId"":""QID146_8_TEXT""}","{""ImportId"":""QID57_TEXT""}","{""ImportId"":""QID149""}","{""ImportId"":""QID149_4_TEXT""}","{""ImportId"":""QID149_5_TEXT""}","{""ImportId"":""QID149_6_TEXT""}","{""ImportId"":""QID148_TEXT""}","{""ImportId"":""QID60""}","{""ImportId"":""PROLIFIC_PID""}"
+8/23/24 19:39,8/23/24 19:41,IP Address,*******,100,95,TRUE,8/23/24 19:41,R_8BmsYtEcdCqTUfs,*******,*******,*******,*******,*******,*******,anonymous,EN,"No, I do not consent to participate.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66c8a06c030e66c335484ab5
+8/23/24 19:38,8/23/24 20:12,IP Address,*******,100,2059,TRUE,8/23/24 20:12,R_50o6OCMfyVblqXp,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",5f48655c66186320c2077614,Yes,Yes,Daily,"I like to sketch for fun, just to better my skill. I like still scenes and landscapes. I also like to draw animals.","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,5,6,4,"teepee tent,bird,house,tree,hat,dress",bird,F_9T4uWGIg08OOsY9,1.png,87625,image/png,bird in nest,"face,tree,lights, building,moutain",mountain,F_1OlZe9PwuDLNB2M,2.png,44556,image/png,Mountain Range,"sunset,cat,eye,hill,plants,sea",sunset,F_1N9Rj1LtIJlxqSV,3.png,97821,image/png,Sunset in Landscape,"house,street,book,shelf,remote,tvS",house,F_3pa0VP4zeIbVTEP,4.png,64183,image/png,House with windows,"person dancing,flowers,tree,insect,fence",dancing person,F_1ghE50WcQggnM7z,5.png,56534,image/png,Dancing Person,"A sideways eye,fruit,arms,tree,crab,hands,leaf,sign,head",fruit,F_3kqbl7o5oBgSUGR,6.png,139683,image/png,Fruit Bowl in Room,"waves,body,sanddunes,hair,cat,dog,insect",waves,F_27jKb1dWGFLM9bu,7.png,92371,image/png,Waves and ocean,6,5,2,6,1,I trie dto imagine all the different thing the presented shapes could be. I tried to turn my head so I would have a different angle of though to go from. Visually I tried to imagine what lines would fit into the existing shapes.,Had difficulty vividly visualizing (drawing) my mental imagery.,,,Sometimes what I had imagined was hard to put on paper,,,I think nature was the most helpful. Most shapes can be made into landscapes. I also think most shapes can be turned into plants and flowers as well.,pictorial,,References are very helpful,,"No, I think I was able to do the task sufficiently myself. I think it was a very interesting task. I was able to come up with ideas for all the shapes presented.",Take a screenshot of the visual element with the rectangular frame around it.,5f48655c66186320c2077614
+8/23/24 19:43,8/23/24 20:33,IP Address,*******,100,2993,TRUE,8/23/24 20:33,R_3s0SnbMoi7US2pc,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",665f51d23cc128bbf4fdc55c,Yes,Yes,Monthly,"I mostly like to sketch/doodle for fun, but occasionally I draw something more decorative, for instance a card for a family member. I also like to decorate cakes and desserts and make ceramics!","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,6,4,"mountain,pattern,ballpoint pen,bird,fish scales,arrow,pencil,traffic cone,quill,",fish scales,F_3rZ2MRIAqFyudgw,1.png,391629,image/png,this upload button didn't work so i had to upload something random,"grumpy smiley,frog,braille,bicycle tire,giant stick man, rollerblading robot,sword,cane",rollerblading robot,F_u3QB7jqxQxo4FxL,2.png,18994,image/png,robot with arms raised rides rollerblade,"hamburger,covered plate at fancy restaurant,sunrise, orange slice,old man sunbathing,digital art cloud,fluffy bread",old man sunbathing,F_STAog70uCKEbAcN,3.png,29784,image/png,"old man with beer sunbathes on the beach, smiling","fast food counter,layer cake,several oreos,lined notebook paper,ladder,musical staff,belt of martial artist,street,pac-man game",pac-man game,F_2tnAA4ESWmi0vKY,4.png,44871,image/png,playing some classic pac-man,"tai chi,basketball,softball,baseball glove,venn diagram,butterfly,falling from explosion,doing a flip kick in soccer",falling from explosion,F_2tkY6HqYxbJubQU,5.png,44822,image/png,"man falls backwards from explosion, hit by rubble","pregnant woman,lemon,football,hug,candy,empanada,pooh bear",hug,F_AuslNQnz3bdKuAx,6.png,29776,image/png,"parent hugs child, smiling","eye of horus, wave, thumbsup, curl, giving someone a bowl, sand dune",sand dune,F_265OsDZ4Px84AXQ,7.png,43649,image/png,running away from sand worms in Dune,3,1,5,4,3,I just tried to let my mind flow from topic to topic. I think sometimes I got stuck in a certain vein and shape of object. It was a lot about what the lines physically resembled. Maybe some amount of influence of my limited computer drawing abilities.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.,,,,"Once I got an idea of what I expected in my head, I kind of got stuck on it.",,"I often think about things I've read or watched, especially from fantasy and science fiction stuff. I think giving yourself mental permission to believe in other things (like in fantasy and scifi) lets you be more creative. Maybe it's why science fiction writers are so good at predicting the future!","textual,pictorial","I like to imagine things myself. If I have too much visual imagery (like in this study, kind of), I can get stuck in a box.","Occasionally if I want to draw something specific, I look at reference images, but they don't make me more creative, just help in my creative process.",,I don't understand the question. Support in what way? I think I like to be creative on my own. I don't think I would usually want help. I guess if anything a text prompt.,Take a screenshot of the visual element with the rectangular frame around it.,665f51d23cc128bbf4fdc55c
+8/23/24 19:43,8/23/24 20:43,IP Address,*******,100,3631,TRUE,8/23/24 20:44,R_39g0OrrN8mHjZYZ,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",66c79716764213af209bf479,Yes,Yes,Weekly,"Simple drawings, such as drawings of famous cartoon characters.","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,4,5,"Dorito chip,triangle,flag pole",Dorito chip,F_qKO5JTSXQsOH9vz,1.png,26639,image/png,Dorito chip with ranch seasoning,"lightsaber,stick,pole,sword",sword,F_tPOXOqwUwIM2H1T,2.png,27548,image/png,An ancient sword,"sunrise,ball,car",sunrise,F_1PXa9LYDmQtg8Rv,3.png,51549,image/png,A sunrise in the park,"Flag,road",Flag,F_bfuL6YoG4K4r5wl,4.png,36288,image/png,The American Flag,"Japanese word,balloons,face,nose,body",balloons,F_eXxEhhy63cEaO9H,5.png,45382,image/png,A set of balloons,"body,football,flower vase,jar,bottle of water,eyelid",flower vase,F_1n2tXinRyMyTWlA,6.png,33732,image/png,A Simple flower vase,"hair,sea waves",sea waves,F_3qm4m76DVmOrpuC,7.png,58887,image/png,Man surfing on the sea waves,3,2,1,7,2,I just created the first images that popped up in my head and tried to not overthink. I also wanted to keep the images very simple and easy to understand at the same time.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.,,,,I could not think of any ways to make my images more detailed and pretty. I would like them to be very detailed and creative.,,I want to look at different pictures to get ideas flowing. I want to see random pictures like a lake or someone playing football.,pictorial,,different random images that could help me generate ideas. I could use them as a basis to go off of.,,So that I can speed up the process and make prettier images. I do not want to take an hour just to come up with a drawing.,Take a screenshot of the visual element with the rectangular frame around it.,66c79716764213af209bf479
+8/23/24 19:39,8/23/24 20:45,IP Address,*******,100,3970,TRUE,8/23/24 20:45,R_62a77TsGwzdIbhT,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",66c9071f0a3b0e1d3a041c01,Yes,Yes,Never,I don't engage in drawing activity,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,1,3,1,"top view of a bird beak,teepee,mountain peak,pacman",pacman,F_2uysNLM5Y4id6Oq,1.png,49189,image/png,Pacman,"morse code,whale shark",whale shark,F_37SCgGFv3GgQQ1z,2.png,36970,image/png,whale shark,"sunrise above the ocean,mushrooms,cat sleeping",cat sleeping,F_2aaBFImMKrKqPLA,3.png,24740,image/png,napping cat,"sheet music,roads",sheet music,F_3iXvkJlDTgppJmU,4.png,30109,image/png,sheet music,"fish,necklace,bow on a present",bow on a present,F_2ZHtATr6Ak2gOit,5.png,47494,image/png,christmas present,"sideways eye,teddy bear,scissors,vase of flowers,body of a bug",teddy bear,F_2CwQXCYm2z49Aab,6.png,41548,image/png,teddy bear,"waves in the ocean,hair,macaroni pasta, big fish eating smaller fish",big fish eating smaller fish,F_31AZYjYOj9QlJAV,7.png,38297,image/png,hungry fish,6,2,4,4,5,thinking about what the lines can form into and thinking about random images and seeing if the lines can fit the image.,"Had difficulty developing many mental imageries.,Had difficulty developing novel mental imageries.,Had difficulty vividly visualizing (drawing) my mental imagery.",It was difficult to come up with new imageries after developing one.,I had the same imageries in my head after multiple rounds,i'm not very good at drawing,,,A setting description may help with generating more specific images given context. Music or lyrics to inspire mental imageries based on the subject or mood,"textual,pictorial,others",gives more specific context about what the image can be,can help with ideas for generating images,music can create setting based on tone/lyrics,Yes because it provides more context and details for imagery and can give ideas that I otherwise would not have thought of.,Take a screenshot of the visual element with the rectangular frame around it.,66c9071f0a3b0e1d3a041c01
+8/23/24 19:39,8/23/24 20:47,IP Address,*******,100,4065,TRUE,8/23/24 20:47,R_3JwNNpAigvJ0vh7,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",6613fd8ab18fa0b1cdfa6277,Yes,Yes,Rarely,"I do not draw very often, the times i drawed in the last year was to do some comics on photoshop","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,6,1,"kite,penguin,fish,diamond,pink floyd album,tribe",tribe,F_3OrnpMIQPlk2efC,1.png,36767,image/png,A tribe doing shamanic rituals,"derp rage comic face, handgun, piramid, watch, bow and arrow, anvil,console controller",console controller,F_2CeSKSOGseir7Il,2.png,23419,image/png,An old ps2 controller,"eye,sunken boat,turtle,smiling blindfolded man,burger, ice cream,torch",torch,F_1FKU9JLg48HFpW5,3.png,35148,image/png,A lighted torch emanating fire,"bar code,bookshelf,belt,flag,missile launcher",missile launcher,F_2OGWdIYVOIe8Ptk,4.png,27754,image/png,A missile launcher shootings missiles in the middle of a conflict,"keychain,axe,gun,tree,balloon,stickfigure,beholder monster",beholder monster,F_1JCNfyTKOZdkoLY,5.png,38556,image/png,a beholder preparing its tentacle eyes to cast petrifying ray to a player in dungeons and dragons,"hourglass,eye,fish,traffic light,portal,coconut drink,rocket,wizard casting a spell,snowman,penguin,cat,shoe,glasses",hourglass,F_2CQuRA6vnL40WJs,6.png,30552,image/png,a working hourglass,"rifle,woman,vase,fish,boat in the ocean,mask",mask,F_vieSJNH5TEceGT7,7.png,37360,image/png,A huge tv masked to hide its TV origins,6,3,3,5,2,"I tried to think out of the box, trying to not think in the most obvious ways, like, for example trying not to think geometric figures, simple objects like chairs, beds,plates, etc.",Had difficulty expanding (transforming) my original mental imagery further to make it more creative.,,,,"i didn't think about expanding at all, like adding more stuff to the already thought figure was pretty hard, i think i just did it on the last one(the tribe)",,"i would like to have some music, i think listening to music improves my creative imagery greatly, maybe music related to the imagery that was shown(which i think its pretty hard to do because it looked pretty like nothing at all at first glance)",others,,,"musical, i put the reason above","i dont thinks so, no, i like to be creative by myself, i think is cool to be able to find objects on simple imagery",Take a screenshot of the visual element with the rectangular frame around it.,6613fd8ab18fa0b1cdfa6277
+8/23/24 19:39,8/23/24 21:38,IP Address,*******,100,7140,TRUE,8/23/24 21:38,R_8EmJKYaPl55ZO4O,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",66c88c055e59b60e2d929102,Yes,No,Daily,I usually draw building plans for the purpose of creating uniquely layed out buildings that are functional,Other,Architecture,3,4,4,"Hut,Cave,Pacman,tree,road",road,F_2eXoT0KOYAXoZSa,1.png,88851,image/png,End of the road,"Animal,Swing,leash,metal detector",Swing,F_2P6ZDbPQ0KPQrT4,2.png,66163,image/png,High risk,"Horizon,burger,eye,skateboard",Horizon,F_6sMQG5UQ78Nuh5T,3.png,74114,image/png,Ocean glow,"Ladder,books,desk,walkway,ship,guitar,stairs,fence,gate,wristband",wristband,F_24LV4yHYRdfL2rG,4.png,56162,image/png,Almighty punch,"Face,bridge,selfie,Balloon,car",bridge,F_2wbFXHvUm2einVH,5.png,57990,image/png,All routes cut off,"Hands,bars,ball,hair,squid,fruit,hole,portal,gate,house",hands,F_1yRSAlrL4yrfqrD,6.png,68219,image/png,The Celestial,"Puppet,chip,baseball,face,headband,hair,smoke,boxing",Puppet,F_2CJjD4Y6yRucI2D,7.png,66278,image/png,Puppetzilla,5,3,6,5,5,My strategy was to form the lines given into an object and then try and link that with something else to create the bigger picture,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.,,,,it was challenging because I didn't want to connect my image with something random. it had to make sense or relate with my base drawing ,,"Using words for inspirations. reason being, it much easier to come up with different drawings due to there being many ways to interpret a single word.",textual,"if I'm given one word, there are various interpretations of which i can draw to describe that word",,,"yes, because it helps the process run along much faster, which means i could draw more productively.",Take a screenshot of the visual element with the rectangular frame around it.,66c88c055e59b60e2d929102
+8/23/24 20:10,8/23/24 21:43,IP Address,*******,100,5584,TRUE,8/23/24 21:43,R_5qBZPq5knW8OkKh,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",6502683ff5d26c3b0b616605,Yes,Yes,A few times a year,"I draw with my kids sometimes as a way to connect with them, I draw objects, silly cartoons and flowers","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,5,4,"pizza,mountain,mouse,cheese,fish,duck",duck,F_vwYvcLZljf7eBzz,1.png,25642,image/png,A duck waddling in the water,"robot,bottle,magicwand,pen",robot,F_26m9xFVAa0X9hsi,2.png,31176,image/png,Silly robot saying hi,"sunset,mountain,heepofsand,umbrella,",sunset,F_5zkEUzQgxkchlu1,3.png,6884,image/png,A sunset on a nice tropical beach,"road,ladder,window,shelf,cake",cake,F_57L2lQaaTsDS665,4.png,14973,image/png,a slice of cake on a plate,"flower,dancer,ball,fish",flower,F_2cv0D7GOstw1CSr,5.png,19063,image/png,Withering flowers in a vase,"flowervase,humanbody,leaf,waterjug,egg,spoon,jar,bottle",human,F_239u2eF6kEmEXrC,6.png,22470,image/png,A female model,"girl,leaf,cape,bow",bow,F_33C0oLYY2TTvlp0,7.png,15572,image/png,a dainty bow,5,4,3,6,5,"I tried to visualize different objects into the lines given, I basically morphed my ideas into the lines","Had difficulty developing many mental imageries.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.",I tried my best to minimize distractions and it seemed like I just had a mental art block. ,,,"I knew what I wanted to draw but when it came to bringing it to life I had a harder time of doing it, it's like my hands weren't cooperating with what I wanted to do.",,"A prompt of what to draw would help in kick starting my thought process, I've noticed that I usually find it difficult to start something from scratch and I usually build off of the smallest ideas. Also drawing in a nice ambient environment would help in creating more visuals for me.",textual,"i find it easier to build from words,if I could get something to start with it just gets easier from there.",,,"I would love to get support, like I mentioned earlier I find it pretty difficult and frustrating to come with new ideas entirely on my own but even with the slightest help I would be able to create how I want to.",Take a screenshot of the visual element with the rectangular frame around it.,6502683ff5d26c3b0b616605
+8/23/24 19:41,8/23/24 22:17,IP Address,*******,100,9351,TRUE,8/23/24 22:17,R_8gYPkV3p8gH0EfN,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",6653472b9dab12c8a8a845e1,Yes,Yes,Weekly,"Nature images like plants, flowers, and trees I drew because it help me with relaxation, stress relief calming my mind and unwinding","No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,3,5,4,"Coffee,Table,designed,For,two,people,to,enjoy,great,moments",Table,F_2vjMct0BKKIxjG1,1.png,17052,image/png,coffee table,"shape,that,has,three,corners,and,shape,point",Shape,F_21iBjDXKtnb4d6b,2.png,9221,image/png,triangle,"drink,to,enjoy,with,friends,and,family",Drink,F_2ffTVzHDP6Kyu2B,3.png,16623,image/png,drink,"books,placed,on,top,of,each,other",Books,F_3Pty1fKnWsUZg2p,4.png,10945,image/png,Books,"A,beautiful,flower,that,blooms,in,spring",flower,F_1KiQFAU05b1OkCO,5.png,22501,image/png,flower,"Flowers,Nature,freshflowers,spring,bloom,colourful,beautifulVas",Nature,F_3sDz28DOFlk57YR,6.png,21552,image/png,Vase with fresh flowers,"Water, duck",water,F_2YJNpzBwu6D3SoR,7.png,37390,image/png,A duck swimming on water,6,6,5,5,7,I had no strategy o just looked at the image presented and came up with a drawing idea. then I tried my best to complete the free hand drawing,"Had difficulty developing many mental imageries.,Had difficulty developing novel mental imageries.,Had difficulty vividly visualizing (drawing) my mental imagery.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.,Others",yes,yes on some,yes ,no,no,"To practice more and learn more about being creative and creating freehand drawings, and to be able to know more about art and tackle visual images.",pictorial,,to learn,,"yes, to learn how to draw with free hand and how to be more creative. to be able to drawfree hands and to be able to come up with better ideas and try again in the future",Take a screenshot of the visual element with the rectangular frame around it.,6653472b9dab12c8a8a845e1
+8/23/24 22:23,8/23/24 23:12,IP Address,*******,100,2924,TRUE,8/23/24 23:12,R_7xzd9nDms1QFt84,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",5e59a1ef29132108b99fbff8,Yes,Yes,Weekly,"sketching things around me when I'm bored, designing embroidery projects for myself","No I am not, but I have a degree in other creative fields (e.g., music, performance art)",,4,5,4,"teepee,campfire,arrow,tent,sprout,tulip,pie,leaf,tree",tulip,F_p5d9V9saTFRufXb,1.png,30979,image/png,Tulip blooming on a summer day,"wand,needle,arrow,javelin,pencil,knife,celery,carrot,door,cellphone",needle,F_1l3JXWUyRWgzZLP,2.png,21894,image/png,Hand quilting stitch by stitch,"cloud,turkey,pot,popcorn,roof,bubble,dome,",turkey,F_2VPkUKFBh1dGPOe,3.png,27092,image/png,thanksgiving turkey on scalloped tablecloth,"shutters,road,shirt,boat,wall,fence,ladder,window,stairs,molding,sink",shirt,F_QhMoB7m9G9vZeLf,4.png,31917,image/png,Gondolier with striped shirt and oar,"bikini,sailboat,pitcher,conductor,skirt,",pitcher,F_022FkHmSbCgjzvr,5.png,76373,image/png,Pitcher pouring water into bowl,"lamp,baobab,pitcher,vase,glass,hips,woman,nose,skirt,elephant",elephant,F_2XhamdTqWP3tgqq,6.png,24863,image/png,A happy elephant eating a branch of a tree,"wind,skirt,hair,waves,fish,tutu,leaf,bird",bird,F_2ykgNNXcnf7IZc0,7.png,37775,image/png,Bird singing in a dead tree,6,3,2,6,3,"I tried to branch out past what I first saw or initially considered. If all I was seeing was, say, a piece of clothing, I would try to consider if it could instead be a plant, or a household object",Had difficulty vividly visualizing (drawing) my mental imagery.,,,Technological concerns of not being to move my mouse in the way I could draw with pen and paper,,,"Real world, nature, artists I admire. I like art as a way of interpreting the world around us and should be inspired by the world around us",pictorial,,I'd like a visual reference so I can attempt to draw elements of what I see,,"I don't necessarily want it to be easier, the act of interpretation is as much the art as the finished product",Take a screenshot of the visual element with the rectangular frame around it.,5e59a1ef29132108b99fbff8
+8/24/24 8:47,8/24/24 10:13,IP Address,*******,100,5158,TRUE,8/24/24 10:13,R_4rd0VSgzGpWC7EQ,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",66bd481b6d12553ace653918,Yes,No,Rarely,i am not a good drawer but would like to create manga so i have tried to learn but failed and never really picked it up.,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,2,5,2,"hat,cat ear,umbrella,mountain peak,chip,pizza,watermelon, paper plane",cat ear,F_3RwmGXLElYXAZOO,1.png,106431,image/png,cat-nap dreams,"maths,wand,sword,juggling,",wand,F_1pSYyfzWGS7dyns,2.png,47945,image/png,a wish upon a wand,"mountain,bed,clouds,frog,road,speed bump,rainbow",rainbow,F_vV0e0Yq8fNwttqp,3.png,46532,image/png,a road trip's treasure,"road,guitar,strings, guitar strings,car,bandage",guitar strings,F_1oGs2usm3UXgyaX,4.png,47222,image/png,music comes from the heart,"thinking pose,whiskers,stick figure,eating motion,cheeky,eating",eating,F_3e34qkFK1GPwAYh,5.png,100496,image/png,hair holds excitement,"belly,eye,eyelash,lips,flower,bow,mug,planet rings,kettle",kettle,F_3QLPqxUSpPkcw4V,6.png,60268,image/png,morning brew with a view of the morning dew,"flower,ocean,mermaid,tail,breeze,wind,mist,fog,fish,hair",mermaid,F_1mlKlMsjMp8piTy,7.png,50610,image/png,deep under the sea,7,5,6,5,7,quickly peak at the images given to me then close my eyes and force myself to think of images or begin drawing and see what ideas i can create,Had difficulty developing many mental imageries.,it was hard for me to separate a new image from the one given to me and i had to try to think of how i can develop the images,,,,,AI generated images from sources such as google images or other online AI generators would inspire me to create visual imagery because i would be able to transform art that has been done ,pictorial,,would be best to draw from existing images and expand on them rather than imagine original outlines and ideas,,because of creative block. getting help more easily would make for efficient art and allow my brain to develop and build on what is provided.,Take a screenshot of the visual element with the rectangular frame around it.,66bd481b6d12553ace653918
+8/24/24 19:40,8/24/24 20:29,IP Address,*******,100,2931,TRUE,8/24/24 20:29,R_8jGX0GNdFCpTYfD,*******,*******,*******,*******,*******,*******,anonymous,EN,"Yes, I consent to participate.",5c85901643b5950016da9cd9,Yes,Yes,A few times a year,I draw to express myself and to be creative,"No, I do not have a degree in visual arts or any other creative field  (e.g., music, performance art).",,5,6,6,"outhouse, tent, bill, mythical creature, mountains",mountains,F_1rMqTkXi34tIChI,1.png,12137,image/png,welcome to norway,"Baseball bat, antenna, ping pong, field, man",ping pong,F_2wsMZPuFLSP0EMT,2.png,26382,image/png,Reminiscing on the past,"dirthill, igloo, base, all seeing eye, evil eye",Evil eye,F_2S1SCrAlo3j8Ta1,3.png,11484,image/png,Why i left the city,"road, bars, stairs, pipes, highway",highway,F_1nZc4mYRdecykGR,4.png,22554,image/png,"My drawing is a minimalistic version of me driving down the road, meeting a stop sign","friend, lover, family, cross, mind, duality, perfection, driving, lonely man",lonely man,F_1hAVTtSpmP1d564,5.png,20656,image/png,another sleeples night,"woman, faith, country, mermaid, beast, fat man fishing",fat man fishing,F_2Sv3HidGMLyGnDD,6.png,14772,image/png,curing depression,"infinity, eye, boat, time, forever, woman",boat,F_1rMxbRywqby70RM,7.png,23076,image/png,A old ride on the rowboat,7,5,3,3,5,"I was trying to brainstorm and picture what i associated with the image i was presented, this task was hard due to creating mental images for me is not that easy on command","Had difficulty developing many mental imageries.,Had difficulty vividly visualizing (drawing) my mental imagery.,Had difficulty expanding (transforming) my original mental imagery further to make it more creative.","I generally struggle with developing mental images, so it is usually difficult",,The thoughts and drawings were hard to visualize like it was in front of me,It was limiting at times to expand and be creative on the images,,"I need to be divinely inspired by god. To get creative thoughts it is important to reach into the subconcious. I find getting inspired through pictures and text both work for me, as i like to focus on the feeling both of these gives me and want to let it linger to create something myself",pictorial,,"I always like to see a vision and try to build on it, also helps with coming up with original ideas way easier",,"Yes, I have always had a hard time creating mental imagery on command. I have a stronger sense of feeling instead of using my fantasy and mental imagery. That is why art gives me a strong sense of feeling",Take a screenshot of the visual element with the rectangular frame around it.,5c85901643b5950016da9cd9
