@@ -356,7 +356,7 @@ async function generateImagePaths() {
               userdrawn: `/images_condition2_additional/${folder}/${file}`, //condition2_additional
               filename: file,
               title: title,
-              mentalImg: mentalImg'
+              mentalImg: mentalImg
             });
             // console.log("++++++++")
             // console.log(images.length)
